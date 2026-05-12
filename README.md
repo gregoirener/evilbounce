@@ -1,6 +1,6 @@
 <div align="center">
-<p style="color: #D41717;">
-    <h1>⚠️ EVILBOUNCE ⚠️</h1>
+<p>
+    <img width="300" src="https://raw.githubusercontent.com/gregoirener/evilbounce/master/docs/evilbounce/evilbounce-logo.png">
 </p>
 
 [GitHub](https://github.com/gregoirener/evilbounce)
