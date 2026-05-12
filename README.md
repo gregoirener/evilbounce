@@ -1,6 +1,6 @@
 <div align="center">
 <p>
-    <img width="300" src="https://raw.githubusercontent.com/gregoirener/evilbounce/master/docs/evilbounce/evilbounce-logo.png">
+    <img width="300" src="https://raw.githubusercontent.com/gregoirener/evilbounce/master/docs/evilbounce/evilbounce-logo-transparent.png">
 </p>
 
 [GitHub](https://github.com/gregoirener/evilbounce)
