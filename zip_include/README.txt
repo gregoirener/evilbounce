@@ -1,17 +1,15 @@
- ▄▄▄     ▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ 
-█   █   █   █       █  █ █  █   █      ██  ▄    █       █  █ █  █  █  █ █       █       █
-█   █   █   █   ▄   █  █ █  █   █  ▄    █ █▄█   █   ▄   █  █ █  █   █▄█ █       █    ▄▄▄█
-█   █   █   █  █ █  █  █▄█  █   █ █ █   █       █  █ █  █  █▄█  █       █     ▄▄█   █▄▄▄ 
-█   █▄▄▄█   █  █▄█  █       █   █ █▄█   █  ▄   ██  █▄█  █       █  ▄    █    █  █    ▄▄▄█
-█       █   █      ██       █   █       █ █▄█   █       █       █ █ █   █    █▄▄█   █▄▄▄ 
-█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄██▄█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄█  █▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█
-an open source minecraft hacked client for 1.7 - 1.21.11.
-https://liquidbounce.net/
+ ███████  ██   ██ ██ ██      ██████   ██████  ██    ██ ███    ██  ██████ ███████
+██       ██  ██  ██ ██      ██   ██ ██    ██ ██    ██ ████   ██ ██      ██
+█████    █████   ██ ██      ██████  ██    ██ ██    ██ ██ ██  ██ ██      █████
+██       ██  ██  ██ ██      ██   ██ ██    ██ ██    ██ ██  ██ ██ ██      ██
+███████  ██   ██ ██ ███████ ██████   ██████   ██████  ██   ████  ██████ ███████
+a blatant, combat-focused minecraft hacked client for 1.7 - 1.21.11.
+https://github.com/gregoirener/evilbounce
 
 ➔ How to install on Fabric 1.21.11
 1. Install the Fabric Mod Loader for 1.21.11 (How to: https://fabricmc.net/use/).
 2. Create a folder called "mods" inside in the ".minecraft" directory.
-3. Copy "liquidbounce.jar" into the mods folder.
+3. Copy "evilbounce.jar" into the mods folder.
 4. REQUIRED: Install the Kotlin fabric language mod (https://modrinth.com/mod/fabric-language-kotlin)
 5. REQUIRED: Install the Fabric API mod (https://modrinth.com/mod/fabric-api).
 6. OPTIONAL: Install the ViaFabricPlus Mod (https://modrinth.com/mod/viafabricplus).
@@ -25,7 +23,7 @@ https://liquidbounce.net/
 3. Click on "Versions" in the Lunar Launcher, select "Version 1.21.11" and click on Addons "Fabric".
 4. Click on settings button next to "Launch Game" and click on "Mods".
 5. Click on the folder icon "Open Mods Folder" next to "Search mods" field.
-6. Copy "liquidbounce.jar" into the mods folder.
+6. Copy "evilbounce.jar" into the mods folder.
 7. REQUIRED: Install the Kotlin fabric language mod (https://modrinth.com/mod/fabric-language-kotlin)
 8. Launch Lunar Client.
 
@@ -33,27 +31,21 @@ https://liquidbounce.net/
 This is a development build. Use these versions only if you know what you are doing! Bugs can and will occur!
 
 ➔ How to report issues
-If you find a problem with this release, please report it on our GitHub issues:
-https://github.com/CCBlueX/LiquidBounce/issues
+Found a bug? Report it on GitHub:
+https://github.com/gregoirener/evilbounce/issues
 
-Make sure to include all the necessary information so that we can reproduce the problem and fix it ourselves.
-In the case of a bug, please always include a full log and crash log. (.minecraft/logs/latest.log)
+Include all relevant information, full logs, and crash logs (.minecraft/logs/latest.log).
 
-➔ Support
-If you need support, join our guild below. Feel free to ask your question in the support channel. There will always be people there to help.
+➔ Want to contribute or check the source code?
+EvilBounce is a fork of LiquidBounce optimized for combat. Check the source:
+https://github.com/gregoirener/evilbounce
 
-Please don't use direct messaging if you're looking for support.
-
-➔ Do you want to contribute or want to know how our client is written?
-Feel free to check the source code on GitHub:
-https://github.com/CCBlueX/LiquidBounce
+See the full CLAUDE.md for development context and architecture.
 
 ➔ Links
-Our Website: https://ccbluex.net/
-Our YouTube: https://youtube.com/ccbluex
-Our X: https://x.com/ccbluex
+GitHub: https://github.com/gregoirener/evilbounce
 
 ➔ License
 This project is subject to the GNU General Public License v3.0. This does only apply for source code located directly in this clean repository. During the development and compilation process, additional source code may be used to which we have obtained no rights. Such code is not covered by the GPL license.
 
-Copyright © 2025 | CCBlueX | All rights reserved.
+Based on LiquidBounce by CCBlueX. EvilBounce fork © 2026.
