@@ -1,21 +1,16 @@
 <div align="center">
-<p>
-    <img width="200" src="https://raw.githubusercontent.com/CCBlueX/LiquidCloud/master/LiquidBounce/liquidbounceLogo.svg">
+<p style="color: #D41717;">
+    <h1>⚠️ EVILBOUNCE ⚠️</h1>
 </p>
 
-[Website](https://liquidbounce.net) |
-[Forum](https://forums.ccbluex.net) |
-[Discord](https://liquidbounce.net/discord) |
-[YouTube](https://youtube.com/CCBlueX) |
-[X](https://x.com/CCBlueX)
+[GitHub](https://github.com/gregoirener/evilbounce)
 </div>
 
-LiquidBounce is a free and open-source mixin-based injection hacked client using the Fabric API for Minecraft.
+**EvilBounce** is a blatant, combat-focused Minecraft hacked client — a fork of LiquidBounce nextgen optimized for PvP with unnecessary features stripped away. Built on the Fabric API using mixin injection for Minecraft.
 
 ## Issues
 
-If you notice any bugs or missing features, you can let us know by opening an
-issue [here](https://github.com/CCBlueX/LiquidBounce/issues).
+Found a bug or have a feature request? Open an issue [here](https://github.com/gregoirener/evilbounce/issues).
 
 ## License
 
@@ -42,38 +37,36 @@ nor legally binding.
 
 ## Setting up a Workspace
 
-LiquidBounce uses Gradle; to make sure that it is installed properly, you can
-check [Gradle's website](https://gradle.org/install/). It also requires [Node.js](https://nodejs.org) to be installed for
-our [theme](https://github.com/CCBlueX/LiquidBounce/tree/nextgen/src-theme).
+EvilBounce uses Gradle and Node.js. Make sure both are installed:
+- [Gradle](https://gradle.org/install/)
+- [Node.js](https://nodejs.org) (for the CEF theme)
 
-1. Clone the repository using `git clone --recurse-submodules https://github.com/CCBlueX/LiquidBounce`.
-2. CD into the local repository. (`cd LiquidBounce`)
-3. Run `./gradlew genSources` for better development experience (Optional).
-4. Open the folder as a Gradle project in your preferred IDE.
-5. Run the client. (`./gradlew runClient`)
+1. Clone the repository: `git clone --recurse-submodules https://github.com/gregoirener/evilbounce.git`
+2. Enter the directory: `cd evilbounce`
+3. Generate Minecraft sources (optional): `./gradlew genSources`
+4. Open as a Gradle project in your IDE
+5. Run: `./gradlew runClient`
 
 ## Additional libraries
 
 ### Mixins
 
-Mixins can be used to modify classes at runtime before they are loaded. LiquidBounce uses it to inject its code into the
-Minecraft client. This way, none of Mojang's copyrighted code is shipped. If you want to learn more about it, check out
-its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
+Mixins modify Minecraft classes at runtime before loading. EvilBounce uses Fabric Mixins to inject code into the Minecraft client without shipping Mojang's copyrighted code. Learn more: [Mixins Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
 
 ## Contributing
 
-We appreciate contributions. So if you want to support us, feel free to make changes to LiquidBounce's source code and
-submit a pull request.
+Contributions welcome. Fork the repo, make changes, and submit a PR. Please read [CLAUDE.md](CLAUDE.md) for architecture and scope guidelines.
 
 ## Stats
 
 ![Alt](https://repobeats.axiom.co/api/embed/ad3a9161793c4dfe50934cd4442d25dc3ca93128.svg "Repobeats analytics image")
 
-## Imprint
+## Credits & License
 
-**CCBlueX**  
-Vahrenwalder Str. 269A
-30179 Hanover
-Germany
+**EvilBounce** is a fork of [LiquidBounce](https://github.com/CCBlueX/LiquidBounce) by CCBlueX, optimized for combat and stripped of unnecessary features.
 
-**Owner and responsible for the content:** Marco Beyer
+Original LiquidBounce by **CCBlueX** — all credit for the base architecture, mixin system, and CEF integration goes to the original authors.
+
+EvilBounce fork maintained at: [github.com/gregoirener/evilbounce](https://github.com/gregoirener/evilbounce)
+
+This project is licensed under the **GNU General Public License v3.0**.
