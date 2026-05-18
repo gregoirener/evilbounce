@@ -10,50 +10,73 @@ tags: [deletions, tracker]
 
 ## Online Services
 
-- [ ] `features/marketplace/` — MarketplaceManager, SubscribedItem
-- [ ] `api/models/marketplace/` — all data classes
-- [ ] `api/services/marketplace/MarketplaceApi.kt`
-- [ ] `command/commands/client/marketplace/` — all marketplace commands
-- [ ] `integration/.../rest/v1/client/MarketplaceFunctions.kt`
-- [ ] `api/services/cosmetics/` + `api/models/cosmetics/`
-- [ ] `features/account/` — AccountManager
-- [ ] `integration/.../rest/v1/client/AccountFunctions.kt`
-- [ ] `api/core/auth/` — OAuthClient, OAuthSession, NettyAuthHandler
+- [x] `features/marketplace/` — MarketplaceManager, SubscribedItem — 2026-05-17
+- [x] `api/models/marketplace/` — all data classes — 2026-05-17
+- [x] `api/services/marketplace/MarketplaceApi.kt` — 2026-05-17
+- [x] `command/commands/client/marketplace/` — all marketplace commands — 2026-05-17
+- [x] `integration/.../rest/v1/client/MarketplaceFunctions.kt` — 2026-05-17
+- [x] `features/cosmetic/` — CosmeticService, CapeCosmeticsManager, ClientAccountManager — 2026-05-17
+- [x] `api/services/cosmetics/` + `api/models/cosmetics/` — 2026-05-17
+- [x] CCBlueX OAuth account — `api/services/auth/`, `api/models/auth/`, `api/services/user/`, `api/models/user/`, `UserFunctions.kt` — 2026-05-17
+- [ ] ~~`features/account/` — AccountManager~~ **KEPT** — this is the Minecraft alt-account manager (Microsoft/cracked/Altening login), NOT a CCBlueX online service. Docs mislabeled it.
+- [ ] ~~`AccountFunctions.kt`~~ **KEPT** — alt-account REST, depends only on `api/core`. Stays with AccountManager.
 
-**After the above — cleanup in:**
-- [ ] `LiquidBounce.kt` — remove 3 marketplace/cosmetics references (lines ~284, ~329, ~411)
-- [ ] `InteropFunctionRegistry.kt` — remove Marketplace + Account registrations
-- [ ] `CommandManager.kt` — remove CommandMarketplace registration
-- [ ] `ModuleAutoConfig.kt` — audit / gut marketplace dependency
+**Cleanup completed in:**
+- [x] `LiquidBounce.kt` — removed marketplace/cosmetics/ClientAccountManager init + imports
+- [x] `InteropFunctionRegistry.kt` — removed Marketplace + User route registrations
+- [x] `CommandManager.kt` — removed CommandMarketplace registration
+- [x] `ScriptManager.kt` / `ThemeManager.kt` / `Theme.kt` — removed marketplace script/theme loading + `MARKETPLACE` origin
+- [x] `CommandClient.kt` — removed account + cosmetics subcommands
+- [x] `ClientInteropServer.kt` — removed marketplace static file route
+- [x] `ClientEvents.kt` / `EventManager.kt` — removed `UserLoggedIn/OutEvent`
+- [x] 3 Java mixins (`MixinPlayerInfo`, `MixinLivingEntityRenderer`, `MixinDeadmau5EarsLayer`) — stripped cosmetic code, mixins kept
+- [x] 63 `command.marketplace.*` lang keys removed (en_us, zh_cn)
+- ModuleAutoConfig: no marketplace dependency found — dependencies.md was outdated, no action needed.
 
 ---
 
 ## Server-Breaking Exploits
 
-- [ ] `exploit/servercrasher/` (entire folder)
-  - After: remove import + registration from `ModuleManager.kt`
-- [ ] `exploit/dupe/` (entire folder)
-  - After: remove import + registration from `ModuleManager.kt`
-- [ ] `exploit/ModuleKick.kt`
-  - After: remove import + registration from `ModuleManager.kt`
+- [x] `exploit/servercrasher/` (entire folder) — 2026-05-12
+- [x] `exploit/dupe/` (entire folder) — 2026-05-12
+- [ ] ~~`exploit/ModuleKick.kt`~~ **KEPT** — turns out it self-disconnects (not griefing) and `ModuleAutoLeave` depends on it
 
 ---
 
 ## Teleport Cheats
 
-- [ ] `exploit/phase/` (entire folder)
-  - After: remove import + registration from `ModuleManager.kt`
-- [ ] `exploit/ModuleClickTp.kt`
-  - After: remove import + registration from `ModuleManager.kt`
-- [ ] `combat/tpaura/` (entire folder)
-  - After: remove import + registration from `ModuleManager.kt`
-  - After: verify `ModuleAutoLeave.kt` still compiles
+- [x] `exploit/phase/` (entire folder) — 2026-05-12
+- [x] `exploit/ModuleClickTp.kt` — 2026-05-12
+- [x] `combat/tpaura/` (entire folder) — 2026-05-12 (verified `ModuleAutoLeave.kt` unaffected — no TpAura dependency)
 
 ---
 
 ## Completed Deletions
 
-*(Move items here once done, with date)*
+**2026-05-12 — Batch 1 (isolated modules):**
+- ModuleServerCrasher (+ all 11 exploit types)
+- ModuleDupe (+ DupeExploit, DupePaper1204)
+- ModulePhase (+ 4 mode files)
+- ModuleClickTp
+- ModuleTpAura (+ AStarMode, ImmediateMode)
+- Stripped 5 imports + 5 registrations from `ModuleManager.kt`
+- Stripped 149 dead lang keys across 10 locale JSONs
+- `./gradlew compileKotlin` → BUILD SUCCESSFUL
+
+**Note:** `ModuleKick` retained — it is a self-kick utility used by `ModuleAutoLeave`, not a griefing tool. Docs were inaccurate.
+
+**2026-05-17 — Batch 2 (online services):**
+- Marketplace stack (features/marketplace, api marketplace models+service, 13 commands, MarketplaceFunctions REST)
+- Cosmetics stack (features/cosmetic: CosmeticService/CapeCosmeticsManager/ClientAccountManager, api cosmetics models+services)
+- CCBlueX OAuth account (api auth+user models/services, UserFunctions REST, account+cosmetics client subcommands)
+- Cascade cleanup across LiquidBounce.kt, InteropFunctionRegistry, CommandManager, ScriptManager, ThemeManager, Theme, CommandClient, ClientInteropServer, ClientEvents, EventManager
+- 3 cosmetic render mixins stripped (kept as files per decision)
+- 63 marketplace lang keys removed
+- `./gradlew compileKotlin compileJava` → BUILD SUCCESSFUL
+
+**Note:** `features/account/AccountManager` retained — it is the Minecraft alt-account manager (Microsoft/cracked/Altening), independent of CCBlueX auth API. Docs mislabeled it as an online service. `AccountFunctions.kt` kept with it.
+
+**Dead GUI (not yet addressed):** `src-theme/` still contains marketplace + CCBlueX-login pages. They will 404 against the removed REST endpoints but won't crash the client. To be cleaned during the GUI redesign pass.
 
 ---
 

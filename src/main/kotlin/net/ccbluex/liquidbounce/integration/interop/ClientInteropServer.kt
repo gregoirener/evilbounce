@@ -20,7 +20,6 @@ package net.ccbluex.liquidbounce.integration.interop
 
 import com.google.gson.JsonObject
 import net.ccbluex.liquidbounce.LiquidBounce
-import net.ccbluex.liquidbounce.features.marketplace.MarketplaceManager
 import net.ccbluex.liquidbounce.integration.interop.middleware.AuthMiddleware
 import net.ccbluex.liquidbounce.integration.interop.protocol.event.SocketEventListener
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.registerInteropFunctions
@@ -72,7 +71,6 @@ object ClientInteropServer {
                         zip("/resource/liquidbounce", stream)
                     }
                     file("/local", ThemeManager.themesFolder)
-                    file("/marketplace", MarketplaceManager.marketplaceRoot)
                 }
 
                 // Add CORS and auth middleware

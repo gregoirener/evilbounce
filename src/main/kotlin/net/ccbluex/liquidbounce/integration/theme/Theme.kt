@@ -68,7 +68,6 @@ class Theme private constructor(val origin: Origin, url: String) :
     enum class Origin(override val tag: String, val external: Boolean) : Tagged {
         RESOURCE("resource", false),
         LOCAL("local", false),
-        MARKETPLACE("marketplace", false),
         REMOTE("remote", true)
     }
 

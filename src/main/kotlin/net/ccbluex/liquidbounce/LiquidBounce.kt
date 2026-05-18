@@ -31,7 +31,6 @@ import kotlinx.coroutines.withContext
 import net.ccbluex.liquidbounce.LiquidBounce.CLIENT_NAME
 import net.ccbluex.liquidbounce.api.core.ApiConfig
 import net.ccbluex.liquidbounce.api.core.ioScope
-import net.ccbluex.liquidbounce.api.models.auth.ClientAccount
 import net.ccbluex.liquidbounce.api.services.client.ClientUpdate.update
 import net.ccbluex.liquidbounce.api.thirdparty.IpInfoApi
 import net.ccbluex.liquidbounce.config.ConfigSystem
@@ -48,11 +47,8 @@ import net.ccbluex.liquidbounce.event.handler
 import net.ccbluex.liquidbounce.features.account.AccountManager
 import net.ccbluex.liquidbounce.features.blink.BlinkManager
 import net.ccbluex.liquidbounce.features.command.CommandManager
-import net.ccbluex.liquidbounce.features.cosmetic.ClientAccountManager
-import net.ccbluex.liquidbounce.features.cosmetic.CosmeticService
 import net.ccbluex.liquidbounce.features.creativetab.tabs.HeadsCreativeModeTab
 import net.ccbluex.liquidbounce.features.global.GlobalManager
-import net.ccbluex.liquidbounce.features.marketplace.MarketplaceManager
 import net.ccbluex.liquidbounce.features.misc.FriendManager
 import net.ccbluex.liquidbounce.features.misc.proxy.ProxyManager
 import net.ccbluex.liquidbounce.features.module.ModuleManager
@@ -109,8 +105,8 @@ object LiquidBounce : EventListener {
      *
      * WARNING: Please read the GNU General Public License
      */
-    const val CLIENT_NAME = "LiquidBounce"
-    const val CLIENT_AUTHOR = "CCBlueX"
+    const val CLIENT_NAME = "EvilBounce"
+    const val CLIENT_AUTHOR = "EvilBounce"
 
     private object Client : Config("Client") {
         val version = text("Version", GitInfo.version())
@@ -219,7 +215,7 @@ object LiquidBounce : EventListener {
         if (HAS_AMD_VEGA_APU) {
             logger.info("AMD Vega iGPU detected, enabling different line smooth handling. " +
                 "If you believe this is a mistake, please create an issue at " +
-                "https://github.com/CCBlueX/LiquidBounce/issues.")
+                "https://github.com/gregoirener/evilbounce/issues.")
         }
 
         // Do backup before loading configs
@@ -278,10 +274,8 @@ object LiquidBounce : EventListener {
         InventoryManager
         EnderChestInventoryTracker
         ActiveServerList
-        ConfigSystem.root(ClientAccountManager)
         ConfigSystem.root(SpooferManager)
         ConfigSystem.root(GlobalManager)
-        ConfigSystem.root(MarketplaceManager)
         PostRotationExecutor
         ServerObserver
         ItemImageAtlas
@@ -305,7 +299,7 @@ object LiquidBounce : EventListener {
 
     /**
      * Simultaneously initializes resources
-     * such as translations, cosmetics, player heads, configs and so on,
+     * such as translations, player heads, configs and so on,
      * which do not rely on the main thread.
      */
     private suspend fun initializeResources(
@@ -325,12 +319,6 @@ object LiquidBounce : EventListener {
                 logger.info("[Update] Update available: $clientVersion -> ${update.lbVersion}")
             }
             launch {
-                // Load cosmetics
-                CosmeticService.refreshCarriers(force = true) {
-                    logger.info("Successfully loaded ${CosmeticService.carriers.size} cosmetics carriers.")
-                }
-            }
-            launch {
                 // Download player heads
                 HeadsCreativeModeTab.heads.getFinalState()
             }
@@ -340,25 +328,6 @@ object LiquidBounce : EventListener {
             }
             launch {
                 IpInfoApi.original
-            }
-            launch {
-                ConfigSystem.load(ClientAccountManager)
-                if (ClientAccount.ENV_ACCOUNT != null) {
-                    ClientAccountManager.clientAccount = ClientAccount.ENV_ACCOUNT
-                }
-
-                if (ClientAccountManager.clientAccount != ClientAccount.EMPTY_ACCOUNT) {
-                    runCatching {
-                        ClientAccountManager.clientAccount.renew()
-                    }.onFailure {
-                        logger.error("Failed to renew client account token.", it)
-                        ClientAccountManager.clientAccount = ClientAccount.EMPTY_ACCOUNT
-                    }.onSuccess {
-                        logger.info("Successfully renewed client account token.")
-                    }
-
-                    ConfigSystem.store(ClientAccountManager)
-                }
             }
         }
 
@@ -379,8 +348,6 @@ object LiquidBounce : EventListener {
         ClientInteropServer.start()
         if (!ClientInteropServer.isSkipping) {
             ThemeManager.init()
-            // Preload marketplace items
-            ConfigSystem.load(MarketplaceManager)
             ConfigSystem.load(ThemeManager)
             ThemeManager.load()
         }
@@ -408,15 +375,6 @@ object LiquidBounce : EventListener {
                 }
             }
 
-            launch("Marketplace") { task ->
-                runCatching {
-                    MarketplaceManager.updateAll(task)
-                }.onFailure { exception ->
-                    logger.error("Failed to update marketplace items.", exception)
-                }
-
-                task.isCompleted = true
-            }
         }
 
         // Prepare glyph manager

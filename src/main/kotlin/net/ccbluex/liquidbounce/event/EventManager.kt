@@ -130,8 +130,6 @@ import net.ccbluex.liquidbounce.event.events.TargetChangeEvent
 import net.ccbluex.liquidbounce.event.events.TickPacketProcessEvent
 import net.ccbluex.liquidbounce.event.events.TitleEvent
 import net.ccbluex.liquidbounce.event.events.UseCooldownEvent
-import net.ccbluex.liquidbounce.event.events.UserLoggedInEvent
-import net.ccbluex.liquidbounce.event.events.UserLoggedOutEvent
 import net.ccbluex.liquidbounce.event.events.ValueChangedEvent
 import net.ccbluex.liquidbounce.event.events.VirtualScreenEvent
 import net.ccbluex.liquidbounce.event.events.WindowResizeEvent
@@ -266,8 +264,6 @@ internal val ALL_EVENT_CLASSES: Array<Class<out Event>> = arrayOf(
     TitleEvent.Subtitle::class.java,
     TitleEvent.Fade::class.java,
     TitleEvent.Clear::class.java,
-    UserLoggedInEvent::class.java,
-    UserLoggedOutEvent::class.java,
 )
 
 inline fun <reified E : Event> eventFlow(): SharedFlow<E> =

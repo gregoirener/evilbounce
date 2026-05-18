@@ -8,12 +8,12 @@
     };
 
     const colors = [
-        "#4677ff",
+        "#D41717",
         "#fc4130",
         "#67d24a",
         "#ffd166",
         "#ffffff",
-        "#8ad9ff",
+        "#ff8a8a",
         "#ff8fab"
     ];
 

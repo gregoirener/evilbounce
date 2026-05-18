@@ -27,15 +27,17 @@
       border-radius: 5px;
       align-items: center;
       overflow: hidden;
+      box-shadow: 0 0 14px $accent-glow-color;
       background: linear-gradient(to left, rgba($menu-base-color, .36) 50%, $accent-color 50%);
       background-size: 200% 100%;
       background-position: right bottom;
       will-change: background-position;
-      transition: ease opacity .2s, background-position .2s ease-out;
+      transition: ease opacity .2s, background-position .2s ease-out, box-shadow .2s ease-out;
 
       &:not([disabled]):hover {
         &:hover {
           background-position: left bottom;
+          box-shadow: 0 0 24px $accent-glow-strong-color;
           cursor: pointer;
         }
       }

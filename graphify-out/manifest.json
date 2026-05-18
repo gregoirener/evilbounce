@@ -28,8 +28,8 @@
     "hash": "c5e5faf37852f6f534a86be5540a6e7d"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\LiquidInstruction.java": {
-    "mtime": 1778571585.350816,
-    "hash": "27605ce7e4c167588b82a4394f889af3"
+    "mtime": 1779048614.6505566,
+    "hash": "5ecb7dcee06e4dadfde9c0db975ae58f"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\common\\ChunkUpdateFlag.java": {
     "mtime": 1778571585.3621874,
@@ -452,8 +452,8 @@
     "hash": "6a27383ee4edb6eb2fd7d9808e76ec89"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\network\\MixinPlayerInfo.java": {
-    "mtime": 1778571586.6308792,
-    "hash": "32a91bee316e9862687096c2ef8acf93"
+    "mtime": 1779045625.3140533,
+    "hash": "9f113a541102ced35f5753a8c1600001"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\network\\MixinServerboundPlayerInputPacket.java": {
     "mtime": 1778571586.6553872,
@@ -532,8 +532,8 @@
     "hash": "626eec836385d3e1bf4c89b36d74d8a9"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\render\\MixinLivingEntityRenderer.java": {
-    "mtime": 1778571586.873334,
-    "hash": "09ac50069d163700fab6f0ed89d365a5"
+    "mtime": 1779045609.2696064,
+    "hash": "724bdb2c2a1fe52d5b777b2698466843"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\render\\MixinMapRenderer.java": {
     "mtime": 1778571586.8856132,
@@ -596,8 +596,8 @@
     "hash": "e3e5f9ce619ced99ca89ae75ae29e922"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\render\\entity\\feature\\MixinDeadmau5EarsLayer.java": {
-    "mtime": 1778571587.0684125,
-    "hash": "aaefaae1d799c6af25c91f319237a297"
+    "mtime": 1779045601.864493,
+    "hash": "06ddfc24f455dcfd52a9108be61bd650"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\java\\net\\ccbluex\\liquidbounce\\injection\\mixins\\minecraft\\render\\entity\\feature\\MixinRenderLayer.java": {
     "mtime": 1778571587.0811522,
@@ -820,8 +820,8 @@
     "hash": "51d4ee78df3d6c0cdf9eef5372a75761"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\LiquidBounce.kt": {
-    "mtime": 1778571587.710625,
-    "hash": "e7f52ffd81c552634e9dfc290f9a322c"
+    "mtime": 1779048605.1975477,
+    "hash": "2d1bb7511e1f6f1bb04e1f55495230c1"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\additions\\FireworkRocketEntityAddition.kt": {
     "mtime": 1778571587.7189586,
@@ -879,22 +879,6 @@
     "mtime": 1778571587.8353782,
     "hash": "828d3ce7a480ceac70439586125d564a"
   },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\auth\\ClientAccount.kt": {
-    "mtime": 1778571587.8445444,
-    "hash": "b39e33d6d9d29d2578efd55fdf9074c1"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\auth\\ExpiryValue.kt": {
-    "mtime": 1778571587.8535461,
-    "hash": "61e53bd99b59574467dd53c04e9c0872"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\auth\\OAuthSession.kt": {
-    "mtime": 1778571587.8640518,
-    "hash": "bbfa9527186646d5ce68905eaccd3c8d"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\auth\\TokenResponse.kt": {
-    "mtime": 1778571587.8725877,
-    "hash": "0f870c2ca420bb527712986403e278d8"
-  },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\client\\AutoSettings.kt": {
     "mtime": 1778571587.8826225,
     "hash": "ab87126e0f3fdefc7fcd34ad6f048adf"
@@ -907,38 +891,6 @@
     "mtime": 1778571587.9006543,
     "hash": "ca54efb4faeabd9d6211ccb17e5feb24"
   },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\cosmetics\\Cosmetic.kt": {
-    "mtime": 1778571587.9097164,
-    "hash": "c1eb82f9e76d48dfdcbbdacaae9d78a5"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\cosmetics\\CosmeticCategory.kt": {
-    "mtime": 1778571587.9192452,
-    "hash": "344c923c427e9da0359fc985bb3aaa5c"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceItem.kt": {
-    "mtime": 1778571587.9294453,
-    "hash": "7591b136985f1877320c2a787bb2a207"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceItemRevision.kt": {
-    "mtime": 1778571587.9387434,
-    "hash": "ab839677da4aace41bd87a572876b9ef"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceItemStatus.kt": {
-    "mtime": 1778571587.947817,
-    "hash": "1f65e111169a9f0176c2e24d6dce927f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceItemType.kt": {
-    "mtime": 1778571587.956421,
-    "hash": "a8b3ceb58995e5b8a62379fd07f26cdc"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceReview.kt": {
-    "mtime": 1778571587.9657373,
-    "hash": "be6b9d448f4fe27199fb08cf0a55ec33"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\marketplace\\MarketplaceRevisionDependency.kt": {
-    "mtime": 1778571587.9752476,
-    "hash": "2eb9bcd31c78ffacbbbc2553724a8c21"
-  },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\pagination\\PaginatedResponse.kt": {
     "mtime": 1778571587.9836383,
     "hash": "59cde5b8e4ea6f3614f382590f914c0b"
@@ -946,22 +898,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\pagination\\Pagination.kt": {
     "mtime": 1778571587.9937346,
     "hash": "bfb7beacef98f9a1bae5a2ed941d5edf"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\models\\user\\UserInformation.kt": {
-    "mtime": 1778571588.0022216,
-    "hash": "62888ae8a24d789fb299f3d48f278516"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\auth\\AuthenticationApi.kt": {
-    "mtime": 1778571588.0122223,
-    "hash": "76142efcd002df98b76f8448d6efc662"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\auth\\OAuthClient.kt": {
-    "mtime": 1778571588.0213642,
-    "hash": "6713b479c1f755f3ec444a998180b23c"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\auth\\PKCEUtils.kt": {
-    "mtime": 1778571588.030366,
-    "hash": "364fcb629c6e519ce27776cc207377a6"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\cdn\\ClientCdn.kt": {
     "mtime": 1778571588.0389204,
@@ -974,22 +910,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\client\\ClientUpdate.kt": {
     "mtime": 1778571588.0572464,
     "hash": "471a01ac95750f91ea2877b8d2abe0fc"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\cosmetics\\CapeApi.kt": {
-    "mtime": 1778571588.066439,
-    "hash": "81aca0b878f03d71a287aeb806b45e2f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\cosmetics\\CosmeticApi.kt": {
-    "mtime": 1778571588.0757174,
-    "hash": "e55ce553cf3ce9b5bda57c975b4f9439"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\marketplace\\MarketplaceApi.kt": {
-    "mtime": 1778571588.0861857,
-    "hash": "424ddf2b6f5b725e8531c704fd903fb3"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\services\\user\\UserApi.kt": {
-    "mtime": 1778571588.096292,
-    "hash": "b2fcadf6ad83c59ce8d1bee47666e92a"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\api\\thirdparty\\IpInfoApi.kt": {
     "mtime": 1778571588.1060371,
@@ -1284,8 +1204,8 @@
     "hash": "cef521d44c303f2db1df3602648753fc"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\event\\EventManager.kt": {
-    "mtime": 1778571588.7771335,
-    "hash": "c28c0a0c983ad29a44219ec9c07e94a1"
+    "mtime": 1779045550.437079,
+    "hash": "f5e99b0d5e2cfb61c4f5bfd342807f87"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\event\\SuspendHandlerBehavior.kt": {
     "mtime": 1778571588.7858462,
@@ -1300,8 +1220,8 @@
     "hash": "734c7ba342cbecc87b7edfa34d941131"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\event\\events\\ClientEvents.kt": {
-    "mtime": 1778571588.8128052,
-    "hash": "359c6d7d869078d5ef5420e2149d949d"
+    "mtime": 1779045536.1002293,
+    "hash": "8814908f906fd10da81f6ec919d318c9"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\event\\events\\DrawEvents.kt": {
     "mtime": 1778571588.8219576,
@@ -1400,8 +1320,8 @@
     "hash": "bfcb8e5ee9b54c7dd7eb79cfd26bd0e2"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\CommandManager.kt": {
-    "mtime": 1778571589.0501208,
-    "hash": "eab8872ee547e2fa3e27ed6b417b4e28"
+    "mtime": 1779045462.0387902,
+    "hash": "bacba8924c929df7d4a80ca0926a4246"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\Parameter.kt": {
     "mtime": 1778571589.0593264,
@@ -1476,12 +1396,8 @@
     "hash": "36943b87273bfb0038cc97b932c58620"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClient.kt": {
-    "mtime": 1778571589.2333343,
-    "hash": "eac4d5cbc604eb6dae6be0e6ce5897da"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientAccountSubcommand.kt": {
-    "mtime": 1778571589.2430255,
-    "hash": "ee6d96bd08260bf769202dd958d280ab"
+    "mtime": 1779045468.7803345,
+    "hash": "caaad7de3d1f37a3dc68f5baa54dbb69"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientAppearanceSubcommand.kt": {
     "mtime": 1778571589.2529328,
@@ -1494,10 +1410,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientConfigSubcommand.kt": {
     "mtime": 1778571589.2724793,
     "hash": "b383108b187bbbeefaab8a24002df0d8"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientCosmeticsSubcommand.kt": {
-    "mtime": 1778571589.2816575,
-    "hash": "8f21bffe75f60ba6f248982451208de3"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientDestructSubcommand.kt": {
     "mtime": 1778571589.2908878,
@@ -1522,58 +1434,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\client\\CommandClientThemeSubcommand.kt": {
     "mtime": 1778571589.338673,
     "hash": "0ad95e02b8d067952988c44b3d6e7722"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\CommandMarketplace.kt": {
-    "mtime": 1778571589.348985,
-    "hash": "fac84471505059c3e1939c3c1612918d"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\MarketplaceItemCommand.kt": {
-    "mtime": 1778571589.3594382,
-    "hash": "e1bff7d3dc22ba46748b567b76cd170c"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\MarketplaceSearchCommand.kt": {
-    "mtime": 1778571589.3686435,
-    "hash": "42b57f1494654a14d06210e64d655cc0"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\MarketplaceSubscribeCommand.kt": {
-    "mtime": 1778571589.3777516,
-    "hash": "0fb7c3b22a5c1e74dfaef186c4a1e2a7"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\MarketplaceUnsubscribeCommand.kt": {
-    "mtime": 1778571589.3869452,
-    "hash": "12444a0e92fc7814309837b5c388cf99"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\MarketplaceUpdateCommand.kt": {
-    "mtime": 1778571589.39616,
-    "hash": "cedcf685673a8bb39c98866f8a25bca2"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\item\\MarketplaceCreateItemCommand.kt": {
-    "mtime": 1778571589.4058025,
-    "hash": "eee91af78af77209f6eb23def9f9a328"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\item\\MarketplaceDeleteItemCommand.kt": {
-    "mtime": 1778571589.4165802,
-    "hash": "bf157f7e342ae06fa8ca0c51a9e35dcd"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\item\\MarketplaceEditItemCommand.kt": {
-    "mtime": 1778571589.425676,
-    "hash": "1c70747972b1cff7eeb1b3ec79d4d61f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\item\\MarketplaceListCommand.kt": {
-    "mtime": 1778571589.4358077,
-    "hash": "3513fdd4e90c745dc2588ad402f15951"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\revisions\\MarketplaceListRevisionsCommand.kt": {
-    "mtime": 1778571589.4452672,
-    "hash": "b055caaa7de962240ddf7e911a66dd1f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\revisions\\MarketplaceRevisionsCommand.kt": {
-    "mtime": 1778571589.4543574,
-    "hash": "9479f4c54e36a84732814ddff63c80c5"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\client\\marketplace\\revisions\\MarketplaceUploadRevisionCommand.kt": {
-    "mtime": 1778571589.4636197,
-    "hash": "7b9e1613fd88652df31ef57efe6ba5c8"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\commands\\deeplearn\\CommandModels.kt": {
     "mtime": 1778571589.4728684,
@@ -1699,22 +1559,6 @@
     "mtime": 1778571589.7639844,
     "hash": "954284659b237cab0e754f518f95d09b"
   },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\command\\preset\\CommandUtils.kt": {
-    "mtime": 1778571589.773293,
-    "hash": "85ecc8f20a90e8774173d4fd57fd8a61"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\cosmetic\\CapeCosmeticsManager.kt": {
-    "mtime": 1778571589.7824297,
-    "hash": "dde49f17d7833d900c2685869fe38a2f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\cosmetic\\ClientAccountManager.kt": {
-    "mtime": 1778571589.7911065,
-    "hash": "34286a49cdfdcca609bd5108998a2a1e"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\cosmetic\\CosmeticService.kt": {
-    "mtime": 1778571589.800571,
-    "hash": "4686c6ec7f243ac738f023de79d1d3d7"
-  },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\creativetab\\CustomCreativeModeTab.kt": {
     "mtime": 1778571589.8095944,
     "hash": "7fb44bf6de926b8a203955e8021cffff"
@@ -1750,14 +1594,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\global\\GlobalSettingsTarget.kt": {
     "mtime": 1778571589.8886478,
     "hash": "67ad2726f97729292f94a6f6fc67ab66"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\marketplace\\MarketplaceManager.kt": {
-    "mtime": 1778571589.8979807,
-    "hash": "5457bff3377d6d7714ebad7ef40cf2af"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\marketplace\\SubscribedItem.kt": {
-    "mtime": 1778571589.9068835,
-    "hash": "ca57fde5f446038a8bbc61f4082f4d4e"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\misc\\DebuggedOwner.kt": {
     "mtime": 1778571589.9154985,
@@ -1804,8 +1640,8 @@
     "hash": "8a43a2dccc347dd0f7b7d08271ca4f6b"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\ModuleManager.kt": {
-    "mtime": 1778571590.017526,
-    "hash": "440b41e6ab60c989e2d9c10bc029a9fb"
+    "mtime": 1778575054.7829638,
+    "hash": "cf25f8290fcac070c16fba10b68f0384"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\ModuleAimbot.kt": {
     "mtime": 1778571590.027996,
@@ -2119,18 +1955,6 @@
     "mtime": 1778571590.8081703,
     "hash": "144485a7b4b9def9891c1ea8e67f0683"
   },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\tpaura\\ModuleTpAura.kt": {
-    "mtime": 1778571590.8184485,
-    "hash": "1078e33bce7798784d87beb162eb5859"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\tpaura\\modes\\AStarMode.kt": {
-    "mtime": 1778571590.8286731,
-    "hash": "ea5d43431f2756301cec3de7d1914c92"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\tpaura\\modes\\ImmediateMode.kt": {
-    "mtime": 1778571590.8389452,
-    "hash": "f4dd9b2e6e1af230b9492ce84c5553ac"
-  },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\velocity\\ModuleVelocity.kt": {
     "mtime": 1778571590.8481956,
     "hash": "5d33848a97c3ef74f3c97658f02b29bd"
@@ -2202,10 +2026,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\ModuleAntiReducedDebugInfo.kt": {
     "mtime": 1778571591.0198972,
     "hash": "de6fdba62422e2aa0e289a30564022d5"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\ModuleClickTp.kt": {
-    "mtime": 1778571591.029255,
-    "hash": "fb23bd0dd319205ac3114a314b69a065"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\ModuleClip.kt": {
     "mtime": 1778571591.0387082,
@@ -2338,98 +2158,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\disabler\\disablers\\DisablerVulcanScaffold.kt": {
     "mtime": 1778571591.3515677,
     "hash": "1ee721bb72af94e1a771230b49ac8157"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\dupe\\ModuleDupe.kt": {
-    "mtime": 1778571591.3617735,
-    "hash": "09f552272f8cfa4ee692c1fb497a091f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\dupe\\exploits\\DupeExploit.kt": {
-    "mtime": 1778571591.3714652,
-    "hash": "278fa4b28c0d3efa34cbc12982920615"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\dupe\\exploits\\DupePaper1204.kt": {
-    "mtime": 1778571591.3805978,
-    "hash": "6b811eb7aed7966e3ffdd4f54e27497a"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\phase\\ModulePhase.kt": {
-    "mtime": 1778571591.3899202,
-    "hash": "c92198e00c6f0b368f4bdbcd637d2340"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\phase\\modes\\PhaseBlink.kt": {
-    "mtime": 1778571591.3990836,
-    "hash": "f8af1ff61f171b01f8245a29ce6b5305"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\phase\\modes\\PhaseBlocksMC.kt": {
-    "mtime": 1778571591.408688,
-    "hash": "d7d59383cecfd284ddf5a2c8e5d7e17e"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\phase\\modes\\PhaseHypixel.kt": {
-    "mtime": 1778571591.417857,
-    "hash": "493f3f8e6f9dc80224ce2a9312aa34e1"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\phase\\modes\\PhaseIntave.kt": {
-    "mtime": 1778571591.427045,
-    "hash": "c546fe4a597916637dd91a052b32db78"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\ModuleServerCrasher.kt": {
-    "mtime": 1778571591.438252,
-    "hash": "392d839af7e94f519ae201106d99f162"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\Bundle1214Exploit.kt": {
-    "mtime": 1778571591.4485278,
-    "hash": "916d75e01da46f1e1842a871dea199e5"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\EssentialsPayStarExploit.kt": {
-    "mtime": 1778571591.4580321,
-    "hash": "4910b8c2bc6993e930acd834ac90949f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\GrimConsoleSpammer.kt": {
-    "mtime": 1778571591.4681778,
-    "hash": "8de6966aa9404640e417ba670295d855"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\InvalidPositionExploit.kt": {
-    "mtime": 1778571591.4775927,
-    "hash": "7b458a64e3f7c04243429e0f17759c58"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\Log4jChatExploit.kt": {
-    "mtime": 1778571591.4879239,
-    "hash": "0d6a664336c4bfd7a6ead1f3705a91cf"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\PaperCompletion1204Exploit.kt": {
-    "mtime": 1778571591.4974773,
-    "hash": "f247e782a341d975a79f996d999666f2"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\PaperWindow1201Exploit.kt": {
-    "mtime": 1778571591.5083315,
-    "hash": "c353a95d49ab580feec5cf79d5df8e1f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\PermissionsExPromoteExploit.kt": {
-    "mtime": 1778571591.5183725,
-    "hash": "5e96ccb21991812c73daf5b9ba570ce7"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\TranslationSign18Exploit.kt": {
-    "mtime": 1778571591.5297027,
-    "hash": "67f00b1df156277bd34ff7db2c04cd2c"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\WorldEditCalcExploit.kt": {
-    "mtime": 1778571591.5389264,
-    "hash": "be9a292ea6ed31fce359b8195094b199"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\types\\ChatExploit.kt": {
-    "mtime": 1778571591.5484495,
-    "hash": "f0935430cc1f516829be71d8104d7e2d"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\types\\CommandExploit.kt": {
-    "mtime": 1778571591.5587044,
-    "hash": "b7bce553dc13709207a66e29abb22b03"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\types\\ContinuousExploit.kt": {
-    "mtime": 1778571591.56905,
-    "hash": "2fe2da73c508c9ff5b71cda47792b829"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\exploit\\servercrasher\\exploits\\types\\Exploit.kt": {
-    "mtime": 1778571591.578186,
-    "hash": "f41994f998e23a438c86db249400bdae"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\fun\\ModuleDankBobbing.kt": {
     "mtime": 1778571591.5883238,
@@ -4476,8 +4204,8 @@
     "hash": "4553cca63909cae1db34d4319975191b"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\ClientInteropServer.kt": {
-    "mtime": 1778571596.7894962,
-    "hash": "0d1d1ff01d4d10152fc4bc0e8f22268d"
+    "mtime": 1779045525.115962,
+    "hash": "a4b10e203f71c48c6c79d407481863a0"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\middleware\\AuthMiddleware.kt": {
     "mtime": 1778571596.7992272,
@@ -4496,8 +4224,8 @@
     "hash": "90e6b7fdde527238985e8aef941f524e"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\InteropFunctionRegistry.kt": {
-    "mtime": 1778571596.8387024,
-    "hash": "5e432bc1f92f8aa481dde5ad4b75c887"
+    "mtime": 1779045508.9910874,
+    "hash": "b5fe8bbccf6f20f1733dff6f636f471b"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\AccountFunctions.kt": {
     "mtime": 1778571596.848871,
@@ -4518,10 +4246,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\LocalStorageFunctions.kt": {
     "mtime": 1778571596.888331,
     "hash": "b5339cffc9b3413e4084df9708842575"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\MarketplaceFunctions.kt": {
-    "mtime": 1778571596.8988934,
-    "hash": "cd251d9d702f74adace2b1d61b405366"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\ModuleFunctions.kt": {
     "mtime": 1778571596.9083135,
@@ -4546,10 +4270,6 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\ThemeFunctions.kt": {
     "mtime": 1778571596.9613476,
     "hash": "0352455e65a810c11a7c5c91bfd3c66f"
-  },
-  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\client\\UserFunctions.kt": {
-    "mtime": 1778571596.9705281,
-    "hash": "5febd4128c43a193b1cc2d5513b00f16"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\interop\\protocol\\rest\\v1\\features\\BrowserFunctions.kt": {
     "mtime": 1778571596.9820042,
@@ -4640,16 +4360,16 @@
     "hash": "588a24536143ffb7d9e389a508898abd"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\theme\\Theme.kt": {
-    "mtime": 1778571597.1997054,
-    "hash": "7c401cf498b9bb24bcab6df4a792c527"
+    "mtime": 1779045459.453936,
+    "hash": "9481d51cb596a1e6b110ec3bfba0bc4d"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\theme\\ThemeBackground.kt": {
     "mtime": 1778571597.2094092,
     "hash": "786567720fd84444f329a7451c3033c5"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\theme\\ThemeManager.kt": {
-    "mtime": 1778571597.2188518,
-    "hash": "00faaa43c995e6d5f6019c008891ea03"
+    "mtime": 1779045437.9091506,
+    "hash": "666d8695aba46e74b30e5dd9014ce5a7"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\integration\\theme\\ThemeMetadata.kt": {
     "mtime": 1778571597.2275383,
@@ -4940,8 +4660,8 @@
     "hash": "c8aacbc013fd0d3b91bece1d115fd1f9"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\script\\ScriptManager.kt": {
-    "mtime": 1778571597.9163947,
-    "hash": "d8457ae04f818bad1fe5a81ceb477880"
+    "mtime": 1779045423.2487645,
+    "hash": "d6dd57c18f4c5a46d6a81ebf5106b455"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\script\\api\\ScriptJvmTypeSupport.kt": {
     "mtime": 1778571597.926969,
@@ -5332,16 +5052,16 @@
     "hash": "5e74ddca714dd60d850648adb8945a37"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\utils\\client\\ClientChat.kt": {
-    "mtime": 1778571598.8675663,
-    "hash": "9c19cacc195f5fdf29e5ff1e60638b4e"
+    "mtime": 1779048521.940359,
+    "hash": "aa5f4cc10f19a2469bf2e39b5aa50519"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\utils\\client\\ClientUtils.kt": {
     "mtime": 1778571598.87818,
     "hash": "a06fa5d35b4faafbc7f9233ee913159d"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\utils\\client\\IdentifierExtension.kt": {
-    "mtime": 1778571598.887359,
-    "hash": "8c7ce0d26dd51fe1a64297e479f32c1c"
+    "mtime": 1779048562.2547529,
+    "hash": "b7c879bb173915b39ecbeca3c2ccc03f"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\utils\\client\\InteractionTracker.kt": {
     "mtime": 1778571598.89693,
@@ -6156,8 +5876,8 @@
     "hash": "ccb77d620983cc84dc7bd0766182b0ea"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\clickgui\\setting\\CurveSetting.svelte": {
-    "mtime": 1778571584.4418106,
-    "hash": "09d575b556bc8828dcf3754bba714971"
+    "mtime": 1779048478.0925863,
+    "hash": "18b45fe7dc6b0de77b30fdc23bc5c076"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\clickgui\\setting\\FileSetting.svelte": {
     "mtime": 1778571584.4488246,
@@ -6304,8 +6024,8 @@
     "hash": "8e3657b0625a7c25c44e599741290e28"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\hud\\elements\\Watermark.svelte": {
-    "mtime": 1778571584.7377641,
-    "hash": "1bb147d5001fc12f3c6224e463cd1361"
+    "mtime": 1779048448.1910405,
+    "hash": "c54316bbf9a8d3438c930aa1bfec4823"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\hud\\elements\\hotbar\\HotBar.svelte": {
     "mtime": 1778571584.7450335,
@@ -6336,8 +6056,8 @@
     "hash": "3c29ec44cb92a906e74a470d6273ab1f"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\hud\\elements\\notifications\\Notification.svelte": {
-    "mtime": 1778571584.798646,
-    "hash": "e72be8bc15eca1212f4ed355392b8fff"
+    "mtime": 1779048480.2034235,
+    "hash": "34c404e383136571636d37e370c3cf08"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\hud\\elements\\notifications\\Notifications.svelte": {
     "mtime": 1778571584.806578,
@@ -6436,8 +6156,8 @@
     "hash": "d17bd19c48a1e9c6cfe4d62009f5f03d"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\common\\ToolTip.svelte": {
-    "mtime": 1778571584.9950466,
-    "hash": "8768ff971ebc3f5a03c6bdc71c1dc700"
+    "mtime": 1779048478.9358702,
+    "hash": "29a38e6473423a67ce2e624237c06d2e"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\common\\buttons\\BottomButtonWrapper.svelte": {
     "mtime": 1778571585.0041194,
@@ -6456,12 +6176,12 @@
     "hash": "d22a0a34e8d6a9606095b2613131155c"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\common\\header\\AnimatedLogo.svelte": {
-    "mtime": 1778571585.035752,
-    "hash": "97c30ee494b0891b6c5671e96b1aed1e"
+    "mtime": 1779048496.9563017,
+    "hash": "34f7fe1cf256fa729d10fab38ae0b613"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\common\\header\\Header.svelte": {
-    "mtime": 1778571585.0446777,
-    "hash": "248decbce3b68255f70c48ec2d1c104a"
+    "mtime": 1779048446.6959937,
+    "hash": "0d139491d8df5f0ac9b92be2e40e291c"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\common\\header\\Notifications.svelte": {
     "mtime": 1778571585.0536797,
@@ -6580,12 +6300,12 @@
     "hash": "429ab733e5d5df80fdecc404f0458975"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\title\\ConfettiBackground.svelte": {
-    "mtime": 1778571585.2880087,
-    "hash": "548ef63833ef3fe82fc142ef090ced21"
+    "mtime": 1779048743.7206385,
+    "hash": "a0c557f0995610775932572f76921b6a"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\title\\Title.svelte": {
-    "mtime": 1778571585.2964473,
-    "hash": "c4e7cb1b8ac4b65878d9fb65bf4a57e3"
+    "mtime": 1779048635.728603,
+    "hash": "bf5bb14d4d0638bc9fdec0a7a5875dfc"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\src\\routes\\menu\\title\\buttons\\ChildButton.svelte": {
     "mtime": 1778571585.3030965,
@@ -6611,13 +6331,101 @@
     "mtime": 1778571585.340647,
     "hash": "671db2dc98690b96e1e555dd7c3b1b3f"
   },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\CLAUDE.md": {
+    "mtime": 1778572919.7434275,
+    "hash": "910c612b8b6ecef8a705ed03c66e2f13"
+  },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\README.md": {
-    "mtime": 1778571580.7056334,
-    "hash": "554d19fe193cb717588e368377272f24"
+    "mtime": 1778574291.0387857,
+    "hash": "ea42dce89608d708b221e082b205c1a9"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\config\\detekt\\detekt.yml": {
     "mtime": 1778571580.905522,
     "hash": "8f0dfbd25c2310b8a4f3ccc5887b0221"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\dependencies.md": {
+    "mtime": 1778572981.1580915,
+    "hash": "f36e7593ff46fe985bf9d69b7295b60d"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\modules.md": {
+    "mtime": 1778572953.0083563,
+    "hash": "5516221360c788e600aa1503ea75d731"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\rebrand.md": {
+    "mtime": 1778573007.9788313,
+    "hash": "363a1f3d1f0cd00855f5ec83c024b4f6"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Deletions.md": {
+    "mtime": 1779045888.120221,
+    "hash": "11486e71f6a607b1c966f39f6379c655"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\EvilBounce.md": {
+    "mtime": 1778573021.1458764,
+    "hash": "d2d8feac3c56a7c609115ccd4f08e323"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\GodNodes.md": {
+    "mtime": 1778573034.1764882,
+    "hash": "c25a8d9aeb3e445b4dc0892cdbca9894"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Combat.md": {
+    "mtime": 1778573122.0313914,
+    "hash": "d6023743e3fba866a0d6b83cfda4cda6"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Exploit.md": {
+    "mtime": 1778573174.613833,
+    "hash": "43ebcc1c8dac847b34c4111df01d7b95"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Misc.md": {
+    "mtime": 1778573202.0465322,
+    "hash": "8f5705e583522ccf965042dc29b0807e"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Movement.md": {
+    "mtime": 1778573157.9719615,
+    "hash": "748d73184f2ebad3df72573458427949"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Player.md": {
+    "mtime": 1778573186.0918334,
+    "hash": "6bac395977101a52ed34d3f9ac7c099b"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-Render.md": {
+    "mtime": 1778573216.0092323,
+    "hash": "f5f4e059c9054125a128570a26de351c"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Modules-World.md": {
+    "mtime": 1778573145.2664227,
+    "hash": "303b076999b71a6809b2dd796e5690f9"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Rebrand.md": {
+    "mtime": 1778573226.5563247,
+    "hash": "f62983a298889d48899f949f2fbfc1e2"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-CEF.md": {
+    "mtime": 1778573048.096622,
+    "hash": "df383f4ba7d21a4d19f071849b8c8799"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-Config.md": {
+    "mtime": 1778573076.1834555,
+    "hash": "7da8885a6f73ed745f79a3d5151154f7"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-DeepLearn.md": {
+    "mtime": 1778573101.4352572,
+    "hash": "cbde575b26cd4d40733f4a8dfc7656d6"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-Events.md": {
+    "mtime": 1778573059.9523022,
+    "hash": "c18bf7853d0875cd16df3849545d3566"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-Mixins.md": {
+    "mtime": 1778573087.1251428,
+    "hash": "28f9f29d13d233b811ded36615d1c853"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\vault\\Systems-Scripting.md": {
+    "mtime": 1778573095.237108,
+    "hash": "d6def15f5f07fb86ad1941fed92bff5c"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\superpowers\\specs\\2026-05-12-evilbounce-agent-docs-design.md": {
+    "mtime": 1778573272.7861094,
+    "hash": "c83868d21798a3bd465c36bab01bd549"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\resources\\resources\\liquidbounce\\data\\usernames\\adjectives.txt": {
     "mtime": 1778571600.5534232,
@@ -6628,8 +6436,8 @@
     "hash": "d9bad92e3659ed3b19fcc704581d4aa3"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\index.html": {
-    "mtime": 1778571580.9635596,
-    "hash": "cc5b35ed42a87acad9960897b9fa6fee"
+    "mtime": 1779048665.9067643,
+    "hash": "607a922997b426b193f4853bd0062767"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\README.md": {
     "mtime": 1778571580.9485562,
@@ -6644,8 +6452,16 @@
     "hash": "3c61a31ccb1fe9f411adffbba6bef2a4"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\zip_include\\README.txt": {
-    "mtime": 1778571601.384029,
-    "hash": "53a73c71114a3b8c882ad28d771e9b3e"
+    "mtime": 1778574610.6544237,
+    "hash": "aa6a1a3cd69986f6bd091c45dc609770"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\evilbounce-logo-transparent.png": {
+    "mtime": 1778574287.3832893,
+    "hash": "6d9f84207664911bfcd96c43023320be"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\docs\\evilbounce\\evilbounce-logo.png": {
+    "mtime": 1778574222.6726182,
+    "hash": "6d9f84207664911bfcd96c43023320be"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\resources\\resources\\liquidbounce\\icon_16x16.png": {
     "mtime": 1778571600.4584463,
@@ -6660,8 +6476,8 @@
     "hash": "b05c823e642285eb5f9e845bca2c66c6"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\resources\\resources\\liquidbounce\\logo_banner.png": {
-    "mtime": 1778571600.482541,
-    "hash": "cdccdf2258134155b8b90c27d4538f3b"
+    "mtime": 1778574120.4576373,
+    "hash": "6d9f84207664911bfcd96c43023320be"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src\\main\\resources\\resources\\liquidbounce\\misc\\triangle1.png": {
     "mtime": 1778571600.669685,
@@ -6726,6 +6542,10 @@
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\public\\backgrounds\\background.png": {
     "mtime": 1778571581.048843,
     "hash": "63a2b198004e15e53b814164d97b5c60"
+  },
+  "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\public\\img\\evilbounce-logo.png": {
+    "mtime": 1778574120.4576373,
+    "hash": "6d9f84207664911bfcd96c43023320be"
   },
   "C:\\Users\\glpen\\Documents\\EVILBOUNCE\\src-theme\\public\\img\\lb-logo.svg": {
     "mtime": 1778571581.2908516,

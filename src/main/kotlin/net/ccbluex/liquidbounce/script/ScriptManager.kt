@@ -18,9 +18,7 @@
  */
 package net.ccbluex.liquidbounce.script
 
-import net.ccbluex.liquidbounce.api.models.marketplace.MarketplaceItemType
 import net.ccbluex.liquidbounce.config.ConfigSystem
-import net.ccbluex.liquidbounce.features.marketplace.MarketplaceManager
 import net.ccbluex.liquidbounce.features.module.modules.render.ModuleClickGui
 import net.ccbluex.liquidbounce.script.bindings.api.ScriptAsyncUtil
 import net.ccbluex.liquidbounce.script.bindings.api.ScriptContextProvider
@@ -75,11 +73,9 @@ object ScriptManager {
         require(isInitialized) { "Cannot load scripts before the script engine is initialized." }
         val files = root.listFiles { file ->
             Source.findLanguage(file) != null || file.isDirectory
-        } + MarketplaceManager.getSubscribedItemsOfType(MarketplaceItemType.SCRIPT).map { item ->
-            item.getInstallationFolder()
         }
 
-        files.forEach { file ->
+        files?.forEach { file ->
             if (file.isDirectory) {
                 // If a directory is found, look for a main script file inside it.
                 val mainFile = file.listFiles { dirFile ->

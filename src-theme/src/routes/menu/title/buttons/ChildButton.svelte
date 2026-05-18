@@ -35,8 +35,13 @@
       align-items: center;
       border-radius: 5px;
       background-color: $accent-color;
-      transition: ease background-color .2s;
+      box-shadow: 0 0 14px $accent-glow-color;
+      transition: background-color .2s ease, box-shadow .2s ease;
       padding: 15px;
+
+      &:hover {
+        box-shadow: 0 0 24px $accent-glow-strong-color;
+      }
 
       &.parent-hovered {
         background-color: $menu-text-color;

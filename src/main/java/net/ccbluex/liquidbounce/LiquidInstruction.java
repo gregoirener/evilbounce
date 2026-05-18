@@ -81,10 +81,10 @@ public final class LiquidInstruction {
     );
 
     switch (result) {
-      case 0 -> browse(URI.create("https://liquidbounce.net/docs/get-started/manual-installation"));
-      case 1 -> browse(URI.create("https://liquidbounce.net/download"));
-      case 2 -> browse(URI.create("https://github.com/CCBlueX/LiquidBounce"));
-      case 3 -> browse(URI.create("https://liquidbounce.net/discord"));
+      case 0 -> browse(URI.create("https://github.com/gregoirener/evilbounce"));
+      case 1 -> browse(URI.create("https://github.com/gregoirener/evilbounce"));
+      case 2 -> browse(URI.create("https://github.com/gregoirener/evilbounce"));
+      case 3 -> browse(URI.create("https://github.com/gregoirener/evilbounce"));
       default -> System.exit(0);
     }
   }

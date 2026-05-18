@@ -57,7 +57,7 @@
     {#if $location === "/title" && isAnniversary()}
         <AnimatedLogo/>
     {:else}
-        <img class="logo" src="img/lb-logo.svg" alt="LiquidBounce logo">
+        <img class="logo" src="img/evilbounce-logo.png" alt="EvilBounce logo">
     {/if}
 
     <Notifications />
@@ -78,5 +78,6 @@
     width: 261.263px;
     height: 98px;
     flex: 0 0 auto;
+    object-fit: contain;
   }
 </style>

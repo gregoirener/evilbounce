@@ -55,12 +55,10 @@ import net.ccbluex.liquidbounce.features.module.modules.combat.criticals.ModuleC
 import net.ccbluex.liquidbounce.features.module.modules.combat.crystalaura.ModuleCrystalAura
 import net.ccbluex.liquidbounce.features.module.modules.combat.elytratarget.ModuleElytraTarget
 import net.ccbluex.liquidbounce.features.module.modules.combat.killaura.ModuleKillAura
-import net.ccbluex.liquidbounce.features.module.modules.combat.tpaura.ModuleTpAura
 import net.ccbluex.liquidbounce.features.module.modules.combat.velocity.ModuleVelocity
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleAbortBreaking
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleAntiHunger
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleAntiReducedDebugInfo
-import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleClickTp
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleClip
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleDamage
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleExtendedFirework
@@ -79,9 +77,6 @@ import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleTimeShift
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleVehicleOneHit
 import net.ccbluex.liquidbounce.features.module.modules.exploit.ModuleYggdrasilSignatureFix
 import net.ccbluex.liquidbounce.features.module.modules.exploit.disabler.ModuleDisabler
-import net.ccbluex.liquidbounce.features.module.modules.exploit.dupe.ModuleDupe
-import net.ccbluex.liquidbounce.features.module.modules.exploit.phase.ModulePhase
-import net.ccbluex.liquidbounce.features.module.modules.exploit.servercrasher.ModuleServerCrasher
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleDankBobbing
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleDerp
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleHandDerp
@@ -468,7 +463,6 @@ object ModuleManager : EventListener, Collection<ClientModule> by modules {
             ModuleCriticals,
             ModuleHitbox,
             ModuleKillAura,
-            ModuleTpAura,
             ModuleSuperKnockback,
             ModuleTimerRange,
             ModuleTickBase,
@@ -501,12 +495,8 @@ object ModuleManager : EventListener, Collection<ClientModule> by modules {
             ModulePortalMenu,
             ModuleSleepWalker,
             ModuleVehicleOneHit,
-            ModuleServerCrasher,
-            ModuleDupe,
-            ModuleClickTp,
             ModuleTimeShift,
             ModuleTeleport,
-            ModulePhase,
             ModuleYggdrasilSignatureFix,
 
             // Fun

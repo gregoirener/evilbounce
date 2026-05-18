@@ -229,9 +229,3 @@ class SelectHotbarSlotSilentlyEvent(val requester: Any?, val slot: Int): Cancell
 @Tag("browserUrlChange")
 class BrowserUrlChangeEvent(val index: Int, val url: String) : Event(), WebSocketEvent
 
-@Tag("userLoggedIn")
-object UserLoggedInEvent : Event(), WebSocketEvent
-
-@Tag("userLoggedOut")
-object UserLoggedOutEvent : Event(), WebSocketEvent
-

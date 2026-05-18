@@ -44,7 +44,7 @@ import java.io.File
 // Chat formatting
 private val clientPrefix: Component = "".asText()
     .withStyle(ChatFormatting.RESET, ChatFormatting.GRAY)
-    .append(gradientText("LiquidBounce", Color4b.fromHex("#4677ff"), Color4b.fromHex("#24AA7F")))
+    .append(gradientText("EvilBounce", Color4b.fromHex("#D41717"), Color4b.fromHex("#8B0000")))
     .append(" ▸ ".asText().withStyle(ChatFormatting.RESET, ChatFormatting.GRAY))
 
 fun regular(text: MutableComponent): MutableComponent = text.withStyle(ChatFormatting.GRAY)

@@ -19,6 +19,8 @@
 </div>
 
 <style lang="scss">
+  @use "../../../../colors.scss" as *;
+
   .icon-button {
     position: relative;
   }
@@ -30,5 +32,14 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    img {
+      filter: drop-shadow(0 0 6px $accent-glow-color);
+      transition: filter .2s ease-out;
+    }
+
+    &:hover img {
+      filter: drop-shadow(0 0 10px $accent-glow-strong-color);
+    }
   }
 </style>

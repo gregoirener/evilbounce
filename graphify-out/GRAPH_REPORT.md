@@ -1,13 +1,18 @@
-# Graph Report - EVILBOUNCE  (2026-05-12)
+# Graph Report - EVILBOUNCE  (2026-05-18)
 
 ## Corpus Check
-- 1657 files · ~699,944 words
+- 1609 files · ~708,739 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 9339 nodes · 12048 edges · 1213 communities (399 shown, 814 thin omitted)
-- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 1851 edges (avg confidence: 0.8)
+- 9540 nodes · 12229 edges · 1220 communities (425 shown, 795 thin omitted)
+- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 1853 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `f10e8ba0`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -468,14 +473,14 @@
 - [[_COMMUNITY_Community 455|Community 455]]
 - [[_COMMUNITY_Community 456|Community 456]]
 - [[_COMMUNITY_Community 457|Community 457]]
+- [[_COMMUNITY_Community 458|Community 458]]
+- [[_COMMUNITY_Community 459|Community 459]]
 - [[_COMMUNITY_Community 460|Community 460]]
 - [[_COMMUNITY_Community 461|Community 461]]
 - [[_COMMUNITY_Community 462|Community 462]]
 - [[_COMMUNITY_Community 463|Community 463]]
 - [[_COMMUNITY_Community 464|Community 464]]
-- [[_COMMUNITY_Community 465|Community 465]]
 - [[_COMMUNITY_Community 466|Community 466]]
-- [[_COMMUNITY_Community 467|Community 467]]
 - [[_COMMUNITY_Community 468|Community 468]]
 - [[_COMMUNITY_Community 469|Community 469]]
 - [[_COMMUNITY_Community 470|Community 470]]
@@ -605,7 +610,9 @@
 - [[_COMMUNITY_Community 594|Community 594]]
 - [[_COMMUNITY_Community 595|Community 595]]
 - [[_COMMUNITY_Community 596|Community 596]]
+- [[_COMMUNITY_Community 597|Community 597]]
 - [[_COMMUNITY_Community 598|Community 598]]
+- [[_COMMUNITY_Community 599|Community 599]]
 - [[_COMMUNITY_Community 600|Community 600]]
 - [[_COMMUNITY_Community 601|Community 601]]
 - [[_COMMUNITY_Community 602|Community 602]]
@@ -616,10 +623,8 @@
 - [[_COMMUNITY_Community 607|Community 607]]
 - [[_COMMUNITY_Community 608|Community 608]]
 - [[_COMMUNITY_Community 609|Community 609]]
-- [[_COMMUNITY_Community 610|Community 610]]
 - [[_COMMUNITY_Community 611|Community 611]]
 - [[_COMMUNITY_Community 612|Community 612]]
-- [[_COMMUNITY_Community 613|Community 613]]
 - [[_COMMUNITY_Community 614|Community 614]]
 - [[_COMMUNITY_Community 615|Community 615]]
 - [[_COMMUNITY_Community 616|Community 616]]
@@ -724,6 +729,7 @@
 - [[_COMMUNITY_Community 715|Community 715]]
 - [[_COMMUNITY_Community 716|Community 716]]
 - [[_COMMUNITY_Community 717|Community 717]]
+- [[_COMMUNITY_Community 718|Community 718]]
 - [[_COMMUNITY_Community 719|Community 719]]
 - [[_COMMUNITY_Community 720|Community 720]]
 - [[_COMMUNITY_Community 721|Community 721]]
@@ -735,7 +741,6 @@
 - [[_COMMUNITY_Community 727|Community 727]]
 - [[_COMMUNITY_Community 728|Community 728]]
 - [[_COMMUNITY_Community 729|Community 729]]
-- [[_COMMUNITY_Community 730|Community 730]]
 - [[_COMMUNITY_Community 731|Community 731]]
 - [[_COMMUNITY_Community 732|Community 732]]
 - [[_COMMUNITY_Community 733|Community 733]]
@@ -781,6 +786,7 @@
 - [[_COMMUNITY_Community 773|Community 773]]
 - [[_COMMUNITY_Community 774|Community 774]]
 - [[_COMMUNITY_Community 775|Community 775]]
+- [[_COMMUNITY_Community 776|Community 776]]
 - [[_COMMUNITY_Community 777|Community 777]]
 - [[_COMMUNITY_Community 778|Community 778]]
 - [[_COMMUNITY_Community 779|Community 779]]
@@ -793,12 +799,12 @@
 - [[_COMMUNITY_Community 786|Community 786]]
 - [[_COMMUNITY_Community 787|Community 787]]
 - [[_COMMUNITY_Community 788|Community 788]]
-- [[_COMMUNITY_Community 789|Community 789]]
 - [[_COMMUNITY_Community 790|Community 790]]
 - [[_COMMUNITY_Community 791|Community 791]]
 - [[_COMMUNITY_Community 792|Community 792]]
 - [[_COMMUNITY_Community 793|Community 793]]
 - [[_COMMUNITY_Community 794|Community 794]]
+- [[_COMMUNITY_Community 795|Community 795]]
 - [[_COMMUNITY_Community 796|Community 796]]
 - [[_COMMUNITY_Community 797|Community 797]]
 - [[_COMMUNITY_Community 798|Community 798]]
@@ -811,7 +817,6 @@
 - [[_COMMUNITY_Community 805|Community 805]]
 - [[_COMMUNITY_Community 806|Community 806]]
 - [[_COMMUNITY_Community 807|Community 807]]
-- [[_COMMUNITY_Community 808|Community 808]]
 - [[_COMMUNITY_Community 809|Community 809]]
 - [[_COMMUNITY_Community 810|Community 810]]
 - [[_COMMUNITY_Community 811|Community 811]]
@@ -885,7 +890,6 @@
 - [[_COMMUNITY_Community 879|Community 879]]
 - [[_COMMUNITY_Community 880|Community 880]]
 - [[_COMMUNITY_Community 881|Community 881]]
-- [[_COMMUNITY_Community 882|Community 882]]
 - [[_COMMUNITY_Community 883|Community 883]]
 - [[_COMMUNITY_Community 884|Community 884]]
 - [[_COMMUNITY_Community 885|Community 885]]
@@ -903,11 +907,11 @@
 - [[_COMMUNITY_Community 897|Community 897]]
 - [[_COMMUNITY_Community 898|Community 898]]
 - [[_COMMUNITY_Community 899|Community 899]]
+- [[_COMMUNITY_Community 900|Community 900]]
+- [[_COMMUNITY_Community 901|Community 901]]
+- [[_COMMUNITY_Community 902|Community 902]]
 - [[_COMMUNITY_Community 903|Community 903]]
 - [[_COMMUNITY_Community 904|Community 904]]
-- [[_COMMUNITY_Community 905|Community 905]]
-- [[_COMMUNITY_Community 906|Community 906]]
-- [[_COMMUNITY_Community 907|Community 907]]
 - [[_COMMUNITY_Community 908|Community 908]]
 - [[_COMMUNITY_Community 909|Community 909]]
 - [[_COMMUNITY_Community 910|Community 910]]
@@ -927,10 +931,10 @@
 - [[_COMMUNITY_Community 924|Community 924]]
 - [[_COMMUNITY_Community 925|Community 925]]
 - [[_COMMUNITY_Community 926|Community 926]]
+- [[_COMMUNITY_Community 927|Community 927]]
 - [[_COMMUNITY_Community 928|Community 928]]
 - [[_COMMUNITY_Community 929|Community 929]]
 - [[_COMMUNITY_Community 930|Community 930]]
-- [[_COMMUNITY_Community 931|Community 931]]
 - [[_COMMUNITY_Community 933|Community 933]]
 - [[_COMMUNITY_Community 934|Community 934]]
 - [[_COMMUNITY_Community 935|Community 935]]
@@ -972,12 +976,12 @@
 - [[_COMMUNITY_Community 973|Community 973]]
 - [[_COMMUNITY_Community 974|Community 974]]
 - [[_COMMUNITY_Community 975|Community 975]]
-- [[_COMMUNITY_Community 976|Community 976]]
 - [[_COMMUNITY_Community 977|Community 977]]
+- [[_COMMUNITY_Community 978|Community 978]]
 - [[_COMMUNITY_Community 979|Community 979]]
 - [[_COMMUNITY_Community 980|Community 980]]
-- [[_COMMUNITY_Community 981|Community 981]]
-- [[_COMMUNITY_Community 982|Community 982]]
+- [[_COMMUNITY_Community 983|Community 983]]
+- [[_COMMUNITY_Community 984|Community 984]]
 - [[_COMMUNITY_Community 985|Community 985]]
 - [[_COMMUNITY_Community 986|Community 986]]
 - [[_COMMUNITY_Community 987|Community 987]]
@@ -1002,9 +1006,9 @@
 - [[_COMMUNITY_Community 1006|Community 1006]]
 - [[_COMMUNITY_Community 1007|Community 1007]]
 - [[_COMMUNITY_Community 1008|Community 1008]]
-- [[_COMMUNITY_Community 1009|Community 1009]]
 - [[_COMMUNITY_Community 1010|Community 1010]]
 - [[_COMMUNITY_Community 1011|Community 1011]]
+- [[_COMMUNITY_Community 1012|Community 1012]]
 - [[_COMMUNITY_Community 1013|Community 1013]]
 - [[_COMMUNITY_Community 1014|Community 1014]]
 - [[_COMMUNITY_Community 1015|Community 1015]]
@@ -1039,7 +1043,6 @@
 - [[_COMMUNITY_Community 1044|Community 1044]]
 - [[_COMMUNITY_Community 1045|Community 1045]]
 - [[_COMMUNITY_Community 1046|Community 1046]]
-- [[_COMMUNITY_Community 1047|Community 1047]]
 - [[_COMMUNITY_Community 1048|Community 1048]]
 - [[_COMMUNITY_Community 1049|Community 1049]]
 - [[_COMMUNITY_Community 1050|Community 1050]]
@@ -1049,6 +1052,7 @@
 - [[_COMMUNITY_Community 1054|Community 1054]]
 - [[_COMMUNITY_Community 1055|Community 1055]]
 - [[_COMMUNITY_Community 1056|Community 1056]]
+- [[_COMMUNITY_Community 1057|Community 1057]]
 - [[_COMMUNITY_Community 1058|Community 1058]]
 - [[_COMMUNITY_Community 1059|Community 1059]]
 - [[_COMMUNITY_Community 1060|Community 1060]]
@@ -1137,9 +1141,6 @@
 - [[_COMMUNITY_Community 1143|Community 1143]]
 - [[_COMMUNITY_Community 1144|Community 1144]]
 - [[_COMMUNITY_Community 1145|Community 1145]]
-- [[_COMMUNITY_Community 1146|Community 1146]]
-- [[_COMMUNITY_Community 1147|Community 1147]]
-- [[_COMMUNITY_Community 1148|Community 1148]]
 - [[_COMMUNITY_Community 1149|Community 1149]]
 - [[_COMMUNITY_Community 1150|Community 1150]]
 - [[_COMMUNITY_Community 1151|Community 1151]]
@@ -1147,31 +1148,41 @@
 - [[_COMMUNITY_Community 1153|Community 1153]]
 - [[_COMMUNITY_Community 1154|Community 1154]]
 - [[_COMMUNITY_Community 1155|Community 1155]]
+- [[_COMMUNITY_Community 1156|Community 1156]]
+- [[_COMMUNITY_Community 1157|Community 1157]]
+- [[_COMMUNITY_Community 1158|Community 1158]]
 - [[_COMMUNITY_Community 1159|Community 1159]]
 - [[_COMMUNITY_Community 1160|Community 1160]]
 - [[_COMMUNITY_Community 1161|Community 1161]]
 - [[_COMMUNITY_Community 1162|Community 1162]]
 - [[_COMMUNITY_Community 1163|Community 1163]]
-- [[_COMMUNITY_Community 1164|Community 1164]]
 - [[_COMMUNITY_Community 1165|Community 1165]]
 - [[_COMMUNITY_Community 1166|Community 1166]]
-- [[_COMMUNITY_Community 1167|Community 1167]]
 - [[_COMMUNITY_Community 1168|Community 1168]]
-- [[_COMMUNITY_Community 1169|Community 1169]]
-- [[_COMMUNITY_Community 1170|Community 1170]]
 - [[_COMMUNITY_Community 1171|Community 1171]]
 - [[_COMMUNITY_Community 1172|Community 1172]]
-- [[_COMMUNITY_Community 1173|Community 1173]]
 - [[_COMMUNITY_Community 1175|Community 1175]]
-- [[_COMMUNITY_Community 1176|Community 1176]]
+- [[_COMMUNITY_Community 1177|Community 1177]]
 - [[_COMMUNITY_Community 1178|Community 1178]]
+- [[_COMMUNITY_Community 1179|Community 1179]]
 - [[_COMMUNITY_Community 1181|Community 1181]]
 - [[_COMMUNITY_Community 1182|Community 1182]]
+- [[_COMMUNITY_Community 1183|Community 1183]]
+- [[_COMMUNITY_Community 1184|Community 1184]]
 - [[_COMMUNITY_Community 1185|Community 1185]]
+- [[_COMMUNITY_Community 1186|Community 1186]]
 - [[_COMMUNITY_Community 1187|Community 1187]]
 - [[_COMMUNITY_Community 1188|Community 1188]]
 - [[_COMMUNITY_Community 1189|Community 1189]]
+- [[_COMMUNITY_Community 1190|Community 1190]]
 - [[_COMMUNITY_Community 1191|Community 1191]]
+- [[_COMMUNITY_Community 1192|Community 1192]]
+- [[_COMMUNITY_Community 1193|Community 1193]]
+- [[_COMMUNITY_Community 1194|Community 1194]]
+- [[_COMMUNITY_Community 1195|Community 1195]]
+- [[_COMMUNITY_Community 1196|Community 1196]]
+- [[_COMMUNITY_Community 1197|Community 1197]]
+- [[_COMMUNITY_Community 1198|Community 1198]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `../../../integration/rest.js` - 125 edges
@@ -1190,18 +1201,18 @@
   src/main/java/net/ccbluex/liquidbounce/render/gui/element/LineGuiElementRenderState.java → src/main/kotlin/net/ccbluex/liquidbounce/render/VertexBuilder.kt
 - `buildVertices()` --calls--> `setColor()`  [INFERRED]
   src/main/java/net/ccbluex/liquidbounce/render/gui/element/QuadGuiElementRenderState.java → src/main/kotlin/net/ccbluex/liquidbounce/render/VertexBuilder.kt
-- `buildVertices()` --calls--> `setColor()`  [INFERRED]
-  src/main/java/net/ccbluex/liquidbounce/render/gui/element/TriangleGuiElementRenderState.java → src/main/kotlin/net/ccbluex/liquidbounce/render/VertexBuilder.kt
 - `getProxies()` --calls--> `jsonArray()`  [INFERRED]
   src/main/kotlin/net/ccbluex/liquidbounce/integration/interop/protocol/rest/v1/client/ProxyFunctions.kt → src/main/kotlin/net/ccbluex/liquidbounce/config/gson/util/GsonExtensions.kt
 - `generateName()` --calls--> `jsonObject()`  [INFERRED]
   src/main/kotlin/net/ccbluex/liquidbounce/integration/interop/protocol/rest/v1/client/AccountFunctions.kt → src/main/kotlin/net/ccbluex/liquidbounce/config/gson/util/GsonExtensions.kt
+- `getToggleShaderInfo()` --calls--> `jsonObject()`  [INFERRED]
+  src/main/kotlin/net/ccbluex/liquidbounce/integration/interop/protocol/rest/v1/client/ThemeFunctions.kt → src/main/kotlin/net/ccbluex/liquidbounce/config/gson/util/GsonExtensions.kt
 
-## Communities (1213 total, 814 thin omitted)
+## Communities (1220 total, 795 thin omitted)
 
-### Community 0 - "Community 0"
+### Community 1 - "Community 1"
 Cohesion: 0.05
-Nodes (23): regular(), variable(), CommandClientConfigSubcommand, CommandClientInfoSubcommand, CommandClientIntegrationSubcommand, CommandClientPrefixSubcommand, autocompletedFromScriptNames(), CommandScript (+15 more)
+Nodes (21): regular(), variable(), CommandClientConfigSubcommand, CommandClientInfoSubcommand, CommandClientPrefixSubcommand, CommandClientThemeSubcommand, autocompletedFromScriptNames(), CommandScript (+13 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.03
@@ -1209,151 +1220,155 @@ Nodes (59): Account, Alignment, BindAction, BindModifier, BindSetting, BlocksSet
 
 ### Community 3 - "Community 3"
 Cohesion: 0.05
-Nodes (12): schedule(), ScriptAsyncUtil, ScriptContextProvider, ScriptReflectionUtil, MemberRetriever, EnvironmentRemapper, Cancel, FloatOffsetGenerator (+4 more)
+Nodes (25): ServerObserver, ServerType, computedOn(), EventHook, EventListener, handler(), newEventHook(), once() (+17 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.05
-Nodes (17): MixinYggdrasilMinecraftSessionService, addFinite(), BoxIntersectionInterval, inOpenInterval(), LinearGeometry3, NearestPointResult, ParameterDomain, sampleOpenInterval() (+9 more)
+Nodes (17): toVec3f(), ActiveWorldFrame, BatchCollector, beginWorldFrame(), copyFrom(), create(), DrawMode, endWorldFrame() (+9 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
-Nodes (17): toVec3f(), ActiveWorldFrame, BatchCollector, beginWorldFrame(), copyFrom(), create(), DrawMode, endWorldFrame() (+9 more)
+Nodes (17): ModuleDisabler, ModuleDupe, KickModeEnum, ModuleKick, Conditions, Health, ModuleTimeShift, ModuleAntiCheatDetect (+9 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.04
 Nodes (54): AccountManagerAdditionEvent, AccountManagerLoginEvent, AccountManagerMessageEvent, AccountManagerRemovalEvent, BedStateChangeEvent, BlockCountChangeEvent, BrowserUrlChangeEvent, ChatReceiveEvent (+46 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.06
-Nodes (14): CommandBinds, CommandPanic, CommandException, CommandFakePlayer, translation(), LanguageText, MarketplaceSubscribeCommand, MarketplaceUpdateCommand (+6 more)
+Cohesion: 0.05
+Nodes (15): Vec2fAdapter, Vec3dAdapter, Vector2fcAdapter, DroneControlScreen, EntityFocusData, ModuleDroneControl, RotationDelta, Bezier (+7 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.05
-Nodes (15): ModuleDisabler, ModuleDupe, Conditions, Health, ModuleTimeShift, ModuleAntiCheatDetect, ModuleAutoConfig, GroundMode (+7 more)
-
-### Community 9 - "Community 9"
-Cohesion: 0.05
 Nodes (9): ColorAdapter, ColorAdapterTest, MinecraftTextProcessorTest, TrajectoryDisplayResolver, Color4b, fromHex(), fullAlpha(), ofHSB() (+1 more)
 
+### Community 9 - "Community 9"
+Cohesion: 0.09
+Nodes (5): fromClientPlayer(), fromOtherPlayer(), SimulatedPlayer, SimulatedPlayerInput, PlayerSafeWalkEvent
+
 ### Community 10 - "Community 10"
-Cohesion: 0.05
-Nodes (9): ModuleAutoBow, MixinMultiPlayerGameMode, CrystalAuraTriggerer, BlockChangeTrigger, ClientBlockBreakTrigger, CrystalDestroyTrigger, CrystalSpawnTrigger, EntityMoveTrigger (+1 more)
+Cohesion: 0.06
+Nodes (14): CommandBinds, CommandHelp, CommandPanic, CommandException, CommandFakePlayer, translation(), LanguageText, MarketplaceSubscribeCommand (+6 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.06
-Nodes (18): InputBindAdapter, RangeAdapter, getClientInfo(), getUpdateInfo(), getWindowInfo(), postFileDialog(), getScreenInfo(), getScreenSize() (+10 more)
+Cohesion: 0.13
+Nodes (32): ../../../integration/persistent_storage, ../../../integration/types, ./nouislider.scss, ../../../../theme/theme_config, active, nouislider/dist/nouislider.css, newValue, newValue (+24 more)
+
+### Community 12 - "Community 12"
+Cohesion: 0.05
+Nodes (6): MixinMinecraft, TickLoopTaskExecutor, getCooldown(), MixinFramerateLimitTracker, MixinDownloadQueue, unsafeGetProtocolVersion()
 
 ### Community 13 - "Community 13"
-Cohesion: 0.15
-Nodes (29): ../../../integration/persistent_storage, ../../../integration/types, ./nouislider.scss, ../../../../theme/theme_config, active, nouislider/dist/nouislider.css, newValue, newValue (+21 more)
+Cohesion: 0.06
+Nodes (18): InputBindAdapter, getClientInfo(), getUpdateInfo(), getWindowInfo(), postFileDialog(), getAllLocalStorage(), getLocalStorage(), getScreenInfo() (+10 more)
 
 ### Community 14 - "Community 14"
-Cohesion: 0.07
-Nodes (13): ClientAccount, fromEnv(), ExpiryValue, NettyAuthHandler, NettyChannelInitializer, OAuthClient, OAuthSession, TokenResponse (+5 more)
+Cohesion: 0.09
+Nodes (19): svelte/animate, ../../../integration/events, ../../../../integration/text_measurement, ../../../../integration/util, ../../../integration/ws, ../clickgui/clickgui_store, ../../../../util/color_utils, expanded (+11 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.11
-Nodes (29): buildVertices(), drawLegacy2DMarker(), drawLegacy2DRects(), drawBox(), drawBoxSide(), drawBoxSides(), drawCircle(), drawCircleOutline() (+21 more)
+Cohesion: 0.05
+Nodes (14): ArmorItemFacet, ArrowItemFacet, BlockItemFacet, BowItemFacet, CrossbowItemFacet, FoodItemFacet, ItemFacet, MiningToolItemFacet (+6 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.09
-Nodes (7): MessageMetadata, CommandFriend, CommandHide, CommandTargets, CommandValue, CommandRemoteView, CommandXRay
+Cohesion: 0.11
+Nodes (9): fromPoints(), Line, LineSegment, LineTest, fromPoints(), Ray, Vec3, BoxExtensionsTest (+1 more)
 
 ### Community 17 - "Community 17"
 Cohesion: 0.07
-Nodes (13): AndBiDamageProvider, BiDamageProvider, DamageProvider, NormalDamageProvider, OrBiDamageProvider, Both, CalculationMode, LogicalOperator (+5 more)
+Nodes (13): ClientAccount, fromEnv(), ExpiryValue, NettyAuthHandler, NettyChannelInitializer, OAuthClient, OAuthSession, TokenResponse (+5 more)
 
 ### Community 18 - "Community 18"
-Cohesion: 0.06
-Nodes (12): MixinClientLevelData, OverlayShaderRenderer, MixinFogRenderer, MixinLevelRenderer, CustomLightmap, FogColorOverride, FogValueGroup, ModuleCustomAmbience (+4 more)
+Cohesion: 0.07
+Nodes (10): NetherPortal, Phase, PortalMode, markAsError(), CommandConfig, CommandExecutor, DisablerVulcanRiptide, DupePaper1204 (+2 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.08
-Nodes (22): Atlas, ItemImageAtlas, ItemTextureRenderer, asTexture(), clearColor(), clearColorAndDepth(), clearDepth(), copyFrom() (+14 more)
+Cohesion: 0.09
+Nodes (7): MessageMetadata, CommandFriend, CommandHide, CommandTargets, CommandValue, CommandRemoteView, CommandXRay
+
+### Community 20 - "Community 20"
+Cohesion: 0.07
+Nodes (13): AndBiDamageProvider, BiDamageProvider, DamageProvider, NormalDamageProvider, OrBiDamageProvider, Both, CalculationMode, LogicalOperator (+5 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.07
-Nodes (8): MixinCamera, CameraInteract, CancelOn, CancelTrigger, ModuleFreeCam, Navigation, PositionState, ModuleSmoothCamera
-
-### Community 22 - "Community 22"
-Cohesion: 0.05
-Nodes (35): AccountManagerMessageEvent, Action, BedStateChangeEvent, BlockCountChangeEvent, BrowserReadyEvent, BrowserUrlChangeEvent, ChatGroup, ClickGuiScaleChangeEvent (+27 more)
+Cohesion: 0.08
+Nodes (22): Atlas, ItemImageAtlas, ItemTextureRenderer, asTexture(), clearColor(), clearColorAndDepth(), clearDepth(), copyFrom() (+14 more)
 
 ### Community 23 - "Community 23"
 Cohesion: 0.06
 Nodes (3): MixinLocalPlayer, LocalPlayerAddition, MixinPlayer
 
 ### Community 24 - "Community 24"
-Cohesion: 0.09
-Nodes (9): markAsError(), CommandExecutor, DisablerVulcanRiptide, KickModeEnum, ModuleKick, DupePaper1204, CommandServerInfo, DetectionType (+1 more)
+Cohesion: 0.05
+Nodes (35): AccountManagerMessageEvent, Action, BedStateChangeEvent, BlockCountChangeEvent, BrowserReadyEvent, BrowserUrlChangeEvent, ChatGroup, ClickGuiScaleChangeEvent (+27 more)
 
 ### Community 25 - "Community 25"
-Cohesion: 0.12
-Nodes (21): ../../../integration/host, ./menulist.scss, svelte/easing, app, ./HealthProgress.svelte, ../common/buttons/BottomButtonWrapper.svelte, ../common/buttons/ButtonContainer.svelte, ../common/buttons/IconTextButton.svelte (+13 more)
+Cohesion: 0.07
+Nodes (25): MixinPowderSnowBlock, blockedByShield(), boxedDistanceTo(), cameraDistance(), cameraDistanceSq(), doesCollideAt(), getActualHealth(), getBoundingBoxAt() (+17 more)
 
 ### Community 26 - "Community 26"
 Cohesion: 0.08
 Nodes (7): ClientCommonPacketListenerImpl, MixinClientPacketListener, MixinCommonNetworkHandler, Limit, ModuleAntiExploit, PostPacketTrigger, Trigger
 
 ### Community 27 - "Community 27"
-Cohesion: 0.08
-Nodes (24): MixinPowderSnowBlock, blockedByShield(), boxedDistanceTo(), cameraDistance(), cameraDistanceSq(), doesCollideAt(), getActualHealth(), getBoundingBoxAt() (+16 more)
-
-### Community 28 - "Community 28"
 Cohesion: 0.11
 Nodes (11): AngleYawTargetPositionFactory, BaseYawTargetPositionFactory, CenterTargetPositionFactory, DiagonalYawTargetPositionFactory, EdgePointTargetPositionFactory, FaceTargetPositionFactory, NearestRotationTargetPositionFactory, PositionFactoryDebug (+3 more)
 
-### Community 29 - "Community 29"
-Cohesion: 0.07
-Nodes (18): Animated, Circle, Feet, Ghost, GlowingCircle, Gui, Health, HeightMode (+10 more)
-
-### Community 30 - "Community 30"
+### Community 28 - "Community 28"
 Cohesion: 0.08
 Nodes (15): CommandBind, buildCommand(), commandFactory(), addParam(), bind(), BindAction, Modifier, renderText() (+7 more)
 
-### Community 31 - "Community 31"
+### Community 29 - "Community 29"
 Cohesion: 0.1
 Nodes (5): AuthenticationApi, addAuth(), MarketplaceApi, MarketplaceParams, UserApi
 
-### Community 32 - "Community 32"
-Cohesion: 0.07
-Nodes (11): getAllLocalStorage(), getLocalStorage(), getFonts(), getToggleShaderInfo(), getWorlds(), LevelRequest, toJson(), OpenAiApi (+3 more)
-
-### Community 33 - "Community 33"
+### Community 30 - "Community 30"
 Cohesion: 0.07
 Nodes (3): MixinLivingEntity, MixinEntity, ModuleElytraRecast
 
-### Community 34 - "Community 34"
-Cohesion: 0.08
-Nodes (13): Chain, Click, CloseScreen, Creative, InventoryAction, performFillSlot(), performMergeStack(), performPickup() (+5 more)
+### Community 31 - "Community 31"
+Cohesion: 0.07
+Nodes (17): Animated, Circle, Feet, Ghost, GlowingCircle, Gui, Health, HeightMode (+9 more)
 
-### Community 35 - "Community 35"
+### Community 32 - "Community 32"
 Cohesion: 0.1
 Nodes (14): Angles, EquipOffset, FriendsOptions, HatsMode, Radiuses, TorusAngles, TorusQuad, HatFlowerSettings (+6 more)
 
+### Community 33 - "Community 33"
+Cohesion: 0.08
+Nodes (13): Chain, Click, CloseScreen, Creative, InventoryAction, performFillSlot(), performMergeStack(), performPickup() (+5 more)
+
+### Community 34 - "Community 34"
+Cohesion: 0.11
+Nodes (4): begin(), CommandBuilder, Value, toTextureProperty()
+
+### Community 35 - "Community 35"
+Cohesion: 0.09
+Nodes (7): CriticalsJump, DirectionalInput, SpeedAntiCornerBump, SpeedPreventDeadlyJump, AsyncLoadingText(), get(), AsyncLoadingTextTest
+
 ### Community 36 - "Community 36"
-Cohesion: 0.13
-Nodes (7): fromPoints(), Line, LineSegment, LineTest, fromPoints(), Ray, assertVec3Equals()
-
-### Community 37 - "Community 37"
-Cohesion: 0.12
-Nodes (14): svelte/animate, ../../../integration/events, ../../../../integration/text_measurement, ../../../../integration/util, ../../../integration/ws, ../../../../util/color_utils, keys, valueColor (+6 more)
-
-### Community 38 - "Community 38"
-Cohesion: 0.17
-Nodes (19): ../../../integration/rest, ../altmanager/altmanager_store, clone, secondary, ./ArmorStatus.svelte, ./CrackedAccountDirectLoginTab.svelte, ../common/buttons/IconButton.svelte, ../CircleLoader.svelte (+11 more)
-
-### Community 39 - "Community 39"
 Cohesion: 0.07
 Nodes (5): Component, MixinSignText, DelegatedComponent, MixinMutableComponent, TextList
 
-### Community 40 - "Community 40"
+### Community 37 - "Community 37"
 Cohesion: 0.1
 Nodes (20): addDefaultPrefixIfMissing(), block(), buildKeySegmentQuery(), configs(), countSegments(), formatSuggestion(), fromRegistry(), KeySegmentQuery (+12 more)
 
-### Community 41 - "Community 41"
+### Community 38 - "Community 38"
+Cohesion: 0.08
+Nodes (10): getFonts(), getToggleShaderInfo(), getWorlds(), LevelRequest, toJson(), OpenAiApi, jsonArray(), JsonArrayBuilder (+2 more)
+
+### Community 39 - "Community 39"
+Cohesion: 0.17
+Nodes (22): drawLegacy2DMarker(), drawLegacy2DRects(), drawCircle(), drawCircleOutline(), drawCustomMesh(), drawCustomMeshTextured(), drawGradientCircle(), drawGradientCircleQuad() (+14 more)
+
+### Community 40 - "Community 40"
 Cohesion: 0.09
-Nodes (13): anotherBedPartDirection(), canBeReplacedWith(), doPlacement(), getBlock(), handleActionsOnAccept(), isBlastResistant(), isBlockAtPosition(), isFallDamageBlocking() (+5 more)
+Nodes (17): add(), average(), fma(), isNormalized(), lengthSqr(), move(), multiply(), normalizeIfNeeded() (+9 more)
+
+### Community 41 - "Community 41"
+Cohesion: 0.11
+Nodes (12): Cancelled, Error, Final, Init, Loading, retrying(), RetryingJob, State (+4 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.07
@@ -1364,1247 +1379,1343 @@ Cohesion: 0.11
 Nodes (4): AbstractBlockLocationTracker, BlockPos2State, FullMutableEntry, State2BlockPos
 
 ### Community 44 - "Community 44"
-Cohesion: 0.11
-Nodes (12): Cancelled, Error, Final, Init, Loading, retrying(), RetryingJob, State (+4 more)
+Cohesion: 0.12
+Nodes (14): switchAction(), triggerArrowAnimation(), ../common/header/notification_store, ../../../util/utils, svelte/easing, ../../clickgui/setting/bind/BindDisplay.svelte, ./Category.svelte, ../common/buttons/IconButton.svelte (+6 more)
 
 ### Community 45 - "Community 45"
-Cohesion: 0.09
-Nodes (15): add(), average(), fma(), isNormalized(), lengthSqr(), multiply(), normalizeIfNeeded(), plus() (+7 more)
+Cohesion: 0.08
+Nodes (16): Barrel, BoxMode, BrewingStand, Chest, ChestType, Dispenser, EnderChest, EntityBox (+8 more)
 
 ### Community 46 - "Community 46"
+Cohesion: 0.11
+Nodes (7): fromRotationVec(), lookingAt(), Rotation, DebugCombatTrainerRecorder, FailRotationProcessor, PolynomialProjectileAngleCalculator, ScaffoldBreezilyTechnique
+
+### Community 47 - "Community 47"
 Cohesion: 0.08
 Nodes (10): repeat(), InvalidPositionExploit, PositionMode, PaperCompletion1204Exploit, ModuleHitFX, Particle, ImmediateMode, DoubleClickPattern (+2 more)
 
-### Community 47 - "Community 47"
-Cohesion: 0.09
-Nodes (11): findEntityInCrosshair(), isLookingAtEntity(), clip(), hasLineOfSight(), traceFromPlayer(), traceFromPoint(), BuiltinParticle, Physical (+3 more)
-
 ### Community 48 - "Community 48"
 Cohesion: 0.08
-Nodes (23): fromClientPlayer(), fromOtherPlayer(), SimulatedPlayerInput, DeathEvent, HealthUpdateEvent, PlayerAfterJumpEvent, PlayerFluidCollisionCheckEvent, PlayerInteractedItemEvent (+15 more)
+Nodes (8): Bundle1214Exploit, ArmorItemSlot, HotbarItemSlot, InventoryItemSlot, itemCount(), ItemSlot, OffHandSlot, Type
 
 ### Community 49 - "Community 49"
+Cohesion: 0.19
+Nodes (16): ../../../integration/rest, ../altmanager/altmanager_store, secondary, ./ArmorStatus.svelte, ./CrackedAccountDirectLoginTab.svelte, ../CircleLoader.svelte, ../common/modal/Modal.svelte, ../common/setting/ButtonSetting.svelte (+8 more)
+
+### Community 50 - "Community 50"
+Cohesion: 0.07
+Nodes (26): 1. Module System, 2. Event System, 3. Config / ValueGroup System, 4. CEF Integration (browser GUI), 5. Mixin System, 6. Script Engine, Architecture Overview, Build & Dev (+18 more)
+
+### Community 51 - "Community 51"
 Cohesion: 0.14
 Nodes (20): accept(), charAt(), chars(), codePoints(), contains(), copy(), getString(), getStyle() (+12 more)
 
-### Community 50 - "Community 50"
-Cohesion: 0.11
-Nodes (7): begin(), CommandBuilder, begin(), ParameterBuilder, excludeProvidedLibs(), move(), scaleMut()
-
-### Community 51 - "Community 51"
-Cohesion: 0.2
-Nodes (5): DisjointSet, KeyedAabb, mergeIntersectingAabbsSweep(), unionIntersectingInBucket(), AabbMergeUtilTest
+### Community 52 - "Community 52"
+Cohesion: 0.14
+Nodes (17): RotationWithVector, BestRotationTracker, Block, canSeeBox(), checkCurrentRotation(), Collider, considerSpot(), findClosestPointOnBlockInLineWithCrystal() (+9 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.1
-Nodes (7): buildVertices(), pipeline(), BlurEffectRenderer, LazyRenderTargetHolder, Allocation, GuiCircleLutAtlas, MixinGuiRenderer
+Nodes (11): AutoFarmVisualizer, Blocks, CurrentTarget, Path, Box, KillAuraNotifyWhenFail, Sound, ColorMode (+3 more)
 
 ### Community 54 - "Community 54"
-Cohesion: 0.13
-Nodes (5): AlignedFace, AlignedFaceTest, Vec3, getFace(), BoxExtensionsTest
+Cohesion: 0.1
+Nodes (7): buildVertices(), pipeline(), BlurEffectRenderer, LazyRenderTargetHolder, Allocation, GuiCircleLutAtlas, MixinGuiRenderer
 
 ### Community 55 - "Community 55"
 Cohesion: 0.09
-Nodes (9): warning(), handlePacket(), DisablerGrimSpectate, ScriptModule, BaseSpeed, ModuleVehicleControl, Rehook, SprintSpeed (+1 more)
+Nodes (10): canBeReplacedWith(), doPlacement(), getBlock(), handleActionsOnAccept(), isBlastResistant(), isBlockAtPosition(), isFallDamageBlocking(), searchBlocksInCuboid() (+2 more)
 
 ### Community 56 - "Community 56"
-Cohesion: 0.11
-Nodes (8): byCommand(), byModule(), chat(), clickablePath(), copyable(), onClick(), onHover(), CommandClientThemeSubcommand
+Cohesion: 0.2
+Nodes (5): DisjointSet, KeyedAabb, mergeIntersectingAabbsSweep(), unionIntersectingInBucket(), AabbMergeUtilTest
 
 ### Community 57 - "Community 57"
+Cohesion: 0.18
+Nodes (17): ../../../integration/host, ./menulist.scss, clone, app, ../common/buttons/BottomButtonWrapper.svelte, ../common/buttons/ButtonContainer.svelte, ../common/buttons/IconTextButton.svelte, ../common/Menu.svelte (+9 more)
+
+### Community 58 - "Community 58"
 Cohesion: 0.13
 Nodes (7): EventHookRegistry, findIdEqual(), insertAt(), removeAt(), EventHookRegistryTest, TestEvent, TestEventListener
 
-### Community 58 - "Community 58"
+### Community 59 - "Community 59"
 Cohesion: 0.08
 Nodes (24): AllowAutoJumpEvent, CancelBlockBreakingEvent, ChatReceiveEvent, ChatSendEvent, ChatType, DisconnectEvent, GameRenderTaskQueueEvent, GameTickEvent (+16 more)
 
-### Community 59 - "Community 59"
+### Community 60 - "Community 60"
+Cohesion: 0.09
+Nodes (9): warning(), handlePacket(), DisablerGrimSpectate, ScriptModule, BaseSpeed, ModuleVehicleControl, Rehook, SprintSpeed (+1 more)
+
+### Community 61 - "Community 61"
 Cohesion: 0.11
 Nodes (11): PointProcessorDelay, PointProcessorLazy, ModuleKillAura, RaycastMode, DebuggedGeometry, DebuggedKey, debugGeometry(), debugParameter() (+3 more)
 
-### Community 60 - "Community 60"
+### Community 62 - "Community 62"
 Cohesion: 0.12
 Nodes (8): BlockChangeSubscriber, BlockUpdate, ChunkLoad, ChunkScanner, ChunkSectionUpdate, ChunkUnload, NewSubscriber, UpdateRequest
 
-### Community 61 - "Community 61"
-Cohesion: 0.08
-Nodes (9): ArrowItemFacet, BlockItemFacet, BowItemFacet, CrossbowItemFacet, FoodItemFacet, ItemFacet, ShieldItemFacet, SpearItemFacet (+1 more)
-
-### Community 62 - "Community 62"
+### Community 63 - "Community 63"
 Cohesion: 0.09
 Nodes (20): ArrayList_1, Class_1, ClassPath_1, createClassLoaderFromJar(), DateTimeFormatter_1, EventKt_1, File_1, findAllClassInfos() (+12 more)
 
-### Community 63 - "Community 63"
-Cohesion: 0.09
-Nodes (15): Barrel, BoxMode, BrewingStand, Chest, ChestType, Dispenser, EnderChest, EntityBox (+7 more)
-
 ### Community 64 - "Community 64"
+Cohesion: 0.09
+Nodes (8): AutoQueueActionUseItem, AutoArmorSaveArmor, AutoFirework, FireworkUseMode, waitSeconds(), waitTicks(), NotebotEngine, AutoQueueGommeDuels
+
+### Community 65 - "Community 65"
 Cohesion: 0.16
 Nodes (9): AxochatClient, ClientChatStateChange, C2SBanUserPacket, C2SLoginJWTPacket, C2SLoginMojangPacket, C2SMessagePacket, C2SPrivateMessagePacket, C2SRequestMojangInfoPacket (+1 more)
 
-### Community 65 - "Community 65"
+### Community 66 - "Community 66"
+Cohesion: 0.09
+Nodes (12): CustomCreativeModeTabs, ItemStack, canMerge(), createSplashPotion(), getBlock(), getOrNull(), isFullBlock(), isMergeable() (+4 more)
+
+### Community 67 - "Community 67"
 Cohesion: 0.1
 Nodes (10): BlockChangeInfo, BlockChangeIntent, BlockIntentProvider, IntentTiming, InteractWithBlock, PlaceBlock, IgnitionIntentData, IgnitionTrapPlanner (+2 more)
 
-### Community 67 - "Community 67"
+### Community 68 - "Community 68"
+Cohesion: 0.22
+Nodes (9): placeInstant(), placeInstantOnBlockUpdate(), PositionFactoryConfiguration, BlockOffsetOptions, BlockPlacementTargetFindingOptions, FaceHandlingOptions, findBestBlockPlacementTarget(), PlayerLocationOnPlacement (+1 more)
+
+### Community 69 - "Community 69"
 Cohesion: 0.11
 Nodes (6): File, Mode, ModelChoice, ModuleSkinChanger, Online, PlayerSkinApi
 
-### Community 68 - "Community 68"
-Cohesion: 0.16
-Nodes (15): RotationWithVector, BestRotationTracker, canSeeBox(), checkCurrentRotation(), Collider, considerSpot(), findClosestPointOnBlockInLineWithCrystal(), Outline (+7 more)
-
-### Community 69 - "Community 69"
+### Community 70 - "Community 70"
 Cohesion: 0.19
 Nodes (7): dijkstraShortestPath(), aStarShortestPath(), QueueEntry, reconstructPath(), ShortestPath, WeightedEdge, GraphSearchTest
 
-### Community 70 - "Community 70"
-Cohesion: 0.09
-Nodes (12): ModuleJumpEffect, entity(), GenericColorMode, GenericDistanceHSBColorMode, GenericEntityHealthColorMode, GenericRainbowColorMode, GenericStaticColorMode, MapColorMode (+4 more)
-
 ### Community 71 - "Community 71"
-Cohesion: 0.1
-Nodes (7): MixinInventory, MixinAbstractClientPlayer, MixinExperienceOrbAccessor, InventoryAddition, MixinItem, MixinItemStack, Player
-
-### Community 72 - "Community 72"
-Cohesion: 0.11
-Nodes (4): MixinPlayerTabOverlay, Friend, FriendManager, Name
+Cohesion: 0.18
+Nodes (16): MinimapHudComponent, copyPosePooled(), drawBlitOnCurrentLayer(), drawCircle(), drawCustomElement(), drawGlyphOnCurrentLayer(), drawHorizontalLine(), drawLines() (+8 more)
 
 ### Community 73 - "Community 73"
-Cohesion: 0.13
-Nodes (7): openChat(), MixinDisconnectedScreen, MixinLevelLoadingScreen, MixinScreen, Axis, Builder, CurveValue
+Cohesion: 0.18
+Nodes (8): addFinite(), BoxIntersectionInterval, inOpenInterval(), LinearGeometry3, NearestPointResult, ParameterDomain, sampleOpenInterval(), sortAndUnique()
 
 ### Community 74 - "Community 74"
+Cohesion: 0.14
+Nodes (13): interactBlock(), interactBlockLikeVanilla(), interactEntity(), interactEntityLikeVanilla(), shouldSwingHand(), StrictInteractionResult, StrictInteractionSource, useItem() (+5 more)
+
+### Community 76 - "Community 76"
 Cohesion: 0.13
 Nodes (7): ConsiderInventory, DynamicSelectMode, ModuleAutoTool, RequireNearBed, SilkTouchHandler, StaticSelectMode, ToolSelectorMode
 
-### Community 75 - "Community 75"
+### Community 77 - "Community 77"
 Cohesion: 0.12
 Nodes (7): blockCount(), ModuleScaffold, RotationTimingMode, SameYMode, ScaffoldRotationValueGroup, SimulatePlacementAttempts, ScaffoldBlockItemSelection
 
-### Community 76 - "Community 76"
-Cohesion: 0.23
-Nodes (9): placeInstant(), placeInstantOnBlockUpdate(), PositionFactoryConfiguration, BlockOffsetOptions, BlockPlacementTargetFindingOptions, FaceHandlingOptions, findBestBlockPlacementTarget(), PlayerLocationOnPlacement (+1 more)
-
-### Community 77 - "Community 77"
+### Community 78 - "Community 78"
 Cohesion: 0.12
 Nodes (15): ComparatorChain, compareByCondition(), AimMode, BlockPlacementTarget, BlockTargetingMode, BlockTargetPlan, compareBy(), findBestTargetPlanForTargetPosition() (+7 more)
 
-### Community 78 - "Community 78"
+### Community 79 - "Community 79"
 Cohesion: 0.1
 Nodes (5): deleteAccount(), generateName(), getAccounts(), formatAvatarUrl(), SessionSerializer
 
-### Community 79 - "Community 79"
-Cohesion: 0.1
-Nodes (4): RotationsValueGroup, RotationTarget, ScriptRotationUtil, ClientModule
-
 ### Community 81 - "Community 81"
-Cohesion: 0.18
-Nodes (4): ModuleAutoShop, CoroutineTicker, tickConditional(), tickUntil()
+Cohesion: 0.11
+Nodes (4): MixinPlayerTabOverlay, Friend, FriendManager, Name
 
 ### Community 82 - "Community 82"
 Cohesion: 0.12
-Nodes (9): Mode, ModuleBacktrack, PauseOnHurtTime, BlinkEspBox, BlinkEspData, BlinkEspMode, BlinkEspModel, BlinkEspNone (+1 more)
+Nodes (6): MixinRenderLayer, MixinLivingEntityRenderer, LoggedOffPlayer, ModuleLogoffSpot, ModuleTrueSight, Sight
+
+### Community 83 - "Community 83"
+Cohesion: 0.18
+Nodes (4): ModuleAutoShop, CoroutineTicker, tickConditional(), tickUntil()
 
 ### Community 84 - "Community 84"
-Cohesion: 0.15
-Nodes (4): AccountManager, AccountManagerAdditionResultEvent, AccountManagerLoginResultEvent, AccountManagerRemovalResultEvent
+Cohesion: 0.13
+Nodes (5): load(), Origin, Theme, Background, ThemeMetadata
+
+### Community 85 - "Community 85"
+Cohesion: 0.12
+Nodes (9): Mode, ModuleBacktrack, PauseOnHurtTime, BlinkEspBox, BlinkEspData, BlinkEspMode, BlinkEspModel, BlinkEspNone (+1 more)
 
 ### Community 86 - "Community 86"
-Cohesion: 0.12
-Nodes (6): ModuleItemChams, putVec4(), DistanceFadeUniformValueGroup, asRefreshable(), RefreshableFloatState, RefreshableIntState
+Cohesion: 0.11
+Nodes (9): clip(), hasLineOfSight(), traceFromPlayer(), traceFromPoint(), BuiltinParticle, Physical, update(), ScaffoldNormalTechnique (+1 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.11
-Nodes (6): AutoQueueActionUseItem, AutoArmorSaveArmor, waitSeconds(), waitTicks(), NotebotEngine, AutoQueueGommeDuels
+Nodes (10): buildVertices(), buildVertices(), EspBoxMode, MixinScreenEffectRenderer, drawBox(), drawBoxSide(), drawBoxSides(), addBoxFaces() (+2 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.12
-Nodes (12): AdaptiveRange, EdgeCheck, InputMode, ModuleTargetStrafe, MotionMode, Planner, Requirements, reset() (+4 more)
+Cohesion: 0.14
+Nodes (14): EntityTargetClassification, EntityTargetingInfo, findEnemies(), findEnemy(), getEntitiesBoxInRange(), getEntitiesInCuboid(), isInteresting(), shouldAttack() (+6 more)
 
 ### Community 89 - "Community 89"
 Cohesion: 0.15
-Nodes (11): asPlainText(), asText(), asTextContent(), colored(), ColoredChar, joinToText(), textLoadingBar(), textOf() (+3 more)
+Nodes (7): isArmorItem(), actualTierItem(), autoShopItemTier(), generalTiersName(), getAllTierItems(), hasBetterTierItem(), ConditionCalculator
+
+### Community 90 - "Community 90"
+Cohesion: 0.15
+Nodes (4): AccountManager, AccountManagerAdditionResultEvent, AccountManagerLoginResultEvent, AccountManagerRemovalResultEvent
 
 ### Community 91 - "Community 91"
-Cohesion: 0.13
-Nodes (9): MixinMinecraftClient, hideSensitiveAddress(), MixinConnectScreen, getCurrentProxy(), asLanguage(), Auto, Literal, of() (+1 more)
-
-### Community 92 - "Community 92"
 Cohesion: 0.12
-Nodes (4): CustomSharedMinecraftScreen, CustomStandaloneMinecraftScreen, ModuleClickGui, Snapping
+Nodes (12): AdaptiveRange, EdgeCheck, InputMode, ModuleTargetStrafe, MotionMode, Planner, Requirements, reset() (+4 more)
 
 ### Community 93 - "Community 93"
-Cohesion: 0.18
-Nodes (5): ChangeOnAtlas, CharCacheData, DynamicFontCacheManager, asLong(), GlyphIdentifier
+Cohesion: 0.1
+Nodes (19): DeathEvent, HealthUpdateEvent, PlayerAfterJumpEvent, PlayerFluidCollisionCheckEvent, PlayerInteractedItemEvent, PlayerInteractItemEvent, PlayerJumpEvent, PlayerMoveEvent (+11 more)
 
 ### Community 94 - "Community 94"
-Cohesion: 0.23
-Nodes (3): DynamicAtlasAllocator, DynamicAtlasAllocatorTest, assertNotNull()
+Cohesion: 0.12
+Nodes (5): MixinKeyboardInput, NullableBypass, Behaviour, ModuleInventoryMove, MixinClientInput
 
 ### Community 95 - "Community 95"
 Cohesion: 0.13
-Nodes (4): ExemptContext, invoke(), PointInsideBox, PointTracker
+Nodes (7): MixinMinecraftClient, hideSensitiveAddress(), MixinConnectScreen, MixinDisconnectedScreen, MixinLevelLoadingScreen, getCurrentProxy(), MixinScreen
 
 ### Community 96 - "Community 96"
+Cohesion: 0.11
+Nodes (8): ScriptInteractionUtil, attackEntity(), EntityTag, EntityTaggingManager, AttackEntityEvent, EntityHealthUpdateEvent, EntityMarginEvent, TagEntityEvent
+
+### Community 97 - "Community 97"
+Cohesion: 0.13
+Nodes (9): Use, HttpClient, HttpException, HttpMethod, MediaTypes, toFile(), extractTo(), extractZip() (+1 more)
+
+### Community 98 - "Community 98"
 Cohesion: 0.13
 Nodes (12): isLoggingIn, EventMap, SpaceSeperatedNamesChangeEvent, getModuleSettings(), alwaysListeners, listen(), listenAlways(), listeners (+4 more)
 
-### Community 97 - "Community 97"
-Cohesion: 0.16
-Nodes (7): MappedCharacter, ModuleNameProtect, ReplaceFriendNames, ReplaceOthers, sanitizeForeignInput(), WrappedOrderedText, MixinFont
-
 ### Community 99 - "Community 99"
-Cohesion: 0.13
-Nodes (5): CrystalAuraPlaceTargetFactory, CandidateCache, PlacementCondition, PlacementContext, PlacementPositionCandidate
+Cohesion: 0.12
+Nodes (4): CustomSharedMinecraftScreen, CustomStandaloneMinecraftScreen, ModuleClickGui, Snapping
 
 ### Community 100 - "Community 100"
-Cohesion: 0.13
-Nodes (6): ItemCategoryConstraintGroup, ItemConstraintInfo, ItemFunctionCategoryConstraintGroup, ItemNumberConstraintGroup, AmountConstraintProvider, ModuleInventoryCleaner
+Cohesion: 0.15
+Nodes (10): asPlainText(), asText(), asTextContent(), colored(), ColoredChar, joinToText(), textLoadingBar(), toText() (+2 more)
+
+### Community 101 - "Community 101"
+Cohesion: 0.18
+Nodes (5): ChangeOnAtlas, CharCacheData, DynamicFontCacheManager, asLong(), GlyphIdentifier
 
 ### Community 102 - "Community 102"
-Cohesion: 0.16
-Nodes (4): PickupFilter, TimedPickupTracker, TrackedPos, TimedPickupTrackerTest
+Cohesion: 0.11
+Nodes (3): ModuleAutoBow, MixinMultiPlayerGameMode, ClientBlockBreakTrigger
 
 ### Community 103 - "Community 103"
-Cohesion: 0.12
-Nodes (9): ByItem, ByName, CheckScreenHandlerTypeValueGroup, CheckScreenTitleValueGroup, ContainerTitle, InventoryConstraints, InventoryRequirements, PlayerInventoryConstraints (+1 more)
+Cohesion: 0.11
+Nodes (5): MixinAbstractClientPlayer, MixinExperienceOrbAccessor, MixinItem, MixinItemStack, Player
 
 ### Community 104 - "Community 104"
-Cohesion: 0.12
-Nodes (7): BlockTracker, Indicator, IndicatorColors, ModuleProtectionZones, ProtectionColors, Radius, Renderer
+Cohesion: 0.13
+Nodes (4): ExemptContext, invoke(), PointInsideBox, PointTracker
 
 ### Community 105 - "Community 105"
-Cohesion: 0.16
-Nodes (9): switchAction(), triggerArrowAnimation(), ../common/header/notification_store, ../../../util/utils, ../../clickgui/setting/bind/BindDisplay.svelte, ../bind/BindSetting.svelte, ./AnimatedLogo.svelte, ../common/menulist/MenuListItem.svelte (+1 more)
-
-### Community 106 - "Community 106"
-Cohesion: 0.16
-Nodes (6): BookBuilder, File, GenerationMode, ModuleBookBot, Random, Sign
+Cohesion: 0.23
+Nodes (3): DynamicAtlasAllocator, DynamicAtlasAllocatorTest, assertNotNull()
 
 ### Community 107 - "Community 107"
-Cohesion: 0.21
-Nodes (6): CachedPlayerSimulation, PlayerSimulationCache, SimulatedPlayerCache, SimulatedPlayerSnapshot, check(), connect()
+Cohesion: 0.14
+Nodes (7): byCommand(), byModule(), chat(), clickablePath(), copyable(), onClick(), onHover()
 
 ### Community 108 - "Community 108"
 Cohesion: 0.16
-Nodes (6): fromRotationVec(), lookingAt(), Rotation, interpolateCurrentRotation(), FailRotationProcessor, PolynomialProjectileAngleCalculator
+Nodes (4): IncludeConfiguration, CommandLocalConfig, textOf(), OverlayTrainingListener
 
 ### Community 109 - "Community 109"
 Cohesion: 0.13
-Nodes (9): SpeedIntave14Fast, SpeedMatrix7, SpeedBHopBase, SpeedLegitHop, SpeedPiercingAttack, SpeedSpeedYPort, SpeedVerusB3882, SpeedVulcan286 (+1 more)
+Nodes (5): CrystalAuraPlaceTargetFactory, CandidateCache, PlacementCondition, PlacementContext, PlacementPositionCandidate
 
 ### Community 110 - "Community 110"
-Cohesion: 0.15
-Nodes (6): BlockTracker, BoxMode, Mode, ModuleBlockESP, OutlineMode, TrackedState
+Cohesion: 0.13
+Nodes (6): ItemCategoryConstraintGroup, ItemConstraintInfo, ItemFunctionCategoryConstraintGroup, ItemNumberConstraintGroup, AmountConstraintProvider, ModuleInventoryCleaner
 
 ### Community 111 - "Community 111"
 Cohesion: 0.16
-Nodes (4): ModuleStrongholdFinder, PendingThrow, PortalBlockType, TrackedEye
+Nodes (7): MappedCharacter, ModuleNameProtect, ReplaceFriendNames, ReplaceOthers, sanitizeForeignInput(), WrappedOrderedText, MixinFont
 
 ### Community 112 - "Community 112"
-Cohesion: 0.21
+Cohesion: 0.2
 Nodes (4): BlockHitResult, NoWebPlaceWater, Pickup, UseAction
 
-### Community 113 - "Community 113"
+### Community 114 - "Community 114"
+Cohesion: 0.12
+Nodes (7): BlockTracker, Indicator, IndicatorColors, ModuleProtectionZones, ProtectionColors, Radius, Renderer
+
+### Community 115 - "Community 115"
+Cohesion: 0.18
+Nodes (4): CurrentBlockData, InOutBlockData, PlacementRenderHandler, renderEnvironmentForWorld()
+
+### Community 116 - "Community 116"
+Cohesion: 0.16
+Nodes (4): PickupFilter, TimedPickupTracker, TrackedPos, TimedPickupTrackerTest
+
+### Community 117 - "Community 117"
+Cohesion: 0.12
+Nodes (9): ByItem, ByName, CheckScreenHandlerTypeValueGroup, CheckScreenTitleValueGroup, ContainerTitle, InventoryConstraints, InventoryRequirements, PlayerInventoryConstraints (+1 more)
+
+### Community 118 - "Community 118"
+Cohesion: 0.12
+Nodes (5): CrystalAuraTriggerer, CrystalDestroyTrigger, CrystalSpawnTrigger, EntityMoveTrigger, ExplodeSoundTrigger
+
+### Community 119 - "Community 119"
+Cohesion: 0.23
+Nodes (3): vector2f(), CurveUtil, OnOutOfBounds
+
+### Community 120 - "Community 120"
+Cohesion: 0.21
+Nodes (6): CachedPlayerSimulation, PlayerSimulationCache, SimulatedPlayerCache, SimulatedPlayerSnapshot, check(), connect()
+
+### Community 122 - "Community 122"
+Cohesion: 0.12
+Nodes (3): RotationsValueGroup, ScriptRotationUtil, ClientModule
+
+### Community 123 - "Community 123"
+Cohesion: 0.13
+Nodes (9): SpeedIntave14Fast, SpeedMatrix7, SpeedBHopBase, SpeedLegitHop, SpeedPiercingAttack, SpeedSpeedYPort, SpeedVerusB3882, SpeedVulcan286 (+1 more)
+
+### Community 124 - "Community 124"
+Cohesion: 0.15
+Nodes (6): BlockTracker, BoxMode, Mode, ModuleBlockESP, OutlineMode, TrackedState
+
+### Community 125 - "Community 125"
+Cohesion: 0.16
+Nodes (6): BookBuilder, File, GenerationMode, ModuleBookBot, Random, Sign
+
+### Community 126 - "Community 126"
+Cohesion: 0.16
+Nodes (4): ModuleStrongholdFinder, PendingThrow, PortalBlockType, TrackedEye
+
+### Community 127 - "Community 127"
 Cohesion: 0.16
 Nodes (5): planPlacementAtPos(), NoFallMLG, PickupWater, ModuleExtinguish, Pickup
 
-### Community 115 - "Community 115"
+### Community 128 - "Community 128"
 Cohesion: 0.12
 Nodes (3): BrowserViewport, CommandClientBrowserSubcommand, InternetExplorerScreen
 
-### Community 117 - "Community 117"
+### Community 129 - "Community 129"
 Cohesion: 0.24
 Nodes (4): GuiOverlapRearranger, GuiOverlapRearrangerTest, TestRearrangeable, BoundingBox2f
 
-### Community 118 - "Community 118"
+### Community 130 - "Community 130"
 Cohesion: 0.21
 Nodes (3): Hole, Type, HoleTracker
 
-### Community 119 - "Community 119"
+### Community 131 - "Community 131"
+Cohesion: 0.14
+Nodes (6): InventoryCleanupPlan, InventorySwap, ItemAndComponents, CleanupPlanGenerator, CleanupPlanPlacementTemplate, ItemCategorization
+
+### Community 132 - "Community 132"
 Cohesion: 0.18
 Nodes (9): asHolderComparator(), block(), defaultBlockState(), PreferAverageHardBlocks, PreferFavourableBlocks, PreferFullCubeBlocks, PreferSolidBlocks, PreferStackSize (+1 more)
 
-### Community 120 - "Community 120"
-Cohesion: 0.2
-Nodes (3): CurrentBlockData, InOutBlockData, PlacementRenderHandler
+### Community 133 - "Community 133"
+Cohesion: 0.17
+Nodes (3): AlignedFace, AlignedFaceTest, getFace()
 
-### Community 121 - "Community 121"
+### Community 134 - "Community 134"
 Cohesion: 0.18
 Nodes (6): ProjectileTargetPointFinder, ArrowVisibilityPredicate, findVisiblePointFromVirtualEye(), getRotationMatricesForVec(), projectPointsOnBox(), PointFindingKtTest
 
-### Community 124 - "Community 124"
-Cohesion: 0.13
-Nodes (7): Cheatbreaker, Custom, Geyser, Lunar, SpooferClient, SpoofMode, Vanilla
-
-### Community 125 - "Community 125"
-Cohesion: 0.19
-Nodes (13): EntityTargetClassification, EntityTargetingInfo, findEnemies(), findEnemy(), getEntitiesBoxInRange(), getEntitiesInCuboid(), isInteresting(), shouldAttack() (+5 more)
-
-### Community 126 - "Community 126"
-Cohesion: 0.13
-Nodes (3): DroneControlScreen, EntityFocusData, ModuleDroneControl
-
-### Community 127 - "Community 127"
-Cohesion: 0.13
-Nodes (4): Head, Pot, FlyFireball, useHotbarSlotOrOffhand()
-
-### Community 128 - "Community 128"
-Cohesion: 0.23
-Nodes (5): DestroyAction, DestroyerTarget, FuckerEntrance, ModuleFucker, SurroundingInfo
-
-### Community 129 - "Community 129"
-Cohesion: 0.12
-Nodes (4): MixinUtils, getProtocol(), unsafeGetProtocolVersions(), unsafeSelectProtocolVersion()
-
-### Community 130 - "Community 130"
-Cohesion: 0.17
-Nodes (10): readNbsData(), readNbsHeader(), readString(), readUByte(), InstrumentNote, NbsData, NbsHeader, NbsNoteBlock (+2 more)
-
-### Community 131 - "Community 131"
-Cohesion: 0.28
-Nodes (14): copyPosePooled(), drawBlitOnCurrentLayer(), drawCircle(), drawGlyphOnCurrentLayer(), drawHorizontalLine(), drawLines(), drawQuad(), drawQuadXYWH() (+6 more)
-
-### Community 132 - "Community 132"
-Cohesion: 0.17
-Nodes (5): isLadderClimbState(), LadderClimbStateTest, Avoid, AvoidMode, ModuleAvoidHazards
-
-### Community 133 - "Community 133"
-Cohesion: 0.17
-Nodes (5): build(), Image, Minecraft, Shader, ThemeBackground
-
-### Community 134 - "Community 134"
-Cohesion: 0.15
-Nodes (5): bindTexture(), bindTextures(), createRenderPass(), newRenderPass(), unbindTexture()
-
 ### Community 135 - "Community 135"
-Cohesion: 0.17
-Nodes (6): Color, isSelfBedChoices(), IsSelfBedMode, Manual, None, SpawnLocation
+Cohesion: 0.21
+Nodes (8): DodgePlan, DodgePlanner, DodgePlannerConfig, findOptimalDodgePosition(), getDangerZoneBorders(), getWalkableDistance(), planEvasion(), rayTraceCollidingBlocks()
 
 ### Community 136 - "Community 136"
 Cohesion: 0.12
 Nodes (7): sendPacketSilently(), BlinkPacketEvent, PacketEvent, PipelineEvent, TransferOrigin, FakePlayer, MovingFakePlayer
 
 ### Community 137 - "Community 137"
-Cohesion: 0.15
-Nodes (5): InventoryCleanupPlan, InventorySwap, ItemAndComponents, CleanupPlanGenerator, CleanupPlanPlacementTemplate
+Cohesion: 0.13
+Nodes (7): Cheatbreaker, Custom, Geyser, Lunar, SpooferClient, SpoofMode, Vanilla
 
 ### Community 138 - "Community 138"
-Cohesion: 0.17
-Nodes (5): Box, KillAuraNotifyWhenFail, Sound, renderEnvironmentForWorld(), WireframePlayer
+Cohesion: 0.16
+Nodes (7): ClientCdn, ModuleAntiStaff, asLanguage(), Auto, Literal, of(), TranslateLanguage
 
 ### Community 139 - "Community 139"
+Cohesion: 0.17
+Nodes (4): openChat(), Axis, Builder, CurveValue
+
+### Community 140 - "Community 140"
+Cohesion: 0.13
+Nodes (4): Head, Pot, FlyFireball, useHotbarSlotOrOffhand()
+
+### Community 142 - "Community 142"
+Cohesion: 0.17
+Nodes (3): CommandClientAppearanceSubcommand, CommandClientIntegrationSubcommand, CommandClientLanguageSubcommand
+
+### Community 143 - "Community 143"
+Cohesion: 0.17
+Nodes (10): readNbsData(), readNbsHeader(), readString(), readUByte(), InstrumentNote, NbsData, NbsHeader, NbsNoteBlock (+2 more)
+
+### Community 144 - "Community 144"
+Cohesion: 0.23
+Nodes (5): DestroyAction, DestroyerTarget, FuckerEntrance, ModuleFucker, SurroundingInfo
+
+### Community 145 - "Community 145"
+Cohesion: 0.17
+Nodes (5): isLadderClimbState(), LadderClimbStateTest, Avoid, AvoidMode, ModuleAvoidHazards
+
+### Community 146 - "Community 146"
+Cohesion: 0.17
+Nodes (5): build(), Image, Minecraft, Shader, ThemeBackground
+
+### Community 147 - "Community 147"
+Cohesion: 0.15
+Nodes (5): bindTexture(), bindTextures(), createRenderPass(), newRenderPass(), unbindTexture()
+
+### Community 148 - "Community 148"
+Cohesion: 0.12
+Nodes (4): MixinUtils, getProtocol(), unsafeGetProtocolVersions(), unsafeSelectProtocolVersion()
+
+### Community 150 - "Community 150"
+Cohesion: 0.16
+Nodes (8): getDodgeMovementWithoutAngleChange(), guessInput(), collectCollisionBoundingBoxes(), findEdgeCollision(), getDegreesRelativeToView(), getDirectionalInputForDegrees(), AutoAction, NavigationBaseValueGroup
+
+### Community 151 - "Community 151"
 Cohesion: 0.12
 Nodes (15): Building for Production, code:bash (npm install), code:bash (npm run dev), code:block3 (.client theme set <live-url>), code:block4 (.client integration menu), code:bash (npm run build), code:block6 (.client theme browse), code:block7 (.client theme set <your-theme-name>) (+7 more)
 
-### Community 140 - "Community 140"
-Cohesion: 0.17
-Nodes (6): AppendPrefix, AppendSuffix, Copy, Features, MessageModifier, ModuleBetterChat
-
-### Community 143 - "Community 143"
-Cohesion: 0.14
-Nodes (5): RotationDelta, LinearAngleSmooth, SigmoidAngleSmooth, Vec2, copy()
-
-### Community 144 - "Community 144"
-Cohesion: 0.15
-Nodes (6): buildVertices(), PoseReusableGuiElementRenderState, GuiElementRenderState, MinimapHudComponent, drawCustomElement(), VerticesSetupHandler
-
-### Community 146 - "Community 146"
-Cohesion: 0.18
-Nodes (6): File, MessageConverterMode, MessageProvider, ModuleSpammer, Setting, SpammerPattern
-
-### Community 147 - "Community 147"
-Cohesion: 0.22
-Nodes (3): LegacyTextSanitizer, SanitizedLegacyText, LegacyTextSanitizerTest
-
-### Community 148 - "Community 148"
+### Community 152 - "Community 152"
 Cohesion: 0.18
 Nodes (8): clickBlockWithSlot(), MovePacketType, send1_11_1OpenInventory(), sendCloseInventory(), sendHeldItemChange(), sendStartSprinting(), sendStopSprinting(), sendSwapItemWithOffhand()
 
-### Community 149 - "Community 149"
-Cohesion: 0.14
-Nodes (3): adjustRotation(), RotationManager, NullableBypass
-
-### Community 150 - "Community 150"
-Cohesion: 0.17
-Nodes (4): ArmorEvaluation, ArmorPiece, constructArmorPiece(), VirtualItemSlot
-
-### Community 151 - "Community 151"
+### Community 154 - "Community 154"
 Cohesion: 0.14
 Nodes (7): hashParams, isStatic, portParam, GroupedModules, Module, getHashParams(), ../../../integration/util.js
 
-### Community 152 - "Community 152"
+### Community 155 - "Community 155"
+Cohesion: 0.18
+Nodes (6): File, MessageConverterMode, MessageProvider, ModuleSpammer, Setting, SpammerPattern
+
+### Community 156 - "Community 156"
+Cohesion: 0.17
+Nodes (6): BottomTop, ModuleBlockIn, Normal, Order, Random, TopBottom
+
+### Community 158 - "Community 158"
+Cohesion: 0.22
+Nodes (3): LegacyTextSanitizer, SanitizedLegacyText, LegacyTextSanitizerTest
+
+### Community 159 - "Community 159"
+Cohesion: 0.13
+Nodes (14): Account Manager (features/account/), code:block1 (graphify query <ClassName>), CosmeticService, EvilBounce — Dependency Danger Zones, Graphify Cross-Reference, InteropFunctionRegistry, MarketplaceManager, ModuleClickTp (+6 more)
+
+### Community 160 - "Community 160"
+Cohesion: 0.13
+Nodes (14): CEF Theme Approach, code:json ("name": "LiquidBounce" → "EvilBounce"), code:properties (archives_base_name=evilbounce   # was: liquidbounce), Color Rules, EvilBounce — Rebrand Rules, Favicon / Browser Tab Icon, gradle.properties, In-Game Logo / Splash (+6 more)
+
+### Community 161 - "Community 161"
+Cohesion: 0.16
+Nodes (3): adjustRotation(), RotationManager, RotationTarget
+
+### Community 162 - "Community 162"
 Cohesion: 0.15
 Nodes (8): Age, AlwaysInRadius, Armor, ArmorPredicate, CharacterValidator, CustomAntiBotMode, CustomConditions, InvalidGround
 
-### Community 153 - "Community 153"
-Cohesion: 0.14
-Nodes (5): MixinBlockEntityRenderDispatcher, StorageScanner, ModuleTNTTimer, ShowTimer, TimeUnit
-
-### Community 155 - "Community 155"
-Cohesion: 0.14
-Nodes (5): ItemListValue, ListValue, MutableListValue, NamedItem, RegistryListValue
-
-### Community 156 - "Community 156"
-Cohesion: 0.19
-Nodes (3): NotebotPlayStageHandler, NotebotTestStageHandler, NotebotTuneStageHandler
-
-### Community 157 - "Community 157"
+### Community 163 - "Community 163"
 Cohesion: 0.16
-Nodes (7): Use, HttpClient, HttpException, HttpMethod, MediaTypes, toFile(), readJson()
+Nodes (3): ModuleItemChams, putVec4(), DistanceFadeUniformValueGroup
 
-### Community 158 - "Community 158"
-Cohesion: 0.21
-Nodes (3): Mode, ModeValueGroup, NoneMode
-
-### Community 159 - "Community 159"
-Cohesion: 0.21
-Nodes (5): CombatContext, CombatTarget, KillAuraFightBot, LeaderFollower, TargetFilter
-
-### Community 160 - "Community 160"
+### Community 164 - "Community 164"
 Cohesion: 0.15
 Nodes (6): Fast, ModuleFastExp, Normal, NoWaste, Rotate, ThrowMode
 
-### Community 161 - "Community 161"
+### Community 165 - "Community 165"
+Cohesion: 0.21
+Nodes (3): Mode, ModeValueGroup, NoneMode
+
+### Community 169 - "Community 169"
 Cohesion: 0.14
 Nodes (11): AccurateLatency, Filter, Highlight, HighlightColored, Limits, ModuleBetterTab, Others, PlayerFilter (+3 more)
 
-### Community 162 - "Community 162"
-Cohesion: 0.19
-Nodes (6): BottomTop, ModuleBlockIn, Normal, Order, Random, TopBottom
+### Community 170 - "Community 170"
+Cohesion: 0.21
+Nodes (5): CombatContext, CombatTarget, KillAuraFightBot, LeaderFollower, TargetFilter
 
-### Community 163 - "Community 163"
+### Community 171 - "Community 171"
 Cohesion: 0.18
 Nodes (3): Features, HoleContext, ModuleHoleFiller
 
-### Community 168 - "Community 168"
+### Community 173 - "Community 173"
+Cohesion: 0.2
+Nodes (3): schedule(), ScriptAsyncUtil, ScriptContextProvider
+
+### Community 176 - "Community 176"
 Cohesion: 0.18
 Nodes (5): ItemMoveMode, ModuleChestStealer, OnFull, SelectionMode, findNonEmptySlotsInInventory()
 
-### Community 169 - "Community 169"
+### Community 177 - "Community 177"
+Cohesion: 0.14
+Nodes (7): ArmorPiece, constructArmorPiece(), ItemCategory, ItemFunction, ItemSortChoice, ItemType, VirtualItemSlot
+
+### Community 178 - "Community 178"
 Cohesion: 0.19
 Nodes (3): AutoBowAutoShootFeature, SimulatedArrow, Arrow
 
-### Community 170 - "Community 170"
+### Community 179 - "Community 179"
 Cohesion: 0.22
 Nodes (3): findFunctionMinimumByBisect(), BisectTest, CydhranianProjectileAngleCalculator
 
-### Community 171 - "Community 171"
+### Community 180 - "Community 180"
 Cohesion: 0.19
 Nodes (7): centerOnSide(), getNearestPoint(), getNearestPointOnSide(), iterateBlockPos(), iterateBottomLayerBlockPos(), pointOnSide(), samplePointOnSide()
 
-### Community 175 - "Community 175"
-Cohesion: 0.23
-Nodes (3): CommandConfig, AsyncLoadingText(), AsyncLoadingTextTest
-
-### Community 176 - "Community 176"
-Cohesion: 0.15
-Nodes (5): HudComponent, HudComponentFactory, JsonHudComponentFactory, NativeHudComponentFactory, WebHudComponent
-
-### Community 177 - "Community 177"
-Cohesion: 0.44
-Nodes (4): appendLine(), appendQuickFixInstructionStep(), ErrorHandler, fatal()
-
-### Community 178 - "Community 178"
-Cohesion: 0.15
-Nodes (7): GlobalSettingsRichPresence, LargeImageConfig, PresenceActivityType, PresenceAsset, PresenceStatusDisplayType, RichPresencePart, SmallImageConfig
-
-### Community 179 - "Community 179"
-Cohesion: 0.22
-Nodes (6): AccelerationAngleSmooth, AccelerationError, ConstantError, DynamicAccel, ErrorProvider, SigmoidDeceleration
-
-### Community 180 - "Community 180"
-Cohesion: 0.27
-Nodes (6): actualTierItem(), autoShopItemTier(), generalTiersName(), getAllTierItems(), hasBetterTierItem(), ConditionCalculator
+### Community 181 - "Community 181"
+Cohesion: 0.19
+Nodes (3): NotebotPlayStageHandler, NotebotTestStageHandler, NotebotTuneStageHandler
 
 ### Community 182 - "Community 182"
-Cohesion: 0.17
-Nodes (8): AnimationMode, EquipOffset, Ignores, MainHand, ModuleAnimations, OffHand, OneSevenAnimation, PushdownAnimation
+Cohesion: 0.14
+Nodes (13): Combat, EvilBounce — Module Keep / Nuke List, Exploit (kept), KEEP — Do Not Touch, Misc (all kept), Movement, NUKE — Full Removal Required, Online Services (not modules, but must be removed) (+5 more)
 
 ### Community 183 - "Community 183"
-Cohesion: 0.17
-Nodes (5): BedStateRenderState, Custom, FilterMode, ModuleBedPlates, Predefined
-
-### Community 184 - "Community 184"
-Cohesion: 0.17
-Nodes (3): BoxBased, BoxBasedEspRenderState, EspMode
-
-### Community 185 - "Community 185"
 Cohesion: 0.15
 Nodes (6): EntityValueGroup, ExtraElement, OutOfBounds, Placement, Renderer, TextureValueGroup
 
-### Community 186 - "Community 186"
-Cohesion: 0.19
-Nodes (4): ActiveServerList, getByAddress(), getServers(), postConnect()
-
-### Community 187 - "Community 187"
-Cohesion: 0.22
-Nodes (3): AutoPlaceCrops, AutoUseBoneMeal, ModuleAutoFarm
+### Community 184 - "Community 184"
+Cohesion: 0.24
+Nodes (6): backgroundChoices(), BackgroundMode, ItemStackListRenderer, Rect, SingleItemStackRenderer, Texture
 
 ### Community 188 - "Community 188"
 Cohesion: 0.15
-Nodes (12): BlockAttackEvent, BlockChangeEvent, BlockShapeEvent, BlockSlipperinessMultiplierEvent, BlockVelocityMultiplierEvent, ChunkDeltaUpdateEvent, ChunkLoadEvent, ChunkUnloadEvent (+4 more)
+Nodes (5): HudComponent, HudComponentFactory, JsonHudComponentFactory, NativeHudComponentFactory, WebHudComponent
 
 ### Community 189 - "Community 189"
-Cohesion: 0.19
-Nodes (4): MixinKeyboardInput, Behaviour, ModuleInventoryMove, MixinClientInput
+Cohesion: 0.15
+Nodes (7): GlobalSettingsRichPresence, LargeImageConfig, PresenceActivityType, PresenceAsset, PresenceStatusDisplayType, RichPresencePart, SmallImageConfig
 
 ### Community 190 - "Community 190"
-Cohesion: 0.17
-Nodes (4): ArmorItemSlot, ItemSlot, OffHandSlot, Type
+Cohesion: 0.22
+Nodes (3): AutoPlaceCrops, AutoUseBoneMeal, ModuleAutoFarm
 
-### Community 191 - "Community 191"
+### Community 192 - "Community 192"
+Cohesion: 0.17
+Nodes (8): AnimationMode, EquipOffset, Ignores, MainHand, ModuleAnimations, OffHand, OneSevenAnimation, PushdownAnimation
+
+### Community 193 - "Community 193"
+Cohesion: 0.17
+Nodes (5): BedStateRenderState, Custom, FilterMode, ModuleBedPlates, Predefined
+
+### Community 194 - "Community 194"
+Cohesion: 0.22
+Nodes (6): AccelerationAngleSmooth, AccelerationError, ConstantError, DynamicAccel, ErrorProvider, SigmoidDeceleration
+
+### Community 195 - "Community 195"
+Cohesion: 0.17
+Nodes (3): BoxBased, BoxBasedEspRenderState, EspMode
+
+### Community 196 - "Community 196"
+Cohesion: 0.44
+Nodes (4): appendLine(), appendQuickFixInstructionStep(), ErrorHandler, fatal()
+
+### Community 198 - "Community 198"
+Cohesion: 0.19
+Nodes (4): ActiveServerList, getByAddress(), getServers(), postConnect()
+
+### Community 201 - "Community 201"
+Cohesion: 0.15
+Nodes (12): BlockAttackEvent, BlockChangeEvent, BlockShapeEvent, BlockSlipperinessMultiplierEvent, BlockVelocityMultiplierEvent, ChunkDeltaUpdateEvent, ChunkLoadEvent, ChunkUnloadEvent (+4 more)
+
+### Community 202 - "Community 202"
 Cohesion: 0.17
 Nodes (4): findItemsInContainer(), getSlotsInContainer(), hasInventorySpace(), ContainerItemSlot
 
-### Community 192 - "Community 192"
-Cohesion: 0.24
-Nodes (4): fromParams(), fromPoints(), NormalizedPlane, NormalizedPlaneTest
-
-### Community 193 - "Community 193"
-Cohesion: 0.21
-Nodes (4): GuiMessageAddition, GuiMessageLineAddition, MixinGuiMessage, MixinGuiMessageLineVisible
-
-### Community 194 - "Community 194"
-Cohesion: 0.21
-Nodes (3): Tag, ChatComponentAddition, MixinChatComponent
-
-### Community 196 - "Community 196"
-Cohesion: 0.18
-Nodes (5): EntityTag, EntityTaggingManager, EntityHealthUpdateEvent, EntityMarginEvent, TagEntityEvent
-
-### Community 197 - "Community 197"
-Cohesion: 0.17
-Nodes (5): MixinRenderLayer, LoggedOffPlayer, ModuleLogoffSpot, ModuleTrueSight, Sight
-
-### Community 198 - "Community 198"
-Cohesion: 0.17
-Nodes (4): Vec2fAdapter, Vec3dAdapter, Vec3iAdapter, Vector2fcAdapter
-
-### Community 201 - "Community 201"
-Cohesion: 0.18
-Nodes (3): NetherPortal, Phase, PortalMode
-
-### Community 203 - "Community 203"
-Cohesion: 0.17
-Nodes (11): Clear, ClientPlayerDataEvent, ClientPlayerEffectEvent, ClientPlayerInventoryEvent, Fade, FpsChangeEvent, FpsLimitEvent, Subtitle (+3 more)
-
 ### Community 204 - "Community 204"
-Cohesion: 0.2
-Nodes (6): CancelPrevious, DiscardLatest, onCancellation(), Parallel, Suspend, SuspendHandlerBehavior
-
-### Community 205 - "Community 205"
-Cohesion: 0.17
-Nodes (3): MixinRenderSystem, MixinGlRenderPass, RenderingDebug
-
-### Community 206 - "Community 206"
-Cohesion: 0.17
-Nodes (11): ModuleDerp, PitchMode, PitchOffset, PitchRandom, PitchStatic, YawJitter, YawMode, YawOffset (+3 more)
-
-### Community 208 - "Community 208"
-Cohesion: 0.17
-Nodes (7): BaseSpeed, FlyAirWalk, FlyCreative, FlyExplosion, FlyJetpack, FlyVanilla, SprintSpeed
-
-### Community 209 - "Community 209"
-Cohesion: 0.21
-Nodes (6): AutoEat, Estimator, FoodEstimationData, ModuleSmartEat, RenderSlot, SilentOffhand
-
-### Community 210 - "Community 210"
-Cohesion: 0.17
-Nodes (8): Block, Crystal, Gapple, Mode, ModuleOffhand, Strength, SwitchMode, WhileHoldingSword
-
-### Community 211 - "Community 211"
-Cohesion: 0.2
-Nodes (4): ConstantFov, Custom, FovMode, ModuleNoFov
-
-### Community 213 - "Community 213"
 Cohesion: 0.3
 Nodes (3): EnchantCell, EnchantColumn, NametagEnchantmentRenderer
 
-### Community 214 - "Community 214"
+### Community 205 - "Community 205"
 Cohesion: 0.2
-Nodes (5): CriticalsSelectionMode, ModuleCriticals, StopSprintingMode, VisualsValueGroup, WhenSprinting
+Nodes (6): CancelPrevious, DiscardLatest, onCancellation(), Parallel, Suspend, SuspendHandlerBehavior
 
-### Community 217 - "Community 217"
+### Community 206 - "Community 206"
+Cohesion: 0.18
+Nodes (3): MixinEntityRenderState, EntityRenderStateAddition, MixinDeadmau5EarsLayer
+
+### Community 207 - "Community 207"
+Cohesion: 0.26
+Nodes (3): withScope(), CosmeticService, ModuleMobOwners
+
+### Community 208 - "Community 208"
+Cohesion: 0.21
+Nodes (3): Tag, ChatComponentAddition, MixinChatComponent
+
+### Community 209 - "Community 209"
+Cohesion: 0.21
+Nodes (4): GuiMessageAddition, GuiMessageLineAddition, MixinGuiMessage, MixinGuiMessageLineVisible
+
+### Community 210 - "Community 210"
+Cohesion: 0.21
+Nodes (5): AppendPrefix, AppendSuffix, Features, MessageModifier, ModuleBetterChat
+
+### Community 211 - "Community 211"
+Cohesion: 0.17
+Nodes (11): Clear, ClientPlayerDataEvent, ClientPlayerEffectEvent, ClientPlayerInventoryEvent, Fade, FpsChangeEvent, FpsLimitEvent, Subtitle (+3 more)
+
+### Community 212 - "Community 212"
 Cohesion: 0.3
 Nodes (11): fixNaN(), fromPlayer(), fromScoreboard(), getCrosshairData(), getPlayerData(), getPlayerInventory(), nullableResponse(), PlayerData (+3 more)
 
+### Community 213 - "Community 213"
+Cohesion: 0.17
+Nodes (11): ModuleDerp, PitchMode, PitchOffset, PitchRandom, PitchStatic, YawJitter, YawMode, YawOffset (+3 more)
+
+### Community 215 - "Community 215"
+Cohesion: 0.17
+Nodes (7): BaseSpeed, FlyAirWalk, FlyCreative, FlyExplosion, FlyJetpack, FlyVanilla, SprintSpeed
+
+### Community 216 - "Community 216"
+Cohesion: 0.21
+Nodes (6): AutoEat, Estimator, FoodEstimationData, ModuleSmartEat, RenderSlot, SilentOffhand
+
+### Community 217 - "Community 217"
+Cohesion: 0.17
+Nodes (8): Block, Crystal, Gapple, Mode, ModuleOffhand, Strength, SwitchMode, WhileHoldingSword
+
 ### Community 218 - "Community 218"
-Cohesion: 0.24
-Nodes (10): CharacterGenerationInfo, createCharacterCreationInfo(), createGlyphFromGenerationInfo(), FontGlyph, GlyphAtlasLocation, GlyphLayoutInfo, GlyphPage, GlyphRenderInfo (+2 more)
+Cohesion: 0.17
+Nodes (3): MixinRenderSystem, MixinGlRenderPass, RenderingDebug
 
 ### Community 220 - "Community 220"
 Cohesion: 0.2
-Nodes (4): raycast(), MixinBlockGetter, TweakedMethods, MixinSodiumLightDataAccessMixin
+Nodes (4): ConstantFov, Custom, FovMode, ModuleNoFov
 
 ### Community 221 - "Community 221"
-Cohesion: 0.23
-Nodes (5): ModuleBreadcrumbs, RenderData, TemporaryValueGroup, Trail, TrailPart
+Cohesion: 0.24
+Nodes (5): Color, isSelfBedChoices(), Manual, None, SpawnLocation
 
 ### Community 222 - "Community 222"
-Cohesion: 0.21
-Nodes (6): canMerge(), getBlock(), getOrNull(), isFullBlock(), isMergeable(), toRegistryEntryOrNull()
-
-### Community 223 - "Community 223"
-Cohesion: 0.21
-Nodes (6): ../clickgui/clickgui_store, expanded, highlightModule, mod, selected, ./ClickGui.svelte
+Cohesion: 0.17
+Nodes (8): MixinClientLevelData, CustomLightmap, FogColorOverride, ModuleCustomAmbience, Precipitation, SkyColor, TimeType, WeatherType
 
 ### Community 224 - "Community 224"
 Cohesion: 0.2
-Nodes (3): MixinFriendlyByteBuf, MixinServerboundUseItemOnPacket, MixinServerboundUseItemPacket
+Nodes (5): CriticalsSelectionMode, ModuleCriticals, StopSprintingMode, VisualsValueGroup, WhenSprinting
 
-### Community 225 - "Community 225"
+### Community 227 - "Community 227"
+Cohesion: 0.23
+Nodes (5): ModuleBreadcrumbs, RenderData, TemporaryValueGroup, Trail, TrailPart
+
+### Community 228 - "Community 228"
+Cohesion: 0.18
+Nodes (6): entity(), GenericColorMode, GenericDistanceHSBColorMode, GenericEntityHealthColorMode, GenericStaticColorMode, MapColorMode
+
+### Community 229 - "Community 229"
+Cohesion: 0.24
+Nodes (10): CharacterGenerationInfo, createCharacterCreationInfo(), createGlyphFromGenerationInfo(), FontGlyph, GlyphAtlasLocation, GlyphLayoutInfo, GlyphPage, GlyphRenderInfo (+2 more)
+
+### Community 231 - "Community 231"
 Cohesion: 0.2
-Nodes (3): MixinEntityRenderState, EntityRenderStateAddition, MixinDeadmau5EarsLayer
+Nodes (4): raycast(), MixinBlockGetter, TweakedMethods, MixinSodiumLightDataAccessMixin
 
-### Community 226 - "Community 226"
+### Community 232 - "Community 232"
+Cohesion: 0.27
+Nodes (4): fromParams(), fromPoints(), NormalizedPlane, NormalizedPlaneTest
+
+### Community 234 - "Community 234"
 Cohesion: 0.18
 Nodes (7): Border, ContainerItemView, CooldownProgressMode, HighlightClicked, Mode, TextCooldownProgress, Texture
 
-### Community 228 - "Community 228"
+### Community 236 - "Community 236"
+Cohesion: 0.2
+Nodes (3): MixinFriendlyByteBuf, MixinServerboundUseItemOnPacket, MixinServerboundUseItemPacket
+
+### Community 238 - "Community 238"
 Cohesion: 0.2
 Nodes (7): AutoCompletionProvider, Error, ofNullable(), Ok, Parameter, Result, Verificator
 
-### Community 229 - "Community 229"
+### Community 239 - "Community 239"
 Cohesion: 0.2
 Nodes (6): Conditions, ModuleSuperKnockback, OnlyOnMove, Packet, SprintTap, WTap
 
-### Community 232 - "Community 232"
-Cohesion: 0.25
-Nodes (4): BlockMode, flush(), KillAuraAutoBlock, UnblockMode
-
-### Community 233 - "Community 233"
-Cohesion: 0.27
-Nodes (9): interactBlock(), interactBlockLikeVanilla(), interactEntity(), interactEntityLikeVanilla(), shouldSwingHand(), StrictInteractionResult, StrictInteractionSource, useItem() (+1 more)
-
-### Community 234 - "Community 234"
+### Community 243 - "Community 243"
 Cohesion: 0.22
 Nodes (4): Limits, Modes, ModuleAutoPearl, Rotate
 
-### Community 235 - "Community 235"
+### Community 244 - "Community 244"
 Cohesion: 0.18
 Nodes (6): Filter, FilterType, LockMode, ModuleTargetLock, NoLockMode, Temporary
 
-### Community 236 - "Community 236"
+### Community 245 - "Community 245"
 Cohesion: 0.22
 Nodes (4): HealthBasedPotion, Potion, Potions, StatusEffectBasedBuff
 
-### Community 240 - "Community 240"
-Cohesion: 0.22
-Nodes (4): ReadOnlyComponentSerializer, ReadOnlyThemeSerializer, serializeReadOnly(), ValueGroupSerializer
-
-### Community 241 - "Community 241"
+### Community 249 - "Community 249"
 Cohesion: 0.22
 Nodes (4): ClientInteropServer, AuthMiddleware, isAuthenticated(), registerInteropFunctions()
 
-### Community 243 - "Community 243"
-Cohesion: 0.18
-Nodes (3): ModuleSwordBlock, MixinArmedEntityRenderState, MixinAvatarRenderer
+### Community 250 - "Community 250"
+Cohesion: 0.22
+Nodes (4): ReadOnlyComponentSerializer, ReadOnlyThemeSerializer, serializeReadOnly(), ValueGroupSerializer
 
-### Community 244 - "Community 244"
+### Community 252 - "Community 252"
 Cohesion: 0.35
 Nodes (10): asArray(), asBooleanArray(), asByteArray(), asCharArray(), asDoubleArray(), asFloatArray(), asIntArray(), asLongArray() (+2 more)
 
-### Community 246 - "Community 246"
-Cohesion: 0.27
-Nodes (6): AllowRotationChange, AllowTimer, EvadingPacket, HitInfo, Ignore, ModuleAutoDodge
-
-### Community 249 - "Community 249"
+### Community 255 - "Community 255"
 Cohesion: 0.27
 Nodes (4): ArmorComparator, ArmorKitParameters, ArmorParameter, getParametersForSlots()
 
-### Community 251 - "Community 251"
+### Community 256 - "Community 256"
 Cohesion: 0.29
 Nodes (3): HeldItemTrajectoryResolver, TrajectoryDescriptor, TrajectoryShotDescriptor
 
-### Community 252 - "Community 252"
+### Community 257 - "Community 257"
 Cohesion: 0.18
 Nodes (4): Request, RequestHandler, RequestHandlerTest, TestEventListener
 
-### Community 253 - "Community 253"
-Cohesion: 0.18
-Nodes (6): CustomCreativeModeTabs, ItemStack, createSplashPotion(), ExploitsCreativeModeTab, Head, HeadsCreativeModeTab
-
-### Community 256 - "Community 256"
-Cohesion: 0.2
-Nodes (6): bypassNameProtection(), withColor(), MixinStringSplitter, plus(), MixinClientHandshakePacketListenerImplMixin, empty()
-
-### Community 257 - "Community 257"
-Cohesion: 0.29
-Nodes (5): drawCooldownProgress(), drawItemBar(), drawStackCount(), GuiGraphicsAddition, of()
+### Community 258 - "Community 258"
+Cohesion: 0.27
+Nodes (6): AllowRotationChange, AllowTimer, EvadingPacket, HitInfo, Ignore, ModuleAutoDodge
 
 ### Community 259 - "Community 259"
-Cohesion: 0.2
-Nodes (4): ScriptItemUtil, CommandItemGive, CommandItemSkull, createItem()
-
-### Community 261 - "Community 261"
-Cohesion: 0.2
-Nodes (5): asComparator(), blockSortedSetOf(), itemSortedSetOf(), findBlocksEndingWith(), ModuleNoEntityInteract
-
-### Community 264 - "Community 264"
-Cohesion: 0.31
-Nodes (7): wrapContinuationInterceptor(), sequenceHandler(), suspendHandler(), tickHandler(), waitMatches(), waitMatchesWithTimeout(), waitUntilInitialized()
-
-### Community 265 - "Community 265"
-Cohesion: 0.27
-Nodes (3): ModulePacketLogger, OutputTarget, PacketField
-
-### Community 266 - "Community 266"
-Cohesion: 0.24
-Nodes (3): extractTo(), extractZip(), SubscribedItem
-
-### Community 267 - "Community 267"
 Cohesion: 0.22
-Nodes (3): CrystalTracker, RemovedCrystal, SubmoduleSetDead
+Nodes (3): ListValue, StrongholdHypothesis, StrongholdHypothesisGenerator
 
-### Community 268 - "Community 268"
-Cohesion: 0.22
-Nodes (5): Action, Chat, Macro, ModuleMacros, UseItem
-
-### Community 269 - "Community 269"
-Cohesion: 0.24
-Nodes (6): BlocksMC, Hypixel, Instant, Legit, ModuleStep, Vulcan286
-
-### Community 270 - "Community 270"
-Cohesion: 0.2
-Nodes (3): Condition, Conditional, ModuleEagle
-
-### Community 271 - "Community 271"
-Cohesion: 0.2
-Nodes (3): MixinGuiRenderState, joinAll(), UnitCircle
-
-### Community 272 - "Community 272"
-Cohesion: 0.22
-Nodes (5): DisableOn, ExtraLayer, Features, ModuleSurround, Protect
-
-### Community 273 - "Community 273"
-Cohesion: 0.2
-Nodes (3): FloorNukerArea, NukerArea, SphereNukerArea
-
-### Community 276 - "Community 276"
-Cohesion: 0.27
-Nodes (5): getModule(), getModules(), ModuleRequest, toggleModule(), toJsonObject()
-
-### Community 278 - "Community 278"
-Cohesion: 0.22
-Nodes (5): ClientProtocolVersion, selectProtocolVersion(), deleteProtocol(), getProtocols(), putProtocol()
-
-### Community 279 - "Community 279"
-Cohesion: 0.36
-Nodes (9): createBufferedImageWithDimensions(), createGlyphPages(), createGlyphPageWithFittingCharacters(), GlyphPlacementResult, placeCharacters(), renderGlyphPage(), StaticGlyphPage, tryCharacterPlacement() (+1 more)
-
-### Community 280 - "Community 280"
-Cohesion: 0.29
-Nodes (3): FontGlyphPageManager, FontGlyphRegistry, GlyphDescriptor
-
-### Community 285 - "Community 285"
+### Community 260 - "Community 260"
 Cohesion: 0.2
 Nodes (3): ModuleNoPush, NoPushBy, MixinFishingHook
 
-### Community 286 - "Community 286"
-Cohesion: 0.29
-Nodes (4): FallDamage, Health, Safety, Totem
-
-### Community 287 - "Community 287"
+### Community 261 - "Community 261"
 Cohesion: 0.2
 Nodes (3): MixinAvatar, ModuleNoPose, SneakHeights
 
-### Community 294 - "Community 294"
+### Community 262 - "Community 262"
+Cohesion: 0.29
+Nodes (4): FallDamage, Health, Safety, Totem
+
+### Community 263 - "Community 263"
+Cohesion: 0.29
+Nodes (5): drawCooldownProgress(), drawItemBar(), drawStackCount(), GuiGraphicsAddition, of()
+
+### Community 264 - "Community 264"
+Cohesion: 0.2
+Nodes (6): bypassNameProtection(), withColor(), MixinStringSplitter, plus(), MixinClientHandshakePacketListenerImplMixin, empty()
+
+### Community 266 - "Community 266"
+Cohesion: 0.29
+Nodes (3): GrowableMappableRingBuffer, GrowPolicy, of()
+
+### Community 267 - "Community 267"
+Cohesion: 0.2
+Nodes (5): asComparator(), blockSortedSetOf(), itemSortedSetOf(), findBlocksEndingWith(), ModuleNoEntityInteract
+
+### Community 268 - "Community 268"
+Cohesion: 0.2
+Nodes (4): ScriptItemUtil, CommandItemGive, CommandItemSkull, createItem()
+
+### Community 272 - "Community 272"
+Cohesion: 0.22
+Nodes (3): CrystalTracker, RemovedCrystal, SubmoduleSetDead
+
+### Community 275 - "Community 275"
+Cohesion: 0.22
+Nodes (5): Action, Chat, Macro, ModuleMacros, UseItem
+
+### Community 276 - "Community 276"
+Cohesion: 0.24
+Nodes (6): BlocksMC, Hypixel, Instant, Legit, ModuleStep, Vulcan286
+
+### Community 277 - "Community 277"
+Cohesion: 0.2
+Nodes (3): Condition, Conditional, ModuleEagle
+
+### Community 279 - "Community 279"
+Cohesion: 0.2
+Nodes (3): MixinGuiRenderState, joinAll(), UnitCircle
+
+### Community 280 - "Community 280"
+Cohesion: 0.27
+Nodes (3): ModulePacketLogger, OutputTarget, PacketField
+
+### Community 281 - "Community 281"
+Cohesion: 0.22
+Nodes (5): DisableOn, ExtraLayer, Features, ModuleSurround, Protect
+
+### Community 282 - "Community 282"
+Cohesion: 0.2
+Nodes (3): FloorNukerArea, NukerArea, SphereNukerArea
+
+### Community 286 - "Community 286"
+Cohesion: 0.27
+Nodes (5): getModule(), getModules(), ModuleRequest, toggleModule(), toJsonObject()
+
+### Community 287 - "Community 287"
+Cohesion: 0.22
+Nodes (5): ClientProtocolVersion, selectProtocolVersion(), deleteProtocol(), getProtocols(), putProtocol()
+
+### Community 288 - "Community 288"
+Cohesion: 0.29
+Nodes (3): FontGlyphPageManager, FontGlyphRegistry, GlyphDescriptor
+
+### Community 289 - "Community 289"
+Cohesion: 0.36
+Nodes (9): createBufferedImageWithDimensions(), createGlyphPages(), createGlyphPageWithFittingCharacters(), GlyphPlacementResult, placeCharacters(), renderGlyphPage(), StaticGlyphPage, tryCharacterPlacement() (+1 more)
+
+### Community 293 - "Community 293"
 Cohesion: 0.2
 Nodes (3): BoxMode, GlowingPlane, ModuleHoleESP
 
-### Community 296 - "Community 296"
+### Community 299 - "Community 299"
 Cohesion: 0.2
 Nodes (9): description, gridSize, highlightModuleName, maxPanelZIndex, os, scaleFactor, showGrid, snappingEnabled (+1 more)
 
-### Community 297 - "Community 297"
-Cohesion: 0.22
-Nodes (4): ClickAction, ClickMode, ModuleItemScroller, MouseClick
+### Community 300 - "Community 300"
+Cohesion: 0.2
+Nodes (9): Additional libraries, Contributing, Credits & License, Imprint, Issues, License, Mixins, Setting up a Workspace (+1 more)
 
 ### Community 301 - "Community 301"
+Cohesion: 0.2
+Nodes (9): code:block1 (CLAUDE.md                                    ← auto-loaded e), Design Spec: EvilBounce Agent Documentation, Files Created, Goal, Key Design Decisions, Problem, Scope of EvilBounce (summary), Solution Implemented (+1 more)
+
+### Community 308 - "Community 308"
+Cohesion: 0.25
+Nodes (4): buildVertices(), PoseReusableGuiElementRenderState, GuiElementRenderState, VerticesSetupHandler
+
+### Community 309 - "Community 309"
 Cohesion: 0.25
 Nodes (3): fastCos(), fastSin(), toDouble()
 
-### Community 303 - "Community 303"
-Cohesion: 0.22
-Nodes (4): AlertReason, ModuleFlagCheck, Render, ResetFlags
-
-### Community 306 - "Community 306"
-Cohesion: 0.28
-Nodes (4): EventListener, EventListenerNotListeningException, EventListenerRunningContinuationInterceptor, removeEventListenerScope()
-
-### Community 309 - "Community 309"
-Cohesion: 0.22
-Nodes (8): FramebufferResizeEvent, KeyboardCharEvent, KeyboardKeyEvent, MouseButtonEvent, MouseCursorEvent, MouseScrollEvent, MouseScrollInHotbarEvent, WindowResizeEvent
-
-### Community 311 - "Community 311"
-Cohesion: 0.33
-Nodes (4): Bezier, InterpolationAngleSmooth, normalizeDirectionChange(), Sigmoid
-
-### Community 312 - "Community 312"
-Cohesion: 0.25
-Nodes (3): GravityType, ModuleAutoShoot, ThrowableType
-
-### Community 313 - "Community 313"
+### Community 310 - "Community 310"
 Cohesion: 0.22
 Nodes (4): AttackButton, ModuleAutoClicker, ObjectiveType, UseButton
 
-### Community 314 - "Community 314"
-Cohesion: 0.25
-Nodes (3): KillAuraFailSwing, KillAuraClicker, KillAuraClickerItemCooldown
+### Community 311 - "Community 311"
+Cohesion: 0.22
+Nodes (4): ClickAction, ClickMode, ModuleItemScroller, MouseClick
+
+### Community 312 - "Community 312"
+Cohesion: 0.22
+Nodes (4): ItemListValue, MutableListValue, NamedItem, RegistryListValue
+
+### Community 315 - "Community 315"
+Cohesion: 0.22
+Nodes (8): FramebufferResizeEvent, KeyboardCharEvent, KeyboardKeyEvent, MouseButtonEvent, MouseCursorEvent, MouseScrollEvent, MouseScrollInHotbarEvent, WindowResizeEvent
 
 ### Community 317 - "Community 317"
-Cohesion: 0.31
-Nodes (5): ColoringInfo, getEntropySourceFrom(), MappingData, NameProtectMappings, ReplacementInstructions
+Cohesion: 0.22
+Nodes (4): AlertReason, ModuleFlagCheck, Render, ResetFlags
 
 ### Community 318 - "Community 318"
-Cohesion: 0.22
-Nodes (5): ModuleSpeed, NotCondition, OnlyInCombat, OnlyOnPotionEffect, PotionEffectMode
-
-### Community 326 - "Community 326"
 Cohesion: 0.25
-Nodes (3): getMarketplaceItem(), getMarketplaceItems(), subscribeMarketplaceItem()
+Nodes (3): GravityType, ModuleAutoShoot, ThrowableType
 
-### Community 329 - "Community 329"
+### Community 319 - "Community 319"
 Cohesion: 0.25
 Nodes (3): SilentHotbar, SilentHotbarState, SelectHotbarSlotSilentlyEvent
 
-### Community 330 - "Community 330"
+### Community 321 - "Community 321"
+Cohesion: 0.31
+Nodes (5): ColoringInfo, getEntropySourceFrom(), MappingData, NameProtectMappings, ReplacementInstructions
+
+### Community 322 - "Community 322"
+Cohesion: 0.22
+Nodes (5): ModuleSpeed, NotCondition, OnlyInCombat, OnlyOnPotionEffect, PotionEffectMode
+
+### Community 323 - "Community 323"
+Cohesion: 0.25
+Nodes (3): KillAuraFailSwing, KillAuraClicker, KillAuraClickerItemCooldown
+
+### Community 324 - "Community 324"
+Cohesion: 0.25
+Nodes (5): CameraInteract, CancelOn, CancelTrigger, Navigation, PositionState
+
+### Community 334 - "Community 334"
+Cohesion: 0.25
+Nodes (3): getMarketplaceItem(), getMarketplaceItems(), subscribeMarketplaceItem()
+
+### Community 336 - "Community 336"
 Cohesion: 0.25
 Nodes (4): MinecraftTextProcessor, RecyclingProcessedText, generateObfuscatedChar(), TextProcessor
 
-### Community 332 - "Community 332"
+### Community 338 - "Community 338"
+Cohesion: 0.22
+Nodes (5): Cancel, FloatOffsetGenerator, ModuleFreeze, Queue, Stationary
+
+### Community 341 - "Community 341"
 Cohesion: 0.28
 Nodes (4): isBreakable(), getDestroyProgress(), getDestroySpeed(), MineToolMode
 
-### Community 334 - "Community 334"
+### Community 342 - "Community 342"
 Cohesion: 0.22
 Nodes (4): DummyRangedValueProvider, FloatValueProvider, NoneRangedValueProvider, RangedValueProvider
 
-### Community 335 - "Community 335"
-Cohesion: 0.39
-Nodes (4): EyeMeasurement, PosteriorCandidate, PosteriorSnapshot, StrongholdBayesianEstimator
-
-### Community 336 - "Community 336"
+### Community 343 - "Community 343"
 Cohesion: 0.31
 Nodes (5): constant(), getBestForEntity(), LinearPositionExtrapolation, PlayerSimulationExtrapolation, PositionExtrapolation
 
-### Community 340 - "Community 340"
-Cohesion: 0.31
-Nodes (6): DodgePlannerConfig, findOptimalDodgePosition(), getDangerZoneBorders(), getWalkableDistance(), planEvasion(), rayTraceCollidingBlocks()
-
-### Community 341 - "Community 341"
-Cohesion: 0.33
-Nodes (6): getDodgeMovementWithoutAngleChange(), guessInput(), collectCollisionBoundingBoxes(), findEdgeCollision(), getDegreesRelativeToView(), getDirectionalInputForDegrees()
-
-### Community 343 - "Community 343"
-Cohesion: 0.22
-Nodes (8): Additional libraries, Contributing, Imprint, Issues, License, Mixins, Setting up a Workspace, Stats
-
-### Community 345 - "Community 345"
-Cohesion: 0.29
-Nodes (3): attackEntity(), SubmoduleCrystalDestroyer, AttackEntityEvent
-
-### Community 347 - "Community 347"
-Cohesion: 0.36
-Nodes (5): backgroundChoices(), BackgroundMode, Rect, SingleItemStackRenderer, Texture
-
 ### Community 349 - "Community 349"
-Cohesion: 0.25
-Nodes (3): CombatSample, AiAngleSmooth, OutputMultiplier
+Cohesion: 0.22
+Nodes (8): code:block1 (./gradlew compileKotlin), Completed Deletions, Deletion Tracker, Key Reminder, Online Services, Relations, Server-Breaking Exploits, Teleport Cheats
+
+### Community 350 - "Community 350"
+Cohesion: 0.22
+Nodes (8): God Node Dependencies, Key Files, Rebrand Tasks, Relations, Removal Requirement for Online Services, Status: KEEP — Do Not Restructure, System: CEF Browser GUI, What It Is
 
 ### Community 351 - "Community 351"
-Cohesion: 0.54
-Nodes (7): computedOn(), EventHook, handler(), newEventHook(), once(), repeated(), until()
+Cohesion: 0.22
+Nodes (8): AutoConfig Note, code:kotlin (val range by floats("Range", default = 3.0f, min = 1.0f, max), God Nodes, Key Files, Relations, Status: KEEP — Core Infrastructure, System: Config & ValueGroup, What It Is
 
 ### Community 352 - "Community 352"
-Cohesion: 0.25
-Nodes (6): DrawOutlinesEvent, GameRenderEvent, OutlineType, OverlayRenderEvent, ScreenRenderEvent, WorldRenderEvent
+Cohesion: 0.22
+Nodes (8): code:kotlin (val attackHandler = handler<AttackEntityEvent> { event ->), God Node, Important Events for EvilBounce Work, Key Files, Relations, Status: KEEP — Core Infrastructure, System: Event Bus, What It Is
 
-### Community 353 - "Community 353"
-Cohesion: 0.25
-Nodes (4): Context, Factory, Handler, Suspend
-
-### Community 356 - "Community 356"
-Cohesion: 0.25
-Nodes (4): Axis, IgnoreOpened, ModuleAimbot, updateRotation()
-
-### Community 361 - "Community 361"
+### Community 355 - "Community 355"
 Cohesion: 0.29
 Nodes (3): FriendClicker, ModuleMiddleClickAction, Pearl
 
+### Community 360 - "Community 360"
+Cohesion: 0.25
+Nodes (3): Vec3iAdapter, unaryMinus(), Vec3Value
+
+### Community 363 - "Community 363"
+Cohesion: 0.25
+Nodes (6): DrawOutlinesEvent, GameRenderEvent, OutlineType, OverlayRenderEvent, ScreenRenderEvent, WorldRenderEvent
+
 ### Community 364 - "Community 364"
+Cohesion: 0.25
+Nodes (4): Context, Factory, Handler, Suspend
+
+### Community 367 - "Community 367"
+Cohesion: 0.25
+Nodes (3): CombatSample, AiAngleSmooth, OutputMultiplier
+
+### Community 372 - "Community 372"
 Cohesion: 0.25
 Nodes (4): Heypixel, Hypixel, Mode, ReportHelperAutoConfirm
 
-### Community 366 - "Community 366"
+### Community 374 - "Community 374"
 Cohesion: 0.25
 Nodes (4): Legit, ModuleSneak, Switch, Vanilla
 
-### Community 368 - "Community 368"
+### Community 376 - "Community 376"
 Cohesion: 0.29
 Nodes (3): BothEffectsMode, SlownessPotionEffectMode, SpeedPotionEffectMode
 
-### Community 369 - "Community 369"
+### Community 377 - "Community 377"
 Cohesion: 0.25
 Nodes (7): CustomMode, Interaction, ModuleAntiAFK, OldMode, RandomInteraction, Rotate, Swing
 
-### Community 371 - "Community 371"
+### Community 379 - "Community 379"
 Cohesion: 0.25
 Nodes (7): Always, Constant, DistanceMode, FallDistance, Filter, NoFallPacket, Smart
 
-### Community 373 - "Community 373"
+### Community 381 - "Community 381"
 Cohesion: 0.29
 Nodes (4): Colors, ModuleDamageParticles, Particle, TrackMode
 
-### Community 374 - "Community 374"
+### Community 383 - "Community 383"
+Cohesion: 0.25
+Nodes (4): Axis, IgnoreOpened, ModuleAimbot, updateRotation()
+
+### Community 384 - "Community 384"
+Cohesion: 0.32
+Nodes (3): SubmoduleCrystalDestroyer, findEntityInCrosshair(), isLookingAtEntity()
+
+### Community 385 - "Community 385"
 Cohesion: 0.29
 Nodes (5): BoxMode, GlowMode, Legacy2DMode, OutlineMode, ShowArrows
 
-### Community 377 - "Community 377"
+### Community 388 - "Community 388"
 Cohesion: 0.29
 Nodes (4): DoublePlace, ModuleBlockTrap, PlaceAt, PlacePriority
 
-### Community 378 - "Community 378"
+### Community 389 - "Community 389"
 Cohesion: 0.25
 Nodes (5): Boost, Classic, ModuleTimer, Pulse, TimerState
 
-### Community 382 - "Community 382"
+### Community 392 - "Community 392"
 Cohesion: 0.36
 Nodes (4): AbstractFontRenderer, draw(), DrawParameters, process()
 
-### Community 383 - "Community 383"
+### Community 393 - "Community 393"
 Cohesion: 0.29
 Nodes (3): ClientShaders, Fragment, Vertex
 
-### Community 388 - "Community 388"
+### Community 395 - "Community 395"
 Cohesion: 0.25
-Nodes (3): doBreak(), BlockBreakingProgressEvent, NormalMineMode
+Nodes (4): ModuleJumpEffect, ColorUtils, interpolateHue(), shiftHue()
 
-### Community 394 - "Community 394"
-Cohesion: 0.36
-Nodes (3): ItemAmountConstraintProvider, ItemPacker, SatisfactionStatus
-
-### Community 398 - "Community 398"
+### Community 396 - "Community 396"
 Cohesion: 0.43
 Nodes (7): commonDraw(), draw(), drawChar(), drawInternal(), drawLine(), FontRenderer, getStringWidth()
 
 ### Community 401 - "Community 401"
+Cohesion: 0.25
+Nodes (3): doBreak(), BlockBreakingProgressEvent, NormalMineMode
+
+### Community 405 - "Community 405"
+Cohesion: 0.36
+Nodes (3): ItemAmountConstraintProvider, ItemPacker, SatisfactionStatus
+
+### Community 407 - "Community 407"
 Cohesion: 0.29
 Nodes (3): centerOnSide(), iterate(), iterator()
 
-### Community 409 - "Community 409"
-Cohesion: 0.29
-Nodes (3): Failure, Success, TranslationResult
+### Community 411 - "Community 411"
+Cohesion: 0.46
+Nodes (3): PosteriorCandidate, PosteriorSnapshot, StrongholdBayesianEstimator
 
-### Community 418 - "Community 418"
-Cohesion: 0.29
-Nodes (6): S2CErrorPacket, S2CMessagePacket, S2CMojangInfoPacket, S2CNewJWTPacket, S2CPrivateMessagePacket, S2CSuccessPacket
+### Community 412 - "Community 412"
+Cohesion: 0.25
+Nodes (7): Core Systems, Critical Reference, Deletion Tracker, EvilBounce, Graph Stats, Mission, Module Categories
 
-### Community 419 - "Community 419"
+### Community 413 - "Community 413"
+Cohesion: 0.25
+Nodes (7): Critical Rule, How Modules Use Mixins, Key Locations, Relations, Status: KEEP — This IS How the Client Works, System: Mixin Injection Layer, What It Is
+
+### Community 421 - "Community 421"
 Cohesion: 0.38
 Nodes (4): ModuleSafeWalk, OnEdge, OnEdgeMode, Safe
 
-### Community 420 - "Community 420"
-Cohesion: 0.43
-Nodes (5): Credentials, isValidPort(), parse(), Proxy, Type
-
-### Community 421 - "Community 421"
+### Community 427 - "Community 427"
 Cohesion: 0.29
-Nodes (4): ModuleTickBase, TickBaseCall, TickBaseMode, TickData
-
-### Community 423 - "Community 423"
-Cohesion: 0.38
-Nodes (4): CheckedEntity, CrystalAuraDamageOptions, DamageConstellation, RequestingSubmodule
-
-### Community 425 - "Community 425"
-Cohesion: 0.38
-Nodes (3): Delay, ModuleHandDerp, Swing
+Nodes (6): S2CErrorPacket, S2CMessagePacket, S2CMojangInfoPacket, S2CNewJWTPacket, S2CPrivateMessagePacket, S2CSuccessPacket
 
 ### Community 429 - "Community 429"
-Cohesion: 0.38
-Nodes (3): ColorSource, Matches, ModuleTeams
-
-### Community 432 - "Community 432"
 Cohesion: 0.29
-Nodes (3): Instant, ModuleElytraFly, Speed
+Nodes (3): Failure, Success, TranslationResult
 
-### Community 433 - "Community 433"
-Cohesion: 0.33
-Nodes (3): AutoResetOption, ModuleBlink, ResetAction
-
-### Community 434 - "Community 434"
-Cohesion: 0.33
-Nodes (3): Features, InsideOf, ModuleReplenish
-
-### Community 435 - "Community 435"
-Cohesion: 0.29
-Nodes (6): Constant, DistanceMode, Falling, Landing, NoFallPacketJump, Smart
-
-### Community 436 - "Community 436"
-Cohesion: 0.29
-Nodes (4): ClusteredEntitiesRenderState, MergeMode, ModuleItemTags, Shulker
-
-### Community 437 - "Community 437"
-Cohesion: 0.29
-Nodes (3): ByPitch, Static, TiltMode
-
-### Community 439 - "Community 439"
-Cohesion: 0.33
-Nodes (3): Fancy, ModuleClip, Old
-
-### Community 440 - "Community 440"
-Cohesion: 0.33
-Nodes (3): CustomRange, ModuleAirPlace, Preview
-
-### Community 441 - "Community 441"
-Cohesion: 0.29
-Nodes (3): MixinClientIntentionPacket, CustomUuid, SpooferBungeeCord
-
-### Community 445 - "Community 445"
-Cohesion: 0.29
-Nodes (6): BrowserState, Failure, Idle, Loading, Stateless, Success
-
-### Community 448 - "Community 448"
-Cohesion: 0.29
-Nodes (3): NormalRotationMode, NoRotationMode, RotationMode
-
-### Community 450 - "Community 450"
-Cohesion: 0.29
-Nodes (3): LegitNukerMode, Block, raytraceBlockRotation()
-
-### Community 451 - "Community 451"
-Cohesion: 0.43
-Nodes (3): LeastDifferencePreference, leastDifferenceToCurrentRotation(), leastDifferenceToLastPoint()
-
-### Community 452 - "Community 452"
-Cohesion: 0.38
-Nodes (4): refresh(), RenderedEntities, unsubscribe(), update()
-
-### Community 455 - "Community 455"
-Cohesion: 0.29
-Nodes (5): ItemCategorization, ItemCategory, ItemFunction, ItemSortChoice, ItemType
-
-### Community 462 - "Community 462"
-Cohesion: 0.38
-Nodes (3): HatOrbsSettings, HatsOrbs, WaveSettings
-
-### Community 464 - "Community 464"
-Cohesion: 0.48
-Nodes (3): CollisionResult, FallingPlayer, fromPlayer()
-
-### Community 465 - "Community 465"
+### Community 430 - "Community 430"
 Cohesion: 0.43
 Nodes (6): insertPersistentData(), setItem(), updatePersistentData(), getPersistentStorageItems(), setPersistentStorageItems(), PersistentStorageItem
 
+### Community 431 - "Community 431"
+Cohesion: 0.43
+Nodes (5): Credentials, isValidPort(), parse(), Proxy, Type
+
+### Community 433 - "Community 433"
+Cohesion: 0.29
+Nodes (4): ModuleTickBase, TickBaseCall, TickBaseMode, TickData
+
+### Community 434 - "Community 434"
+Cohesion: 0.38
+Nodes (4): CheckedEntity, CrystalAuraDamageOptions, DamageConstellation, RequestingSubmodule
+
+### Community 435 - "Community 435"
+Cohesion: 0.38
+Nodes (3): Delay, ModuleHandDerp, Swing
+
+### Community 436 - "Community 436"
+Cohesion: 0.43
+Nodes (3): LeastDifferencePreference, leastDifferenceToCurrentRotation(), leastDifferenceToLastPoint()
+
+### Community 440 - "Community 440"
+Cohesion: 0.38
+Nodes (3): ColorSource, Matches, ModuleTeams
+
+### Community 443 - "Community 443"
+Cohesion: 0.29
+Nodes (3): Instant, ModuleElytraFly, Speed
+
+### Community 444 - "Community 444"
+Cohesion: 0.33
+Nodes (3): AutoResetOption, ModuleBlink, ResetAction
+
+### Community 445 - "Community 445"
+Cohesion: 0.33
+Nodes (3): Features, InsideOf, ModuleReplenish
+
+### Community 446 - "Community 446"
+Cohesion: 0.29
+Nodes (6): Constant, DistanceMode, Falling, Landing, NoFallPacketJump, Smart
+
+### Community 448 - "Community 448"
+Cohesion: 0.29
+Nodes (4): ClusteredEntitiesRenderState, MergeMode, ModuleItemTags, Shulker
+
+### Community 449 - "Community 449"
+Cohesion: 0.29
+Nodes (3): ByPitch, Static, TiltMode
+
+### Community 451 - "Community 451"
+Cohesion: 0.33
+Nodes (3): Fancy, ModuleClip, Old
+
+### Community 452 - "Community 452"
+Cohesion: 0.29
+Nodes (3): MixinClientIntentionPacket, CustomUuid, SpooferBungeeCord
+
+### Community 455 - "Community 455"
+Cohesion: 0.29
+Nodes (6): BrowserState, Failure, Idle, Loading, Stateless, Success
+
+### Community 457 - "Community 457"
+Cohesion: 0.38
+Nodes (3): HatOrbsSettings, HatsOrbs, WaveSettings
+
+### Community 459 - "Community 459"
+Cohesion: 0.29
+Nodes (3): NormalRotationMode, NoRotationMode, RotationMode
+
+### Community 461 - "Community 461"
+Cohesion: 0.38
+Nodes (4): refresh(), RenderedEntities, unsubscribe(), update()
+
 ### Community 466 - "Community 466"
+Cohesion: 0.48
+Nodes (3): CollisionResult, FallingPlayer, fromPlayer()
+
+### Community 469 - "Community 469"
 Cohesion: 0.29
 Nodes (6): HudArrayListSettings, HudBlockCounterSettings, HudInventoryStatisticsSettings, HudScoreboardSettings, HudTextSettings, HudToggleableConfigurable
 
+### Community 470 - "Community 470"
+Cohesion: 0.29
+Nodes (6): Key Architecture Notes, Module List, Modules: Combat, Relations, REMOVED From Combat, Status: ALL KEPT — Sacred, Do Not Remove
+
+### Community 471 - "Community 471"
+Cohesion: 0.29
+Nodes (6): Disabler Modes (all kept), KEPT, Modules: Exploit, Relations, REMOVED, Status: PARTIAL — See removal list below
+
+### Community 472 - "Community 472"
+Cohesion: 0.29
+Nodes (6): BedBreaker / PacketMine, Module List, Modules: World, Relations, Scaffold Architecture, Status: ALL KEPT
+
+### Community 473 - "Community 473"
+Cohesion: 0.29
+Nodes (6): Color, Files to Change, Logo, Name, Rebrand: LiquidBounce → EvilBounce, Relations
+
+### Community 474 - "Community 474"
+Cohesion: 0.29
+Nodes (6): Dependencies, Key Location, Relations, Status: KEEP, System: DeepLearn (ML Aimbot), What It Is
+
 ### Community 481 - "Community 481"
-Cohesion: 0.33
-Nodes (5): AxochatPacket, AxoUser, C2S, Metadata, S2C
+Cohesion: 0.4
+Nodes (3): asRefreshable(), RefreshableFloatState, RefreshableIntState
 
-### Community 484 - "Community 484"
+### Community 482 - "Community 482"
 Cohesion: 0.33
-Nodes (3): JumpByDelay, JumpByReceivedHits, VelocityJumpReset
-
-### Community 486 - "Community 486"
-Cohesion: 0.47
-Nodes (3): generateLog4j(), Log4jChatExploit, Log4jTellExploit
-
-### Community 487 - "Community 487"
-Cohesion: 0.33
-Nodes (4): AutoTranslate, ModuleBetterTitle, ShowIn, TitleType
+Nodes (3): ModuleTNTTimer, ShowTimer, TimeUnit
 
 ### Community 489 - "Community 489"
 Cohesion: 0.33
-Nodes (4): Ignore, ModuleSprint, SprintMode, StopOn
+Nodes (5): AxochatPacket, AxoUser, C2S, Metadata, S2C
 
 ### Community 491 - "Community 491"
 Cohesion: 0.33
-Nodes (4): Accelerator, Instant, ModuleReverseStep, Strict
+Nodes (3): JumpByDelay, JumpByReceivedHits, VelocityJumpReset
 
 ### Community 492 - "Community 492"
 Cohesion: 0.33
+Nodes (4): AutoTranslate, ModuleBetterTitle, ShowIn, TitleType
+
+### Community 494 - "Community 494"
+Cohesion: 0.33
+Nodes (4): Ignore, ModuleSprint, SprintMode, StopOn
+
+### Community 496 - "Community 496"
+Cohesion: 0.33
+Nodes (4): Accelerator, Instant, ModuleReverseStep, Strict
+
+### Community 497 - "Community 497"
+Cohesion: 0.33
 Nodes (4): AutoSwap, ModuleAutoBuff, Rotations, RotationTimingMode
 
-### Community 493 - "Community 493"
+### Community 500 - "Community 500"
 Cohesion: 0.33
 Nodes (3): FullBrightGamma, FullBrightNightVision, ModuleFullBright
 
-### Community 500 - "Community 500"
+### Community 505 - "Community 505"
+Cohesion: 0.4
+Nodes (3): CustomRange, ModuleAirPlace, Preview
+
+### Community 507 - "Community 507"
 Cohesion: 0.4
 Nodes (4): Alignment, center(), ScreenAxisX, ScreenAxisY
 
-### Community 502 - "Community 502"
+### Community 510 - "Community 510"
 Cohesion: 0.47
 Nodes (3): findWordShorterOrEqual(), leetRandomly(), randomUsername()
 
-### Community 508 - "Community 508"
+### Community 515 - "Community 515"
 Cohesion: 0.33
 Nodes (6): ./pickr.scss, @simonwep/pickr/dist/themes/classic.min.css, @simonwep/pickr, [r, g, b, a], rgba, ../ColorSetting.svelte
 
-### Community 528 - "Community 528"
-Cohesion: 0.4
-Nodes (4): Builtin, Custom, Preset, TextureMode
+### Community 516 - "Community 516"
+Cohesion: 0.33
+Nodes (5): Module List, Modules: Movement, Relations, REMOVED From Movement, Status: ALL KEPT
 
-### Community 529 - "Community 529"
-Cohesion: 0.4
-Nodes (3): CancellableEvent, Event, EventState
+### Community 517 - "Community 517"
+Cohesion: 0.33
+Nodes (5): God Node Dependency, Modules: Render, Rebrand Impact, Relations, Status: ALL KEPT
 
-### Community 534 - "Community 534"
-Cohesion: 0.4
-Nodes (3): GravityType, Ignore, ModuleAutoRod
+### Community 518 - "Community 518"
+Cohesion: 0.33
+Nodes (5): Key Files, Relations, Status: KEEP — Zero Runtime Cost, High Value, System: Script Engine, What It Is
 
-### Community 535 - "Community 535"
-Cohesion: 0.4
-Nodes (3): FlushOn, Mode, ModuleFakeLag
+### Community 519 - "Community 519"
+Cohesion: 0.47
+Nodes (3): generateLog4j(), Log4jChatExploit, Log4jTellExploit
 
-### Community 547 - "Community 547"
-Cohesion: 0.4
-Nodes (4): JumpReset, Randomize, ReduceOnAttack, VelocityIntave
-
-### Community 549 - "Community 549"
-Cohesion: 0.4
-Nodes (4): Custom, ModuleExtendedFirework, Multiplier, Normal
-
-### Community 550 - "Community 550"
-Cohesion: 0.6
-Nodes (4): sendPlayerInput(), sendSignUpdate(), writePacket(), isEqual1_8()
-
-### Community 556 - "Community 556"
-Cohesion: 0.4
-Nodes (4): FlyFireballCustomTechnique, Jump, Rotations, YVelocity
-
-### Community 557 - "Community 557"
-Cohesion: 0.4
-Nodes (3): FlyFireballLegitTechnique, Jump, Rotations
-
-### Community 559 - "Community 559"
-Cohesion: 0.4
-Nodes (4): HorizontalModification, SpeedCustom, Strafe, VerticalModification
-
-### Community 561 - "Community 561"
-Cohesion: 0.4
-Nodes (3): ModuleAutoFish, PullTriggerSoundDistance, RecastRod
-
-### Community 562 - "Community 562"
-Cohesion: 0.4
-Nodes (3): HorizontalBoost, ModuleAutoWindCharge, Rotate
-
-### Community 563 - "Community 563"
-Cohesion: 0.4
-Nodes (4): Immediate, ItemUseTime, ModuleFastUse, UseConditions
-
-### Community 565 - "Community 565"
-Cohesion: 0.4
-Nodes (4): Constant, DistanceMode, NoFallCancel, Smart
-
-### Community 566 - "Community 566"
-Cohesion: 0.4
-Nodes (4): Constant, DistanceMode, NoFallSpoofGround, Smart
-
-### Community 569 - "Community 569"
-Cohesion: 0.4
-Nodes (4): Border, Esp2DMode, HealthBar, Outline
-
-### Community 571 - "Community 571"
+### Community 524 - "Community 524"
 Cohesion: 0.5
 Nodes (3): buildVertices(), flat(), LineGuiElementRenderState()
 
+### Community 545 - "Community 545"
+Cohesion: 0.4
+Nodes (4): Builtin, Custom, Preset, TextureMode
+
+### Community 546 - "Community 546"
+Cohesion: 0.4
+Nodes (3): CancellableEvent, Event, EventState
+
+### Community 551 - "Community 551"
+Cohesion: 0.4
+Nodes (3): GravityType, Ignore, ModuleAutoRod
+
+### Community 552 - "Community 552"
+Cohesion: 0.4
+Nodes (3): FlushOn, Mode, ModuleFakeLag
+
+### Community 557 - "Community 557"
+Cohesion: 0.4
+Nodes (4): JumpReset, Randomize, ReduceOnAttack, VelocityIntave
+
+### Community 559 - "Community 559"
+Cohesion: 0.4
+Nodes (4): Custom, ModuleExtendedFirework, Multiplier, Normal
+
+### Community 564 - "Community 564"
+Cohesion: 0.4
+Nodes (4): FlyFireballCustomTechnique, Jump, Rotations, YVelocity
+
+### Community 565 - "Community 565"
+Cohesion: 0.4
+Nodes (3): FlyFireballLegitTechnique, Jump, Rotations
+
+### Community 567 - "Community 567"
+Cohesion: 0.4
+Nodes (4): HorizontalModification, SpeedCustom, Strafe, VerticalModification
+
+### Community 569 - "Community 569"
+Cohesion: 0.4
+Nodes (3): ModuleAutoFish, PullTriggerSoundDistance, RecastRod
+
+### Community 570 - "Community 570"
+Cohesion: 0.4
+Nodes (3): HorizontalBoost, ModuleAutoWindCharge, Rotate
+
+### Community 571 - "Community 571"
+Cohesion: 0.4
+Nodes (4): Immediate, ItemUseTime, ModuleFastUse, UseConditions
+
 ### Community 573 - "Community 573"
+Cohesion: 0.4
+Nodes (4): Constant, DistanceMode, NoFallCancel, Smart
+
+### Community 574 - "Community 574"
+Cohesion: 0.4
+Nodes (4): Constant, DistanceMode, NoFallSpoofGround, Smart
+
+### Community 580 - "Community 580"
+Cohesion: 0.4
+Nodes (4): Border, Esp2DMode, HealthBar, Outline
+
+### Community 583 - "Community 583"
 Cohesion: 0.4
 Nodes (3): DurationUnit, ShowAt, TrajectoryDetailedInfoRenderer
 
-### Community 576 - "Community 576"
+### Community 586 - "Community 586"
 Cohesion: 0.4
 Nodes (4): AutoFarmTrackedState, Bonemealable, Plantable, ReadyForHarvest
 
-### Community 578 - "Community 578"
+### Community 588 - "Community 588"
 Cohesion: 0.6
 Nodes (3): ledge(), LedgeAction, ScaffoldLedgeExtension
 
-### Community 582 - "Community 582"
+### Community 592 - "Community 592"
 Cohesion: 0.6
 Nodes (3): getEffectTexture(), getResource(), getSkin()
 
-### Community 594 - "Community 594"
+### Community 597 - "Community 597"
+Cohesion: 0.6
+Nodes (4): sendPlayerInput(), sendSignUpdate(), writePacket(), isEqual1_8()
+
+### Community 603 - "Community 603"
+Cohesion: 0.4
+Nodes (4): anotherBedPartDirection(), searchBedLayer(), searchLayer(), Relative
+
+### Community 606 - "Community 606"
 Cohesion: 0.5
 Nodes (3): estimateDamage(), getBonusAttackDamage(), MaceItemFacet
 
-### Community 600 - "Community 600"
-Cohesion: 0.4
-Nodes (4): AutoFarmVisualizer, Blocks, CurrentTarget, Path
-
-### Community 602 - "Community 602"
+### Community 612 - "Community 612"
 Cohesion: 0.5
 Nodes (4): checkForHits(), getHypotheticalTrajectory(), runSimulation(), Type
 
-### Community 634 - "Community 634"
+### Community 614 - "Community 614"
+Cohesion: 0.4
+Nodes (4): God Nodes, Relations, Rule, The List
+
+### Community 615 - "Community 615"
+Cohesion: 0.4
+Nodes (4): ⚠️ ModuleAutoConfig Note, Modules: Misc, Relations, Status: ALL KEPT
+
+### Community 648 - "Community 648"
 Cohesion: 0.67
 Nodes (3): couldBeOnline(), getService(), SessionWithService
 
-### Community 637 - "Community 637"
+### Community 651 - "Community 651"
 Cohesion: 0.83
 Nodes (3): fromPlayer(), fromPlayerMotion(), PosPoseSnapshot
 
-### Community 648 - "Community 648"
+### Community 663 - "Community 663"
 Cohesion: 0.5
 Nodes (3): DisablerVerusExperimental, NoAction, VoidTP
 
-### Community 658 - "Community 658"
+### Community 672 - "Community 672"
 Cohesion: 0.5
 Nodes (3): ModuleHighJump, Vanilla, Vulcan
 
-### Community 665 - "Community 665"
+### Community 681 - "Community 681"
 Cohesion: 0.5
 Nodes (3): AirBoost, SpeedIntave14, Strafe
 
-### Community 666 - "Community 666"
+### Community 682 - "Community 682"
 Cohesion: 0.5
 Nodes (3): Boost, PullDown, SpeedNCP
 
-### Community 669 - "Community 669"
+### Community 683 - "Community 683"
 Cohesion: 0.5
 Nodes (3): Clip, FastClimb, Motion
 
-### Community 670 - "Community 670"
+### Community 684 - "Community 684"
 Cohesion: 0.5
 Nodes (3): BaseSpeed, SprintSpeed, WaterSpeed
 
-### Community 671 - "Community 671"
+### Community 685 - "Community 685"
 Cohesion: 0.5
 Nodes (3): ModuleNoRotateSet, ResetRotation, SilentAccept
 
-### Community 693 - "Community 693"
+### Community 708 - "Community 708"
 Cohesion: 0.5
 Nodes (3): BrowserSettings, GlobalBrowserSettings, IntegrationBrowserSettings
 
-### Community 720 - "Community 720"
+### Community 717 - "Community 717"
 Cohesion: 0.5
 Nodes (3): HatConeSettings, HatsCone, RadiusSettings
 
-### Community 722 - "Community 722"
+### Community 732 - "Community 732"
 Cohesion: 0.83
 Nodes (3): forEachBlock(), forEachSectionBlock(), sectionBottonY()
 
+### Community 734 - "Community 734"
+Cohesion: 0.5
+Nodes (3): Modules: Player, Relations, Status: ALL KEPT
+
 ## Knowledge Gaps
-- **1083 isolated node(s):** `URLClassLoader_1`, `File_1`, `Thread_1`, `Paths_1`, `HashMap_1` (+1078 more)
+- **1223 isolated node(s):** `URLClassLoader_1`, `File_1`, `Thread_1`, `Paths_1`, `HashMap_1` (+1218 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **814 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **795 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Vec3` connect `Community 54` to `Community 2`, `Community 5`, `Community 8`, `Community 138`, `Community 396`, `Community 12`, `Community 15`, `Community 143`, `Community 401`, `Community 21`, `Community 27`, `Community 284`, `Community 28`, `Community 29`, `Community 36`, `Community 294`, `Community 295`, `Community 169`, `Community 170`, `Community 171`, `Community 45`, `Community 192`, `Community 705`, `Community 68`, `Community 198`, `Community 207`, `Community 464`, `Community 340`, `Community 342`, `Community 88`, `Community 602`, `Community 95`, `Community 121`?**
-  _High betweenness centrality (0.098) - this node is a cross-community bridge._
-- **Why does `../../../integration/types.js` connect `Community 2` to `Community 1`, `Community 37`, `Community 6`, `Community 143`, `Community 112`, `Community 465`, `Community 723`, `Community 54`, `Community 151`, `Community 508`, `Community 253`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
-- **Why does `Color4b` connect `Community 9` to `Community 35`, `Community 70`, `Community 295`, `Community 135`, `Community 462`, `Community 15`, `Community 601`, `Community 144`, `Community 18`, `Community 20`, `Community 153`, `Community 28`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `Vec3` connect `Community 16` to `Community 2`, `Community 4`, `Community 5`, `Community 133`, `Community 7`, `Community 135`, `Community 9`, `Community 134`, `Community 407`, `Community 664`, `Community 25`, `Community 27`, `Community 31`, `Community 291`, `Community 293`, `Community 294`, `Community 39`, `Community 40`, `Community 178`, `Community 179`, `Community 52`, `Community 180`, `Community 335`, `Community 466`, `Community 214`, `Community 91`, `Community 348`, `Community 612`, `Community 104`, `Community 232`, `Community 499`?**
+  _High betweenness centrality (0.096) - this node is a cross-community bridge._
+- **Why does `../../../integration/types.js` connect `Community 2` to `Community 0`, `Community 66`, `Community 515`, `Community 6`, `Community 7`, `Community 652`, `Community 430`, `Community 14`, `Community 16`, `Community 112`, `Community 154`?**
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **Why does `Color4b` connect `Community 8` to `Community 32`, `Community 482`, `Community 228`, `Community 325`, `Community 294`, `Community 39`, `Community 71`, `Community 457`, `Community 395`, `Community 593`, `Community 22`, `Community 87`, `Community 27`, `Community 221`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Are the 116 inferred relationships involving `regular()` (e.g. with `.toResultText()` and `.printOutMetadata()`) actually correct?**
   _`regular()` has 116 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 87 inferred relationships involving `Vec3` (e.g. with `.read()` and `.render()`) actually correct?**
@@ -2612,4 +2723,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 79 inferred relationships involving `variable()` (e.g. with `.toResultText()` and `.printOutMetadata()`) actually correct?**
   _`variable()` has 79 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `URLClassLoader_1`, `File_1`, `Thread_1` to the rest of the system?**
-  _1083 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1223 weakly-connected nodes found - possible documentation gaps or missing edges._

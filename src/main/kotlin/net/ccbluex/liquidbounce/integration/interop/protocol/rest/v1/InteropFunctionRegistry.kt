@@ -36,11 +36,6 @@ import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getC
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getGlobalConfig
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getLocalStorage
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getLocationInfo
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getMarketplaceItem
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getMarketplaceItemReviews
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getMarketplaceItemRevision
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getMarketplaceItemRevisions
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getMarketplaceItems
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getModule
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getModules
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getProxies
@@ -53,11 +48,8 @@ import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getS
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getTheme
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getToggleShaderInfo
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getUpdateInfo
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getUser
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getVirtualScreenInfo
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.getWindowInfo
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.loginUser
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.logoutUser
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postAddProxy
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postBrowse
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postBrowsePath
@@ -71,7 +63,6 @@ import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.post
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postLoginAccount
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postLoginCrackedAccount
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postLoginSessionAccount
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postMarketplaceItemReview
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postNewAlteningAccount
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postNewCrackedAccount
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.postNewMicrosoftAccount
@@ -90,9 +81,7 @@ import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.putL
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.putScreen
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.putSettings
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.putSpooferConfig
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.subscribeMarketplaceItem
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.toggleModule
-import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.client.unsubscribeMarketplaceItem
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.features.deleteProtocol
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.features.getBrowserInfo
 import net.ccbluex.liquidbounce.integration.interop.protocol.rest.v1.features.getProtocol
@@ -139,12 +128,6 @@ internal fun Node.registerInteropFunctions() = withPath("/api/v1/client") {
     post("/exit", ::postExit)
     get("/window", ::getWindowInfo)
     post("/browse", ::postBrowse)
-
-    // User Functions
-    get("/user", ::getUser).apply {
-        post("/login", ::loginUser)
-        post("/logout", ::logoutUser)
-    }
 
     // OS File Functions
     post("/browsePath", ::postBrowsePath)
@@ -290,16 +273,5 @@ internal fun Node.registerInteropFunctions() = withPath("/api/v1/client") {
         post("/join", ::postJoinWorld)
         post("/edit", ::postEditWorld)
         post("/delete", ::postDeleteWorld)
-    }
-
-    // Marketplace Functions
-    get("/marketplace", ::getMarketplaceItems).apply {
-        get("/:id", ::getMarketplaceItem)
-        get("/:id/revisions", ::getMarketplaceItemRevisions)
-        get("/:id/revisions/:revisionId", ::getMarketplaceItemRevision)
-        post("/:id/subscribe", ::subscribeMarketplaceItem)
-        post("/:id/unsubscribe", ::unsubscribeMarketplaceItem)
-        get("/:id/reviews", ::getMarketplaceItemReviews)
-        post("/:id/reviews", ::postMarketplaceItemReview)
     }
 }

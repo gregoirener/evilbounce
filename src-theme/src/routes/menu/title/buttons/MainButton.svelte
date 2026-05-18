@@ -45,15 +45,17 @@
     cursor: pointer;
     border-radius: 5px;
     column-gap: 25px;
+    box-shadow: 0 0 16px $accent-glow-color;
 
     background: linear-gradient(to left, rgba($menu-base-color, .68) 50%, $accent-color 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     will-change: background-position;
-    transition: background-position .2s ease-out;
+    transition: background-position .2s ease-out, box-shadow .2s ease-out;
 
     &:hover {
       background-position: left bottom;
+      box-shadow: 0 0 28px $accent-glow-strong-color;
 
       .icon {
         background-color: $menu-text-color;
