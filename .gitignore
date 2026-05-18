@@ -12,5 +12,15 @@
 /mcef/
 /logs/
 /.kotlin/
+/config/
+/run/
 .DS_Store
 *.log
+
+# Node / theme build artifacts
+node_modules/
+src-theme/dist/
+src-theme/resources/
+
+# graphify cache (generated)
+graphify-out/cache/
