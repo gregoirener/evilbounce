@@ -62,18 +62,22 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     vec2 uv = fragCoord / resolution.xy;
     uv.x *= resolution.x / resolution.y;
 
-    // Create multiple aurora layers with varying colors, speeds, and intensities
+    // EvilBounce: red ember/hellsky aurora layers (replaces green/blue/purple/pink)
     vec3 color = vec3(0.0);
-    color += auroraLayer(uv, 0.05, 0.3, vec3(0.0, 1.0, 0.3));
-    color += auroraLayer(uv, 0.1, 0.4, vec3(0.1, 0.5, 0.9));
-    color += auroraLayer(uv, 0.15, 0.3, vec3(0.4, 0.1, 0.8));
-    color += auroraLayer(uv, 0.07, 0.2, vec3(0.8, 0.1, 0.6));
+    color += auroraLayer(uv, 0.05, 0.45, vec3(0.95, 0.10, 0.10)); // bright crimson
+    color += auroraLayer(uv, 0.10, 0.40, vec3(1.00, 0.30, 0.05)); // ember orange-red
+    color += auroraLayer(uv, 0.15, 0.30, vec3(0.55, 0.00, 0.00)); // deep blood
+    color += auroraLayer(uv, 0.07, 0.25, vec3(0.85, 0.20, 0.25)); // pale rose
 
-    vec3 skyColor1 = vec3(0.2, 0.0, 0.4);
-    vec3 skyColor2 = vec3(0.15, 0.2, 0.35);
-    // Add a gradient to simulate the night sky
-    color += skyColor2 * (1.0 - smoothstep(1.0, 1.0, uv.y));
-    color += skyColor1 * (1.0 - smoothstep(0.0, 0.5, uv.y));
+    // EvilBounce: red sky (deep red top -> dark red horizon)
+    vec3 skyColorTop    = vec3(0.55, 0.05, 0.05);
+    vec3 skyColorHorizon = vec3(0.18, 0.02, 0.02);
+    color += skyColorHorizon * (1.0 - smoothstep(1.0, 1.0, uv.y));
+    color += skyColorTop * (1.0 - smoothstep(0.0, 0.5, uv.y));
+
+    // EvilBounce: mountains stay black/gray (no red tint) so the red sky pops
+    vec3 mountainNear = vec3(0.02, 0.02, 0.02); // near layers nearly black
+    vec3 mountainFar  = vec3(0.18, 0.18, 0.18); // farthest layer gray (atmospheric haze)
 
     int numLayers = 5;
     for (int i = 0; i < numLayers; i++) {
@@ -85,11 +89,15 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
         + uv * vec2(1.0 + float(numLayers - i) * 0.05, 0.23)
         ));
 
-        // Create the black silhouette of the mountain range
+        // Create the silhouette of the mountain range
         float mountain = smoothstep(0.0, 0.0, height - uv.y);
 
+        // Front layer (i=0) = near (black), back layer (i=numLayers-1) = far (gray)
+        float depth = float(i) / float(numLayers - 1);
+        vec3 mountainColor = mix(mountainNear, mountainFar, depth);
+
         // Combine the mountain range and sky
-        color = mix(color, skyColor2 * float(numLayers - i) / 4.0, mountain);
+        color = mix(color, mountainColor, mountain);
     }
 
     fragColor = vec4(color, 1.0);

@@ -255,7 +255,33 @@
       font-size: 14px;
       color: $clickgui-text-color;
       font-weight: 500;
+      position: relative;
+      overflow: hidden;
+
+      /* EvilBounce: shine beam on category title, same technique as module names */
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -60%;
+        width: 60%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(255, 120, 120, 0.22) 50%,
+          transparent 100%
+        );
+        pointer-events: none;
+        animation: evilbounce-panel-shine 4s ease-in-out infinite;
+        animation-delay: -1.2s;
+      }
     }
+  }
+
+  @keyframes evilbounce-panel-shine {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(340%); }
   }
 
   .modules {

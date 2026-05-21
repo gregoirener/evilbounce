@@ -21,21 +21,33 @@ package net.ccbluex.liquidbounce.features.module.modules.render.hitfx
 import net.ccbluex.liquidbounce.config.types.list.Tagged
 import net.ccbluex.liquidbounce.event.events.AttackEntityEvent
 import net.ccbluex.liquidbounce.event.events.PacketEvent
+import net.ccbluex.liquidbounce.event.events.WorldRenderEvent
 import net.ccbluex.liquidbounce.event.handler
 import net.ccbluex.liquidbounce.features.module.ClientModule
 import net.ccbluex.liquidbounce.features.module.ModuleCategories
+import net.ccbluex.liquidbounce.features.module.modules.combat.killaura.ModuleKillAura
+import net.ccbluex.liquidbounce.render.drawCircleOutline
+import net.ccbluex.liquidbounce.render.engine.type.Color4b
+import net.ccbluex.liquidbounce.render.renderEnvironmentForWorld
+import net.ccbluex.liquidbounce.render.withPositionRelativeToCamera
+import net.ccbluex.liquidbounce.utils.entity.interpolateCurrentPosition
 import net.minecraft.core.particles.ParticleTypes
 import net.minecraft.network.protocol.game.ClientboundSoundPacket
 import net.minecraft.sounds.SoundEvents
 import net.minecraft.sounds.SoundSource
 import net.minecraft.world.entity.LivingEntity
 import net.minecraft.world.level.block.Blocks
+import kotlin.math.sin
 
 object ModuleHitFX : ClientModule("HitFX", ModuleCategories.RENDER) {
 
     init {
         HitFXRegistry.registerAll()
     }
+
+    // -------------------------------------------------------------------------
+    // Hit particles (existing system)
+    // -------------------------------------------------------------------------
 
     enum class Particle(override val tag: String) : Tagged {
         BLOOD("Blood"),
@@ -156,4 +168,50 @@ object ModuleHitFX : ClientModule("HitFX", ModuleCategories.RENDER) {
         }
     }
 
+    // -------------------------------------------------------------------------
+    // EvilBounce FEEL — red aura rings on the KillAura target.
+    // Three cheap drawCircleOutline calls per frame — no mesh, no loops.
+    // -------------------------------------------------------------------------
+
+    private val feelEnabled by boolean("FeelAura", true)
+    private val feelColor by color("FeelColor", Color4b(212, 23, 23, 210))
+    private val feelSpeed by float("FeelSpeed", 1.0f, 0.1f..3.0f)
+    private val feelRadius by float("FeelRadius", 1.0f, 0.4f..2.5f)
+
+    // Monotonic tick counter — incremented each render frame, cheap int add.
+    private var feelTick = 0.0
+
+    @Suppress("unused")
+    private val feelRenderHandler = handler<WorldRenderEvent> { event ->
+        if (!feelEnabled) return@handler
+        val target = ModuleKillAura.targetTracker.target ?: return@handler
+        if (!target.isAlive) return@handler
+
+        feelTick += event.partialTicks * feelSpeed * 0.04f
+
+        val t = feelTick.toDouble()
+        val basePos = target.interpolateCurrentPosition(event.partialTicks)
+
+        // Three pulse phases staggered so rings breathe independently
+        val p0 = (0.85f + 0.15f * sin(t * 2.0).toFloat())
+        val p1 = (0.88f + 0.12f * sin(t * 2.0 + 1.0).toFloat())
+        val p2 = (0.90f + 0.10f * sin(t * 2.0 + 2.0).toFloat())
+
+        val r = feelRadius
+
+        renderEnvironmentForWorld(event.matrixStack) {
+            // Ring 1 — feet level, widest, most visible
+            withPositionRelativeToCamera(basePos) {
+                drawCircleOutline(r * p0, feelColor.with(a = 220))
+            }
+            // Ring 2 — mid-body
+            withPositionRelativeToCamera(basePos.add(0.0, target.bbHeight * 0.5, 0.0)) {
+                drawCircleOutline(r * 0.75f * p1, feelColor.with(a = 160))
+            }
+            // Ring 3 — above head, smallest, faintest
+            withPositionRelativeToCamera(basePos.add(0.0, target.bbHeight + 0.1, 0.0)) {
+                drawCircleOutline(r * 0.45f * p2, feelColor.with(a = 100))
+            }
+        }
+    }
 }

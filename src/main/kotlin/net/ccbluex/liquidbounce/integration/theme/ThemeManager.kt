@@ -91,7 +91,7 @@ object ThemeManager : Config("theme") {
 
     private val takesInputHandler = InputAcceptor { mc.screen != null && mc.screen !is ChatScreen }
 
-    var shaderEnabled by boolean("Shader", false)
+    var shaderEnabled by boolean("Shader", true)
         .onChange { enabled ->
             if (enabled) {
                 renderScope.launch {

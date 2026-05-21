@@ -120,7 +120,7 @@
             class:enabled
             class:highlight={name === $highlightModuleName}
     >
-        {$spaceSeperatedNames ? convertToSpacedString(name) : name}
+        <span class="label">{$spaceSeperatedNames ? convertToSpacedString(name) : name}</span>
     </div>
 
     {#if expanded && configurable}
@@ -142,7 +142,8 @@
     .name {
       cursor: pointer;
       transition: ease background-color 0.2s,
-      ease color 0.2s;
+      ease color 0.2s,
+      ease box-shadow 0.2s;
 
       color: $clickgui-text-dimmed-color;
       text-align: center;
@@ -151,6 +152,7 @@
       position: relative;
       padding: 10px;
 
+      /* Highlight border uses ::before — ::after is reserved for the expand icon */
       &.highlight::before {
         content: "";
         position: absolute;
@@ -159,6 +161,7 @@
         width: calc(100% - 4px);
         height: calc(100% - 4px);
         border: solid 2px $accent-color;
+        pointer-events: none;
       }
 
       &:hover {
@@ -168,7 +171,39 @@
 
       &.enabled {
         color: $accent-color;
+        /* Outer glow only — no inset, no overlay */
+        box-shadow: 0 0 10px $accent-glow-color;
+        text-shadow: 0 0 8px $accent-glow-color;
       }
+
+      /* The shine lives on the text span only */
+      .label {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -80%;
+          width: 80%;
+          height: 100%;
+          background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 140, 140, 0.35) 50%,
+            transparent 100%
+          );
+          pointer-events: none;
+          animation: evilbounce-shine 3.5s ease-in-out infinite;
+        }
+      }
+    }
+
+    @keyframes evilbounce-shine {
+      0%   { transform: translateX(0%); }
+      100% { transform: translateX(280%); }
     }
 
     .settings {

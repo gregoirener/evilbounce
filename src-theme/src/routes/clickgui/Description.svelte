@@ -77,5 +77,31 @@
     font-size: 12px;
     padding: 10px;
     color: $clickgui-text-color;
+    position: relative;
+    overflow: hidden;
+
+    /* EvilBounce: translateX shine on tooltip text */
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -60%;
+      width: 60%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(255, 120, 120, 0.15) 50%,
+        transparent 100%
+      );
+      pointer-events: none;
+      animation: evilbounce-desc-shine 3.8s ease-in-out infinite;
+      animation-delay: -0.8s;
+    }
+  }
+
+  @keyframes evilbounce-desc-shine {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(400%); }
   }
 </style>

@@ -239,6 +239,26 @@
       .module-name {
         color: $clickgui-text-dimmed-color;
         transition: ease color 0.2s;
+        position: relative;
+        overflow: hidden;
+
+        /* EvilBounce: translateX shine beam — no reflow, pure GPU */
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -60%;
+          width: 60%;
+          height: 100%;
+          background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 120, 120, 0.18) 50%,
+            transparent 100%
+          );
+          pointer-events: none;
+          animation: evilbounce-search-shine 3.5s ease-in-out infinite;
+        }
       }
 
       &.enabled {
@@ -272,7 +292,14 @@
       font-size: 16px;
       padding: 10px 0;
     }
+  }
 
+  @keyframes evilbounce-search-shine {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(340%); }
+  }
+
+  .results {
     &::-webkit-scrollbar {
       width: 0;
     }
